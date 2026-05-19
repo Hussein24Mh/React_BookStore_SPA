@@ -1,1 +1,1 @@
-# <span style="color:DeepSkyBlue;font-family:Gill Sans, Cursive">⚛️ React Ecommerce Store</span>
+# <span style="color:DeepSkyBlue;font-family:Gill Sans, Cursive">⚛️ React Marketplace</span>
