@@ -11,17 +11,6 @@ const BOOKS = [
         "AVAILABILITY": "In stock (22 available)"
     },
     {
-        "ID": 2,
-        "URL": "https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html",
-        "PRODUCT NAME": "Tipping the Velvet",
-        "IMG URL": "https://books.toscrape.com/media/cache/08/e9/08e94f3731d7d6b760dfbfbc02ca5c62.jpg",
-        "UPC": "90fa61229261140a",
-        "PRODUCT TYPE": "Books",
-        "PRICE": "£53.74",
-        "TAX": "£0.00",
-        "AVAILABILITY": "In stock (20 available)"
-    },
-    {
         "ID": 3,
         "URL": "https://books.toscrape.com/catalogue/soumission_998/index.html",
         "PRODUCT NAME": "Soumission",
@@ -73,17 +62,6 @@ const BOOKS = [
         "UPC": "2597b5a345f45e1b",
         "PRODUCT TYPE": "Books",
         "PRICE": "£33.34",
-        "TAX": "£0.00",
-        "AVAILABILITY": "In stock (19 available)"
-    },
-    {
-        "ID": 8,
-        "URL": "https://books.toscrape.com/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html",
-        "PRODUCT NAME": "The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull",
-        "IMG URL": "https://books.toscrape.com/media/cache/97/36/9736132a43b8e6e3989932218ef309ed.jpg",
-        "UPC": "e72a5dfc7e9267b2",
-        "PRODUCT TYPE": "Books",
-        "PRICE": "£17.93",
         "TAX": "£0.00",
         "AVAILABILITY": "In stock (19 available)"
     },
@@ -979,17 +957,6 @@ const BOOKS = [
         "AVAILABILITY": "In stock (16 available)"
     },
     {
-        "ID": 90,
-        "URL": "https://books.toscrape.com/catalogue/obsidian-lux-1_911/index.html",
-        "PRODUCT NAME": "Obsidian (Lux #1)",
-        "IMG URL": "https://books.toscrape.com/media/cache/88/3f/883fb0f2304efca8724c629f03a4b82a.jpg",
-        "UPC": "3c346ab1e76ae1f6",
-        "PRODUCT TYPE": "Books",
-        "PRICE": "£14.86",
-        "TAX": "£0.00",
-        "AVAILABILITY": "In stock (16 available)"
-    },
-    {
         "ID": 91,
         "URL": "https://books.toscrape.com/catalogue/my-paris-kitchen-recipes-and-stories_910/index.html",
         "PRODUCT NAME": "My Paris Kitchen: Recipes and Stories",
@@ -1089,17 +1056,6 @@ const BOOKS = [
         "AVAILABILITY": "In stock (16 available)"
     },
     {
-        "ID": 100,
-        "URL": "https://books.toscrape.com/catalogue/in-the-country-we-love-my-family-divided_901/index.html",
-        "PRODUCT NAME": "In the Country We Love: My Family Divided",
-        "IMG URL": "https://books.toscrape.com/media/cache/11/08/1108a8d9ebccd9cd474012121c32a7f5.jpg",
-        "UPC": "b136b1b180ca753a",
-        "PRODUCT TYPE": "Books",
-        "PRICE": "£22.00",
-        "TAX": "£0.00",
-        "AVAILABILITY": "In stock (16 available)"
-    },
-    {
         "ID": 101,
         "URL": "https://books.toscrape.com/catalogue/immunity-how-elie-metchnikoff-changed-the-course-of-modern-medicine_900/index.html",
         "PRODUCT NAME": "Immunity: How Elie Metchnikoff Changed the Course of Modern Medicine",
@@ -1184,17 +1140,6 @@ const BOOKS = [
         "UPC": "9e28048cea8d41f7",
         "PRODUCT TYPE": "Books",
         "PRICE": "£15.97",
-        "TAX": "£0.00",
-        "AVAILABILITY": "In stock (16 available)"
-    },
-    {
-        "ID": 109,
-        "URL": "https://books.toscrape.com/catalogue/fifty-shades-darker-fifty-shades-2_892/index.html",
-        "PRODUCT NAME": "Fifty Shades Darker (Fifty Shades #2)",
-        "IMG URL": "https://books.toscrape.com/media/cache/51/86/51862681bebec59be61f36f937c71fce.jpg",
-        "UPC": "7add3f8e49ec0826",
-        "PRODUCT TYPE": "Books",
-        "PRICE": "£21.96",
         "TAX": "£0.00",
         "AVAILABILITY": "In stock (16 available)"
     },
@@ -1639,17 +1584,6 @@ const BOOKS = [
         "AVAILABILITY": "In stock (15 available)"
     },
     {
-        "ID": 150,
-        "URL": "https://books.toscrape.com/catalogue/the-mistake-off-campus-2_851/index.html",
-        "PRODUCT NAME": "The Mistake (Off-Campus #2)",
-        "IMG URL": "https://books.toscrape.com/media/cache/95/49/9549db6862283a388659611bda63b97b.jpg",
-        "UPC": "99ff4cc6491e8f5c",
-        "PRODUCT TYPE": "Books",
-        "PRICE": "£43.29",
-        "TAX": "£0.00",
-        "AVAILABILITY": "In stock (15 available)"
-    },
-    {
         "ID": 151,
         "URL": "https://books.toscrape.com/catalogue/the-matchmakers-playbook-wingmen-inc-1_850/index.html",
         "PRODUCT NAME": "The Matchmaker's Playbook (Wingmen Inc. #1)",
@@ -1705,17 +1639,6 @@ const BOOKS = [
         "AVAILABILITY": "In stock (15 available)"
     },
     {
-        "ID": 156,
-        "URL": "https://books.toscrape.com/catalogue/the-glittering-court-the-glittering-court-1_845/index.html",
-        "PRODUCT NAME": "The Glittering Court (The Glittering Court #1)",
-        "IMG URL": "https://books.toscrape.com/media/cache/2f/21/2f21c9ffd0962092ce337ecd1b338f5b.jpg",
-        "UPC": "2dbb7ec08cdd7f3c",
-        "PRODUCT TYPE": "Books",
-        "PRICE": "£44.28",
-        "TAX": "£0.00",
-        "AVAILABILITY": "In stock (15 available)"
-    },
-    {
         "ID": 157,
         "URL": "https://books.toscrape.com/catalogue/the-girl-on-the-train_844/index.html",
         "PRODUCT NAME": "The Girl on the Train",
@@ -1734,17 +1657,6 @@ const BOOKS = [
         "UPC": "42d0d7c92b75fc1c",
         "PRODUCT TYPE": "Books",
         "PRICE": "£17.24",
-        "TAX": "£0.00",
-        "AVAILABILITY": "In stock (15 available)"
-    },
-    {
-        "ID": 159,
-        "URL": "https://books.toscrape.com/catalogue/the-emerald-mystery_842/index.html",
-        "PRODUCT NAME": "The Emerald Mystery",
-        "IMG URL": "https://books.toscrape.com/media/cache/bc/1f/bc1f79af87032748b75d12079f51c031.jpg",
-        "UPC": "d6670dfe3e7b42bd",
-        "PRODUCT TYPE": "Books",
-        "PRICE": "£23.15",
         "TAX": "£0.00",
         "AVAILABILITY": "In stock (15 available)"
     },

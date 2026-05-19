@@ -1,6 +1,11 @@
+import BookList from "../Components/BookList";
+
 function HomePage(){
     return (
-        <h1>Home Page</h1>
+        <div>
+            <h1>Home Page</h1>
+            <BookList />
+        </div>
     )
 }
 
