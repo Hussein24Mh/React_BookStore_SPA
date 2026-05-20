@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
-import Footer from "./Footer";
-import Header from "./Header";
+import FooterComp from "./Footer";
+import HeaderComp from "./Header";
 import { useGlobalContext } from "../contexts/GlobalStatus";
 
 function Main_Wrapper() {
@@ -8,11 +8,11 @@ function Main_Wrapper() {
 
 	return (
 		<div className={`${theme} flex flex-col min-h-screen`}>
-			<Header />
-			<main className="flex-1">
+			<HeaderComp />
+			<main className="flex flex-1 p-3 background-divs-theme">
 				<Outlet />
 			</main>
-			<Footer />
+			<FooterComp />
 		</div>
 	);
 }

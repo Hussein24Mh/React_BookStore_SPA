@@ -3,11 +3,14 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import { useGlobalContext } from "../contexts/GlobalStatus";
 import { ShoppingCart } from "lucide-react";
+import { useAuthContext } from "../contexts/Auth";
 
 function NavLinks() {
 	const { theme, toggleTheme } = useGlobalContext();
-	// will be replaced with auth context later
-	const user = null;
+	const { currentUser } = useAuthContext();
+	const { logout } = useAuthContext();
+
+	const user = currentUser ? currentUser.username : null;
 
 	return (
 		<>
@@ -18,6 +21,7 @@ function NavLinks() {
 					</Link>
 					<button
 						type="button"
+						onClick={logout}
 						className="cursor-pointer hover:text-indigo-600"
 					>
 						Logout
@@ -47,7 +51,7 @@ function NavLinks() {
 	);
 }
 
-function Header() {
+function HeaderComp() {
 	const [menu, setOpen] = useState(false);
 
 	const toggleMenu = () => {
@@ -56,11 +60,11 @@ function Header() {
 
 	return (
 		<nav className="flex flex-col">
-			<div className="flex items-center justify-between px-8 py-5 shadow-sm main-divs-theme">
+			<div className="flex items-center justify-between px-8 py-3 shadow-sm main-divs-theme">
 				<div>
 					<Link to={ROUTES.home}>
 						<span className="text-3xl">LOGO</span>
-					</Link>
+					</Link>	
 				</div>
 
 				<div className="flex items-center hidden sm:flex gap-6">
@@ -85,4 +89,4 @@ function Header() {
 	);
 }
 
-export default Header;
+export default HeaderComp;

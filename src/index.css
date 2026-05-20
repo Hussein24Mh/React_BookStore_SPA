@@ -8,10 +8,20 @@
 
 @utility main-divs-theme{
     background-color: #303943;
-    color: #D3D9DF;
-    font-family: cursive;
+    color: white;
+    font-family: ABeeZee;
     .dark & {
-        background-color: #99A7B5;
-        color: #181D21;
+        background-color: #242B32;
+        color: white;
+    }
+}
+
+@utility background-divs-theme{
+    background-color: #A7B3C0;
+    color: black;
+    font-family: ABeeZee;
+    .dark & {
+        background-color: #303943;
+        color: white;
     }
 }

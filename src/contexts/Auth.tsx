@@ -110,11 +110,9 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 	);
 }
 
-export function useGlobalContext() {
+export function useAuthContext() {
 	const context = useContext(AuthContext);
 	if (!context)
-		throw new Error(
-			"useGlobalContext must be used within GlobalStatusProvider",
-		);
+		throw new Error("useAuthContext must be used within AuthProvider");
 	return context;
 }

@@ -1,6 +1,6 @@
 import { useGlobalContext } from "../contexts/GlobalStatus";
 
-function Footer() {
+function FooterComp() {
 	return (
 		<footer className="flex justify-center p-3 main-divs-theme">
 			<p>&copy; 2026 My Website. All rights reserved.</p>
@@ -8,4 +8,4 @@ function Footer() {
 	);
 }
 
-export default Footer;
+export default FooterComp;
