@@ -1,28 +1,45 @@
 import { createContext, useContext, useState } from "react";
+import { saveTheme, loadTheme } from "../services/useStorage";
 
 interface GlobalState {
-    theme: "light" | "dark";
-    toggleTheme: () => void;
+	theme: "light" | "dark";
+	toggleTheme: () => void;
 }
 
-const GlobalContext = createContext<GlobalState  | null>(null);
+const GlobalContext = createContext<GlobalState | null>(null);
 
+export function GlobalStatusProvider({
+	children,
+}: {
+	children: React.ReactNode;
+}) {
+	const [theme, setTheme] = useState<"light" | "dark">(loadTheme());
 
-export function GlobalStatusProvider({ children }: { children: React.ReactNode }){
-    const [theme, setTheme] = useState<"light" | "dark">("light");
+	const toggleTheme = () => {
+		setTheme((prev) => {
+			const next = prev === "light" ? "dark" : "light";
+			saveTheme(next);
+			return next;
+		});
+	};
 
-    const toggleTheme = () => setTheme(prev => prev === "light" ? "dark" : "light");
-
-
-    return (
-        <GlobalContext.Provider value={{ theme, toggleTheme }}>
-            {children}
-        </GlobalContext.Provider>
-    )
+	return (
+		<GlobalContext.Provider
+			value={{
+				theme,
+				toggleTheme,
+			}}
+		>
+			{children}
+		</GlobalContext.Provider>
+	);
 }
 
 export function useGlobalContext() {
-    const context = useContext(GlobalContext);
-    if (!context) throw new Error("useGlobalContext must be used within GlobalStatusProvider");
-    return context;
+	const context = useContext(GlobalContext);
+	if (!context)
+		throw new Error(
+			"useGlobalContext must be used within GlobalStatusProvider",
+		);
+	return context;
 }

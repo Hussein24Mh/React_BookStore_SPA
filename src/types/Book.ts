@@ -1,7 +1,7 @@
 export interface Book {
-  ID: number;
-  "PRODUCT NAME": string;
-  "IMG URL": string;
-  PRICE: string;
-  AVAILABILITY: string;
+	ID: number;
+	"PRODUCT NAME": string;
+	"IMG URL": string;
+	PRICE: string;
+	AVAILABILITY: string;
 }
