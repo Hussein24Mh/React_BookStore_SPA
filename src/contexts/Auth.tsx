@@ -14,8 +14,8 @@ interface AuthContextType {
 	login: (email: string, password: string) => boolean;
 	logout: () => void;
 	addToCart: (bookId: number) => void;
-	removeFromCart: (bookId: number) => void;
 	clearCart: () => void;
+	decreaseQuantity: (bookId: number) => void;
 }
 
 const AuthContext = createContext<AuthContextType | null>(null);
@@ -56,11 +56,11 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 	const updateUserCart = (newCart: CartItem[]) => {
 		if (!currentUser) return;
 		const users = loadUsers();
+		const updatedUser = { ...currentUser, cart: newCart };
 		const updated = users.map((u) =>
-			u.email === currentUser.email ? { ...u, cart: newCart } : u,
+			u.email === currentUser.email ? updatedUser : u,
 		);
 		saveUsers(updated);
-		const updatedUser = updated.find((u) => u.email === currentUser.email)!;
 		setCurrentUser(updatedUser);
 		saveCurrentUser(updatedUser);
 	};
@@ -80,11 +80,15 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 		updateUserCart(newCart);
 	};
 
-	const removeFromCart = (bookId: number) => {
+	const decreaseQuantity = (bookId: number) => {
 		if (!currentUser) return;
-		const newCart = currentUser.cart.filter(
-			(item) => item.bookId !== bookId,
-		);
+		const newCart = currentUser.cart
+			.map((item) =>
+				item.bookId === bookId
+					? { ...item, quantity: item.quantity - 1 }
+					: item,
+			)
+			.filter((item) => item.quantity > 0);
 		updateUserCart(newCart);
 	};
 
@@ -101,8 +105,8 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 				login,
 				logout,
 				addToCart,
-				removeFromCart,
 				clearCart,
+				decreaseQuantity,
 			}}
 		>
 			{children}

@@ -16,8 +16,18 @@
     }
 }
 
+@utility secondery-divs-theme{
+    background-color: #485664;
+    color: white;
+    font-family: ABeeZee;
+    .dark & {
+        background-color: #485664;
+        color: white;
+    }
+}
+
 @utility background-divs-theme{
-    background-color: #A7B3C0;
+    background-color: #D3D9DF;
     color: black;
     font-family: ABeeZee;
     .dark & {

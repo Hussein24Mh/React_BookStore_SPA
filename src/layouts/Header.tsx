@@ -64,7 +64,7 @@ function HeaderComp() {
 				<div>
 					<Link to={ROUTES.home}>
 						<span className="text-3xl">LOGO</span>
-					</Link>	
+					</Link>
 				</div>
 
 				<div className="flex items-center hidden sm:flex gap-6">

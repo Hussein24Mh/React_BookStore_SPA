@@ -3,6 +3,8 @@ const ROUTES = {
 	login: "/login",
 	profile: "/profile",
 	checkout: "/checkout",
+	productdetails: "/product/:id",
+	
 	notFound: "*",
 };
 

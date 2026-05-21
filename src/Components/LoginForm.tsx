@@ -30,21 +30,20 @@ function LoginFormField({
 				placeholder={placeholder}
 				className="w-full px-4 py-2 rounded border-1 border-slate-300 focus:border-yellow-400 outline-none"
 			/>
-			<p className="text-red-500 px-2 pd-2 min-h-[25px]">{error?.message}</p>
+			<p className="text-red-500 px-2 pd-2 min-h-[25px]">
+				{error?.message}
+			</p>
 		</div>
 	);
 }
 
-
 function LoginFormComp() {
-
 	const {
 		register,
-			handleSubmit,
-			watch,
-			reset,
-			formState: { errors },
-	} = useForm<LoginData>({ mode: "onBlur" });
+		handleSubmit,
+		reset,
+		formState: { errors, isValid },
+	} = useForm<LoginData>({ mode: "onChange" });
 
 	const { login: loginuser } = useAuthContext();
 
@@ -55,6 +54,8 @@ function LoginFormComp() {
 		if (ok) {
 			reset();
 			navigate(ROUTES.home);
+		} else {
+			alert("Invalid credentials");
 		}
 	}
 
@@ -62,7 +63,6 @@ function LoginFormComp() {
 		<form
 			onSubmit={handleSubmit(onSubmit)}
 			className="flex flex-col gap-1 w-[100%]"
-
 		>
 			<h1 className="text-xl font-bold px-2 py-6">Login</h1>
 
@@ -90,11 +90,11 @@ function LoginFormComp() {
 
 			<button
 				type="submit"
-				className="w-full py-3 text-base bg-emerald-500 hover:bg-emerald-600 font-semibold rounded active:scale-95 transition-all cursor-pointer tracking-wide"
+				disabled={!isValid}
+				className="w-full py-3 text-base bg-emerald-500 hover:bg-emerald-600 font-semibold rounded active:scale-95 transition-all cursor-pointer tracking-wide disabled:opacity-50 disabled:cursor-not-allowed"
 			>
 				Login
 			</button>
-			
 		</form>
 	);
 }

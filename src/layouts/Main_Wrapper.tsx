@@ -9,9 +9,11 @@ function Main_Wrapper() {
 	return (
 		<div className={`${theme} flex flex-col min-h-screen`}>
 			<HeaderComp />
-			<main className="flex flex-1 p-3 background-divs-theme">
+
+			<main className="flex flex-1 background-divs-theme">
 				<Outlet />
 			</main>
+
 			<FooterComp />
 		</div>
 	);

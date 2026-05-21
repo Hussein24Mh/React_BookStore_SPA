@@ -7,7 +7,7 @@ function BookList() {
 	if (loading) return <p>Loading...</p>;
 
 	return (
-		<div className="grid gird-cols-2 sm:grid-cols-4 book-list">
+		<div className="grid grid-cols-[repeat(auto-fill,minmax(230px,230px))] gap-10 justify-center">
 			{books.map((book) => (
 				<BookCard key={book.ID} book={book} />
 			))}

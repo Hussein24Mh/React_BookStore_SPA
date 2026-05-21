@@ -1,21 +1,51 @@
 import type { Book } from "../types/Book";
+import { useAuthContext } from "../contexts/Auth";
+import { ShoppingCart } from "lucide-react";
 
 interface Props {
 	book: Book;
 }
 
 function BookCard({ book }: Props) {
+	const { addToCart } = useAuthContext();
+
 	return (
-		<div className="flex flex-col justify-center p-4">
+		<div className="group relative flex flex-col h-[350px] rounded-xl overflow-hidden hover:scale-105 transition-transform cursor-pointer main-divs-theme">
 			<img
 				src={book["IMG URL"]}
 				alt={book["PRODUCT NAME"]}
-				className="w-30 h-60 object-contain"
+				className="w-full h-60 object-cover"
 			/>
-			<h3>{book["PRODUCT NAME"]}</h3>
-			<p>{book.PRICE}</p>
-			<span>{book.ID}</span>
-			<span>{book.AVAILABILITY}</span>
+			<div className="flex flex-col flex-1 justify-between p-3">
+				<h3 className="font-semibold text-sm line-clamp-2 text-center">
+					{book["PRODUCT NAME"]}
+				</h3>
+				<div className="flex items-center justify-between mt-2 mx-2 gap-4">
+					<span className="text-emerald-500 font-bold text-center">
+						{book.PRICE}
+					</span>
+					<span
+						className={`text-xs px-2 py-1 rounded-full ${book.AVAILABILITY === "In Stock" ? "bg-emerald-100 text-emerald-600" : "bg-red-100 text-red-500"}`}
+					>
+						{book.AVAILABILITY}
+					</span>
+				</div>
+			</div>
+			<button
+				type="button"
+				onClick={(e) => {
+					e.stopPropagation();
+					addToCart(book.ID);
+				}}
+				onKeyDown={(e) => {
+					e.stopPropagation();
+				}}
+				className="absolute -top-px -left-px opacity-0 group-hover:opacity-100 transition-opacity w-0 h-0 border-t-[90px] border-r-[90px] border-t-emerald-500 border-r-transparent"
+			>
+				<span className="absolute top-[-72px] left-[6px] text-white flex items-center justify-center w-[24px] h-[24px] hover:text-slate-800">
+					<ShoppingCart size={30} />
+				</span>
+			</button>
 		</div>
 	);
 }
