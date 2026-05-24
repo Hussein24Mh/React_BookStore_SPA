@@ -1,16 +1,21 @@
+import { useNavigate  } from "react-router-dom";
+import ROUTES from "../utils/routs";
+
 import type { Book } from "../types/Book";
-import { useAuthContext } from "../contexts/Auth";
+import { useAuthContext } from "../providers/AuthProvider";
 import { ShoppingCart } from "lucide-react";
 
 interface Props {
-	book: Book;
+    book: Book;
 }
 
 function BookCard({ book }: Props) {
 	const { addToCart } = useAuthContext();
+	const navigate = useNavigate();
 
 	return (
-		<div className="group relative flex flex-col h-[350px] rounded-xl overflow-hidden hover:scale-105 transition-transform cursor-pointer main-divs-theme">
+		<button type="button" onClick={() => navigate(ROUTES.navigatProductdetails(book.ID.toString()))}
+		className="group relative flex flex-col h-[350px] rounded-xl overflow-hidden hover:scale-105 transition-transform cursor-pointer main-divs-theme">
 			<img
 				src={book["IMG URL"]}
 				alt={book["PRODUCT NAME"]}
@@ -46,7 +51,7 @@ function BookCard({ book }: Props) {
 					<ShoppingCart size={30} />
 				</span>
 			</button>
-		</div>
+		</button>
 	);
 }
 

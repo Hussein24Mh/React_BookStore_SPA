@@ -1,6 +1,5 @@
-import { useAuthContext } from "../contexts/Auth";
+import { useAuthContext } from "../providers/AuthProvider";
 import type { Book } from "../types/Book";
-import { ShoppingCart } from "lucide-react";
 
 interface Props {
 	book: Book;
@@ -8,7 +7,6 @@ interface Props {
 }
 
 function Cartitem({ book, quantity }: Props) {
-
 	const { addToCart, decreaseQuantity } = useAuthContext();
 
 	const itemTotal = (
@@ -25,13 +23,11 @@ function Cartitem({ book, quantity }: Props) {
 			<div className="flex flex-col flex-1 justify-between p-3">
 				<div className="flex flex-col gap-3 font-semibold text-xl px-5">
 					<span className="text-emerald-500 font-bold">
-							{book.PRICE}
+						{book.PRICE}
 					</span>
-					<h3 className="line-clamp-2">
-					{book["PRODUCT NAME"]}
-					</h3>
+					<h3 className="line-clamp-2">{book["PRODUCT NAME"]}</h3>
 				</div>
-				
+
 				<div className="flex items-center justify-end mt-2 mx-2 gap-4">
 					<div className="flex items-center gap-2">
 						<button
@@ -44,7 +40,9 @@ function Cartitem({ book, quantity }: Props) {
 						>
 							−
 						</button>
-						<span className="flex items-center justify-center font-semibold w-10 h-10">{quantity}</span>
+						<span className="flex items-center justify-center font-semibold w-10 h-10">
+							{quantity}
+						</span>
 						<button
 							type="button"
 							onClick={(e) => {

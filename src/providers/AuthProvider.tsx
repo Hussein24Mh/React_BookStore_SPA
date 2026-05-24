@@ -4,15 +4,11 @@ import {
 	saveUsers,
 	getCurrentUser,
 	saveCurrentUser,
-	removeCurrentUser,
-} from "../services/useStorage";
+} from "../services/AuthService";
 import type { User, CartItem } from "../types/User";
 
 interface AuthContextType {
 	currentUser: User | null;
-	register: (username: string, email: string, password: string) => boolean;
-	login: (email: string, password: string) => boolean;
-	logout: () => void;
 	addToCart: (bookId: number) => void;
 	clearCart: () => void;
 	decreaseQuantity: (bookId: number) => void;
@@ -24,34 +20,6 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 	const [currentUser, setCurrentUser] = useState<User | null>(() => {
 		return getCurrentUser();
 	});
-
-	const register = (
-		username: string,
-		email: string,
-		password: string,
-	): boolean => {
-		const users = loadUsers();
-		if (users.some((u) => u.email === email)) return false;
-		const newUser: User = { username, email, password, cart: [] };
-		saveUsers([...users, newUser]);
-		return true;
-	};
-
-	const login = (email: string, password: string): boolean => {
-		const users = loadUsers();
-		const found = users.find(
-			(u) => u.email === email && u.password === password,
-		);
-		if (!found) return false;
-		setCurrentUser(found);
-		saveCurrentUser(found);
-		return true;
-	};
-
-	const logout = () => {
-		setCurrentUser(null);
-		removeCurrentUser();
-	};
 
 	const updateUserCart = (newCart: CartItem[]) => {
 		if (!currentUser) return;
@@ -101,9 +69,6 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 		<AuthContext.Provider
 			value={{
 				currentUser,
-				register,
-				login,
-				logout,
 				addToCart,
 				clearCart,
 				decreaseQuantity,

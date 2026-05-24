@@ -1,5 +1,5 @@
-function UserProfile() {
+function UserProfilePage() {
 	return <h1>my profile</h1>;
 }
 
-export default UserProfile;
+export default UserProfilePage;

@@ -1,27 +1,27 @@
-import ROUTES from "../router/routs";
+import ROUTES from "../utils/routs";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import { useGlobalContext } from "../contexts/GlobalStatus";
+import useGlobalContext from "../providers/GlobalStatusProvider";
 import { ShoppingCart } from "lucide-react";
-import { useAuthContext } from "../contexts/Auth";
+
+import useLogoutMutation from "../mutations/logoutMutation";
+import useCurrentUserQuery from "../queries/currentUserQueries";
 
 function NavLinks() {
 	const { theme, toggleTheme } = useGlobalContext();
-	const { currentUser } = useAuthContext();
-	const { logout } = useAuthContext();
-
-	const user = currentUser ? currentUser.username : null;
+	const { data: user } = useCurrentUserQuery();
+	const { mutate: logout } = useLogoutMutation();
 
 	return (
 		<>
 			{user ? (
 				<>
 					<Link to={ROUTES.profile}>
-						<span className="m-auto">{user}</span>
+						<span className="m-auto">{user.username}</span>
 					</Link>
 					<button
 						type="button"
-						onClick={logout}
+						onClick={() => logout()}
 						className="cursor-pointer hover:text-indigo-600"
 					>
 						Logout

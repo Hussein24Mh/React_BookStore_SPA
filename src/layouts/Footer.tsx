@@ -1,4 +1,4 @@
-import { useGlobalContext } from "../contexts/GlobalStatus";
+import useGlobalContext from "../providers/GlobalStatusProvider";
 
 function FooterComp() {
 	return (

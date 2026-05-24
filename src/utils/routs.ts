@@ -4,7 +4,7 @@ const ROUTES = {
 	profile: "/profile",
 	checkout: "/checkout",
 	productdetails: "/product/:id",
-	
+	navigatProductdetails: (id: string) => `/product/${id}`,
 	notFound: "*",
 };
 

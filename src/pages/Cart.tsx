@@ -1,9 +1,8 @@
-import { useAuthContext } from "../contexts/Auth";
+import { useAuthContext } from "../providers/AuthProvider";
 import Cartitem from "../Components/Cartitem";
 import BOOKS from "../data/Books";
 
 function CartPage() {
-
 	const { clearCart, currentUser } = useAuthContext();
 
 	const cartItems = currentUser?.cart || [];
@@ -27,7 +26,11 @@ function CartPage() {
 		<div className="flex gap-10 mx-auto my-10 items-top">
 			<div className="flex flex-col gap-4 p-6 rounded h-fit secondery-divs-theme">
 				{cartBooks.map((entry) => (
-					<Cartitem key={entry!.book.ID} book={entry!.book}  quantity={entry!.quantity} />
+					<Cartitem
+						key={entry!.book.ID}
+						book={entry!.book}
+						quantity={entry!.quantity}
+					/>
 				))}
 			</div>
 

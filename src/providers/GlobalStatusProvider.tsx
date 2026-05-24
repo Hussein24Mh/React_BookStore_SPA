@@ -1,5 +1,5 @@
 import { createContext, useContext, useState } from "react";
-import { saveTheme, loadTheme } from "../services/useStorage";
+import { saveTheme, loadTheme } from "../services/ThemeService";
 
 interface GlobalState {
 	theme: "light" | "dark";
@@ -35,7 +35,7 @@ export function GlobalStatusProvider({
 	);
 }
 
-export function useGlobalContext() {
+function useGlobalContext() {
 	const context = useContext(GlobalContext);
 	if (!context)
 		throw new Error(
@@ -43,3 +43,5 @@ export function useGlobalContext() {
 		);
 	return context;
 }
+
+export default useGlobalContext;

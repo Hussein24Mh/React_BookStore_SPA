@@ -1,17 +1,10 @@
 import { useForm } from "react-hook-form";
-import { useAuthContext } from "../contexts/Auth";
-import { useNavigate } from "react-router-dom";
-import ROUTES from "../router/routs";
 import type { FieldError } from "react-hook-form";
 
-type Props = { onRegistered: () => void };
+import useRegisterMutation from "../mutations/registerMutation";
+import type { RegisterUserType } from "../types/User";
 
-type SignUpFormData = {
-	username: string;
-	email: string;
-	password: string;
-	confirmPassword: string;
-};
+type Props = { onRegistered: () => void };
 
 type FieldProps = {
 	placeholder: string;
@@ -20,7 +13,7 @@ type FieldProps = {
 	registration: object;
 };
 
-function RegisterFormField({
+function RegisterFormFieldBlock({
 	placeholder,
 	type = "text",
 	error,
@@ -48,20 +41,18 @@ function RegisterFormComp({ onRegistered }: Props) {
 		watch,
 		reset,
 		formState: { errors, isValid },
-	} = useForm<SignUpFormData>({ mode: "onChange" });
+	} = useForm<RegisterUserType>({ mode: "onChange" });
 
-	const { register: registerUser } = useAuthContext();
+	const { mutate: registermutation, isPending } = useRegisterMutation();
 
-	const navigate = useNavigate();
-
-	function onSubmit(data: SignUpFormData) {
-		const ok = registerUser(data.username, data.email, data.password);
-		if (ok) {
-			reset();
-			alert("Account created successfully! Please log in.");
-			navigate(ROUTES.login);
-			onRegistered();
-		}
+	function onSubmit(data: RegisterUserType) {
+		registermutation(data, {
+			onSuccess: () => {
+				reset();
+				onRegistered();
+			},
+		});
+		
 	}
 
 	return (
@@ -71,7 +62,7 @@ function RegisterFormComp({ onRegistered }: Props) {
 		>
 			<h1 className="text-xl font-bold px-2 py-6">Create New Account</h1>
 
-			<RegisterFormField
+			<RegisterFormFieldBlock
 				placeholder="Username"
 				error={errors.username}
 				registration={register("username", {
@@ -80,7 +71,7 @@ function RegisterFormComp({ onRegistered }: Props) {
 				})}
 			/>
 
-			<RegisterFormField
+			<RegisterFormFieldBlock
 				placeholder="Email"
 				error={errors.email}
 				registration={register("email", {
@@ -91,7 +82,7 @@ function RegisterFormComp({ onRegistered }: Props) {
 					},
 				})}
 			/>
-			<RegisterFormField
+			<RegisterFormFieldBlock
 				placeholder="Password"
 				type="password"
 				error={errors.password}
@@ -100,7 +91,7 @@ function RegisterFormComp({ onRegistered }: Props) {
 					minLength: { value: 6, message: "* Min 6 characters" },
 				})}
 			/>
-			<RegisterFormField
+			<RegisterFormFieldBlock
 				placeholder="Confirm Password"
 				type="password"
 				error={errors.confirmPassword}
@@ -113,7 +104,7 @@ function RegisterFormComp({ onRegistered }: Props) {
 
 			<button
 				type="submit"
-				disabled={!isValid}
+				disabled={!isValid || isPending}
 				className="w-full py-3 text-base bg-emerald-500 hover:bg-emerald-600 font-semibold rounded active:scale-95 transition-all cursor-pointer tracking-wide disabled:opacity-50 disabled:cursor-not-allowed"
 			>
 				Sign Up

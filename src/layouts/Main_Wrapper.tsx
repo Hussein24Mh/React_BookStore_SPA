@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import FooterComp from "./Footer";
 import HeaderComp from "./Header";
-import { useGlobalContext } from "../contexts/GlobalStatus";
+import useGlobalContext from "../providers/GlobalStatusProvider";
 
 function Main_Wrapper() {
 	const { theme } = useGlobalContext();

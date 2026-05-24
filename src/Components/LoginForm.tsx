@@ -1,13 +1,8 @@
 import { useForm } from "react-hook-form";
-import { useAuthContext } from "../contexts/Auth";
-import { useNavigate } from "react-router-dom";
-import ROUTES from "../router/routs";
 import type { FieldError } from "react-hook-form";
 
-type LoginData = {
-	email: string;
-	password: string;
-};
+import useLoginMutation from "../mutations/loginMutation";
+import type { LoginUserType } from "../types/User";
 
 type FieldProps = {
 	placeholder: string;
@@ -30,7 +25,7 @@ function LoginFormField({
 				placeholder={placeholder}
 				className="w-full px-4 py-2 rounded border-1 border-slate-300 focus:border-yellow-400 outline-none"
 			/>
-			<p className="text-red-500 px-2 pd-2 min-h-[25px]">
+			<p className="text-red-500 px-2 py-2 min-h-[25px]">
 				{error?.message}
 			</p>
 		</div>
@@ -41,22 +36,13 @@ function LoginFormComp() {
 	const {
 		register,
 		handleSubmit,
-		reset,
 		formState: { errors, isValid },
-	} = useForm<LoginData>({ mode: "onChange" });
+	} = useForm<LoginUserType>({ mode: "onChange" });
 
-	const { login: loginuser } = useAuthContext();
+	const { mutate: login, isPending } = useLoginMutation();
 
-	const navigate = useNavigate();
-
-	function onSubmit(data: LoginData) {
-		const ok = loginuser(data.email, data.password);
-		if (ok) {
-			reset();
-			navigate(ROUTES.home);
-		} else {
-			alert("Invalid credentials");
-		}
+	function onSubmit(data: LoginUserType) {
+		login(data);
 	}
 
 	return (
@@ -90,7 +76,7 @@ function LoginFormComp() {
 
 			<button
 				type="submit"
-				disabled={!isValid}
+				disabled={!isValid || isPending}
 				className="w-full py-3 text-base bg-emerald-500 hover:bg-emerald-600 font-semibold rounded active:scale-95 transition-all cursor-pointer tracking-wide disabled:opacity-50 disabled:cursor-not-allowed"
 			>
 				Login
