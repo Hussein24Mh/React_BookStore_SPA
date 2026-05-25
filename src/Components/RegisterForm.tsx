@@ -1,7 +1,7 @@
 import { useForm } from "react-hook-form";
 import type { FieldError } from "react-hook-form";
 
-import useRegisterMutation from "../mutations/registerMutation";
+import useRegisterMutation from "../mutations/useRegisterMutation";
 import type { RegisterUserType } from "../types/User";
 
 type Props = { onRegistered: () => void };
@@ -52,7 +52,6 @@ function RegisterFormComp({ onRegistered }: Props) {
 				onRegistered();
 			},
 		});
-		
 	}
 
 	return (

@@ -1,7 +1,6 @@
-import { useBookQuery } from "../queries/booksQuery";
+import { useBookQuery } from "../queries/useBookQueries";
 
-function ProductDetails({ id }: { id: number }) {
-
+function ProductDetailsComp({ id }: { id: number }) {
 	const { data: book, isLoading, error } = useBookQuery(id);
 
 	if (isLoading) {
@@ -23,4 +22,4 @@ function ProductDetails({ id }: { id: number }) {
 	);
 }
 
-export default ProductDetails;
+export default ProductDetailsComp;

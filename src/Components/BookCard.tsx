@@ -1,38 +1,40 @@
-import { useNavigate  } from "react-router-dom";
-import ROUTES from "../utils/routs";
-
-import type { Book } from "../types/Book";
-import { useAuthContext } from "../providers/AuthProvider";
 import { ShoppingCart } from "lucide-react";
 
-interface Props {
-    book: Book;
-}
+import { useBookQuery } from "../queries/useBookQueries";
 
-function BookCard({ book }: Props) {
-	const { addToCart } = useAuthContext();
-	const navigate = useNavigate();
+import { useAddToCartMutation } from "../mutations/useCartMutations";
+
+function BookCardComp({ id }: { id: number }) {
+	const { mutate: addToCart } = useAddToCartMutation();
+	const { data: bookData } = useBookQuery(id);
+
+	const book_img_url = bookData?.["IMG URL"] || "blank img url";
+	const book_name = bookData?.["PRODUCT NAME"] || "blank name";
+	const book_price = bookData?.PRICE || "blank price";
+	const book_availability = bookData?.AVAILABILITY || "blank availability";
+
 
 	return (
-		<button type="button" onClick={() => navigate(ROUTES.navigatProductdetails(book.ID.toString()))}
-		className="group relative flex flex-col h-[350px] rounded-xl overflow-hidden hover:scale-105 transition-transform cursor-pointer main-divs-theme">
+		<div
+			className="group relative flex flex-col h-[350px] rounded-xl overflow-hidden hover:scale-105 transition-transform cursor-pointer main-divs-theme"
+		>
 			<img
-				src={book["IMG URL"]}
-				alt={book["PRODUCT NAME"]}
+				src={book_img_url}
+				alt={book_name}
 				className="w-full h-60 object-cover"
 			/>
 			<div className="flex flex-col flex-1 justify-between p-3">
 				<h3 className="font-semibold text-sm line-clamp-2 text-center">
-					{book["PRODUCT NAME"]}
+					{book_name}
 				</h3>
 				<div className="flex items-center justify-between mt-2 mx-2 gap-4">
 					<span className="text-emerald-500 font-bold text-center">
-						{book.PRICE}
+						{book_price}
 					</span>
 					<span
-						className={`text-xs px-2 py-1 rounded-full ${book.AVAILABILITY === "In Stock" ? "bg-emerald-100 text-emerald-600" : "bg-red-100 text-red-500"}`}
+						className={`text-xs px-2 py-1 rounded-full ${book_availability === "In Stock" ? "bg-emerald-100 text-emerald-600" : "bg-red-100 text-red-500"}`}
 					>
-						{book.AVAILABILITY}
+						{book_availability}
 					</span>
 				</div>
 			</div>
@@ -40,10 +42,7 @@ function BookCard({ book }: Props) {
 				type="button"
 				onClick={(e) => {
 					e.stopPropagation();
-					addToCart(book.ID);
-				}}
-				onKeyDown={(e) => {
-					e.stopPropagation();
+					addToCart(id);
 				}}
 				className="absolute -top-px -left-px opacity-0 group-hover:opacity-100 transition-opacity w-0 h-0 border-t-[90px] border-r-[90px] border-t-emerald-500 border-r-transparent"
 			>
@@ -51,8 +50,8 @@ function BookCard({ book }: Props) {
 					<ShoppingCart size={30} />
 				</span>
 			</button>
-		</button>
+		</div>
 	);
 }
 
-export default BookCard;
+export default BookCardComp;

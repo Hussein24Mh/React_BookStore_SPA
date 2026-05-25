@@ -1,8 +1,10 @@
 import { createContext, useContext, useState } from "react";
 import { saveTheme, loadTheme } from "../services/ThemeService";
 
+type Theme = "light" | "dark";
+
 interface GlobalState {
-	theme: "light" | "dark";
+	theme: Theme;
 	toggleTheme: () => void;
 }
 
@@ -13,7 +15,7 @@ export function GlobalStatusProvider({
 }: {
 	children: React.ReactNode;
 }) {
-	const [theme, setTheme] = useState<"light" | "dark">(loadTheme());
+	const [theme, setTheme] = useState<Theme>(loadTheme());
 
 	const toggleTheme = () => {
 		setTheme((prev) => {

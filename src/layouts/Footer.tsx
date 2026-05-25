@@ -1,5 +1,3 @@
-import useGlobalContext from "../providers/GlobalStatusProvider";
-
 function FooterComp() {
 	return (
 		<footer className="flex justify-center p-3 main-divs-theme">

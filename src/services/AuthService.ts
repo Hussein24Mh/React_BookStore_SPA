@@ -1,5 +1,12 @@
 // services/userStorage.ts
-import type { UserData, RegisterUserType, LoginUserType } from "../types/User";
+import type {
+	CartItem,
+	UserData,
+	RegisterUserType,
+	LoginUserType,
+} from "../types/User";
+
+import BOOKS from "../data/Books";
 
 const STORAGE_KEY = "marketplace_users";
 const CURRENT_USER_KEY = "marketplace_current_user";
@@ -48,4 +55,73 @@ export const register = (registerData: RegisterUserType): boolean => {
 
 export const logout = () => {
 	removeCurrentUser();
+};
+
+// Cart management
+
+const updateUserCart = (newCart: CartItem[]) => {
+	const currentUser = getCurrentUser();
+
+	if (!currentUser) return;
+	const users = loadUsers();
+	const updatedUser = { ...currentUser, cart: newCart };
+	const updated = users.map((u) =>
+		u.email === currentUser.email ? updatedUser : u,
+	);
+	saveUsers(updated);
+	saveCurrentUser(updatedUser);
+};
+
+export const addToCart = (bookId: number) => {
+	const currentUser = getCurrentUser();
+
+	if (!currentUser) return;
+	const existing = currentUser.cart.find((item) => item.bookId === bookId);
+	const newCart = existing
+		? currentUser.cart.map((item) =>
+				item.bookId === bookId
+					? { ...item, quantity: item.quantity + 1 }
+					: item,
+			)
+		: [...currentUser.cart, { bookId, quantity: 1 }];
+	updateUserCart(newCart);
+};
+
+export const decreaseQuantity = (bookId: number) => {
+	const currentUser = getCurrentUser();
+
+	if (!currentUser) return;
+	const newCart = currentUser.cart
+		.map((item) =>
+			item.bookId === bookId
+				? { ...item, quantity: item.quantity - 1 }
+				: item,
+		)
+		.filter((item) => item.quantity > 0);
+	updateUserCart(newCart);
+};
+
+export const clearCart = () => {
+	const currentUser = getCurrentUser();
+
+	if (!currentUser) return;
+	updateUserCart([]);
+};
+
+export const getCartItems = () => {
+	const currentUser = getCurrentUser();
+	return currentUser?.cart || [];
+};
+
+export const getCartTotal = () => {
+	const currentUser = getCurrentUser();
+	if (!currentUser) return 0;
+
+	return parseFloat(
+    currentUser.cart.reduce((total, item) => {
+        const book = BOOKS.find((b) => b.ID === item.bookId);
+        if (!book) return total;
+        return total + parseFloat(book.PRICE.replace("£", "")) * item.quantity;
+    }, 0).toFixed(2)
+);
 };

@@ -1,13 +1,18 @@
-import { useAuthContext } from "../providers/AuthProvider";
 import type { Book } from "../types/Book";
+
+import {
+	useAddToCartMutation,
+	useDecreaseQuantityMutation,
+} from "../mutations/useCartMutations";
 
 interface Props {
 	book: Book;
 	quantity: number;
 }
 
-function Cartitem({ book, quantity }: Props) {
-	const { addToCart, decreaseQuantity } = useAuthContext();
+function CartitemComp({ book, quantity }: Props) {
+	const { mutate: addToCart } = useAddToCartMutation();
+	const { mutate: decreaseQuantity } = useDecreaseQuantityMutation();
 
 	const itemTotal = (
 		parseFloat(book.PRICE.replace("£", "")) * quantity
@@ -63,4 +68,4 @@ function Cartitem({ book, quantity }: Props) {
 	);
 }
 
-export default Cartitem;
+export default CartitemComp;

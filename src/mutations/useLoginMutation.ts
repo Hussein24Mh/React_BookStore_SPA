@@ -13,8 +13,7 @@ const useLoginMutation = () => {
 	const navigate = useNavigate();
 
 	return useMutation({
-		mutationFn: (credentials: LoginUserType) =>
-			{
+		mutationFn: (credentials: LoginUserType) => {
 			const ok = login(credentials);
 			if (!ok) throw new Error("Invalid email or password");
 			return Promise.resolve(ok);

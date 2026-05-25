@@ -1,8 +1,8 @@
-import { useBooksQuery } from "../queries/booksQuery";
-import BookCard from "./BookCard";
+import { useBooksListQuery } from "../queries/useBookQueries";
+import BookCardComp from "./BookCard";
 
-function BookList() {
-	const { data: books, isLoading, error } = useBooksQuery();
+function BookListComp() {
+	const { data: books, isLoading, error } = useBooksListQuery();
 
 	if (isLoading) {
 		return <p>Loading...</p>;
@@ -17,10 +17,10 @@ function BookList() {
 	return (
 		<div className="grid grid-cols-[repeat(auto-fill,minmax(230px,230px))] gap-10 justify-center">
 			{books.map((book) => (
-				<BookCard key={book.ID} book={book} />
+				<BookCardComp key={book.ID} id={book.ID}/>
 			))}
 		</div>
 	);
 }
 
-export default BookList;
+export default BookListComp;

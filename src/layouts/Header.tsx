@@ -4,12 +4,12 @@ import { useState } from "react";
 import useGlobalContext from "../providers/GlobalStatusProvider";
 import { ShoppingCart } from "lucide-react";
 
-import useLogoutMutation from "../mutations/logoutMutation";
-import useCurrentUserQuery from "../queries/currentUserQueries";
+import useLogoutMutation from "../mutations/useLogoutMutation";
+import { useCurrentUserData } from "../queries/useCurrentUserQueries";
 
 function NavLinks() {
 	const { theme, toggleTheme } = useGlobalContext();
-	const { data: user } = useCurrentUserQuery();
+	const { data: user } = useCurrentUserData();
 	const { mutate: logout } = useLogoutMutation();
 
 	return (
