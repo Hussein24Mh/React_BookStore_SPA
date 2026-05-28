@@ -1,7 +1,6 @@
 import type { BookServiceType } from "../types";
 
 export function ProductDetailsComp({
-	id = 0,
 	name = "",
 	price = 0,
 	category = "",

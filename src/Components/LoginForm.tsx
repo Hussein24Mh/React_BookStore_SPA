@@ -27,10 +27,10 @@ function LoginFormField({ placeholder, type = "text", error, registration }: Fie
 interface LoginFormProps {
 	onSubmit: (credentials: LoginUserType) => void;
 	isPending: boolean;
-	error: Error | null;
+	error?: Error | null;
 }
 
-export function LoginFormComp({ onSubmit, isPending, error }: LoginFormProps) {
+export function LoginFormComp({ onSubmit, isPending }: LoginFormProps) {
 	const {
 		register,
 		handleSubmit,

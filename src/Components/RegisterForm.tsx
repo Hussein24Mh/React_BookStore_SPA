@@ -30,12 +30,11 @@ interface RegisterFormCompProps {
 	error: Error | null;
 }
 
-export function RegisterFormComp({ onSubmit, isPending, error }: RegisterFormCompProps) {
+export function RegisterFormComp({ onSubmit, isPending}: RegisterFormCompProps) {
 	const {
 		register,
 		handleSubmit,
 		watch,
-		reset,
 		formState: { errors, isValid },
 	} = useForm<RegisterUserType>({ mode: "onChange" });
 
