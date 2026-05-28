@@ -1,5 +1,6 @@
-import { createContext, useContext, useState } from "react";
-import { saveTheme, loadTheme } from "../services/ThemeServices";
+import { createContext, useContext } from "react";
+import { useCurrentThemeQuery } from "../queries/useThemeQueries";
+import { useToggleThemeMutation } from "../mutations/useThemeMutations";
 
 type Theme = "light" | "dark";
 
@@ -10,20 +11,9 @@ interface GlobalState {
 
 const GlobalContext = createContext<GlobalState | null>(null);
 
-export function GlobalStatusProvider({
-	children,
-}: {
-	children: React.ReactNode;
-}) {
-	const [theme, setTheme] = useState<Theme>(loadTheme());
-
-	const toggleTheme = () => {
-		setTheme((prev) => {
-			const next = prev === "light" ? "dark" : "light";
-			saveTheme(next);
-			return next;
-		});
-	};
+export function GlobalStatusProvider({ children }: { children: React.ReactNode }) {
+	const { data: theme = "light" } = useCurrentThemeQuery();
+	const { mutate: toggleTheme } = useToggleThemeMutation();
 
 	return (
 		<GlobalContext.Provider
@@ -39,10 +29,7 @@ export function GlobalStatusProvider({
 
 function useGlobalContext() {
 	const context = useContext(GlobalContext);
-	if (!context)
-		throw new Error(
-			"useGlobalContext must be used within GlobalStatusProvider",
-		);
+	if (!context) throw new Error("useGlobalContext must be used within GlobalStatusProvider");
 	return context;
 }
 

@@ -1,6 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
 
-import { loadThemeService } from "../services/ThemeServices";
+import { loadThemeService } from "../services";
 
 export function useCurrentThemeQuery() {
 	return useQuery({

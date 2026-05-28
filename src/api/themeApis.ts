@@ -1,6 +1,6 @@
 const SAVED_THEME = "marketplace_theme";
 
-import type { Theme } from "../types/LocalStorage";
+import type { Theme } from "../types";
 
 export function saveThemeApi(theme: Theme): void {
 	localStorage.setItem(SAVED_THEME, theme);

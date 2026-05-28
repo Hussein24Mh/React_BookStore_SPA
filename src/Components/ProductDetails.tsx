@@ -1,25 +1,20 @@
-import { useBookQuery } from "../queries/useBookQueries";
+import type { BookServiceType } from "../types";
 
-function ProductDetailsComp({ id }: { id: number }) {
-	const { data: book, isLoading, error } = useBookQuery(id);
-
-	if (isLoading) {
-		return <p>Loading...</p>;
-	}
-
-	if (error) {
-		return <p>Error loading product</p>;
-	}
-
-	if (!book) return <p>No product found</p>;
-
+export function ProductDetailsComp({
+	id = 0,
+	name = "",
+	price = 0,
+	category = "",
+	img_url = "",
+	description = "",
+}: Partial<BookServiceType>) {
 	return (
 		<div>
-			<h1>{book["PRODUCT NAME"]}</h1>
-			<p>{book.UPC}</p>
-			<p>Price: ${book.PRICE}</p>
+			<img src={img_url} alt={name} />
+			<h1>{name}</h1>
+			<p>{category}</p>
+			<p>Price: ${price}</p>
+			<p>{description}</p>
 		</div>
 	);
 }
-
-export default ProductDetailsComp;

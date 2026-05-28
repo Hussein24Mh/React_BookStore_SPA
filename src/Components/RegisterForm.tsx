@@ -1,10 +1,7 @@
 import { useForm } from "react-hook-form";
 import type { FieldError } from "react-hook-form";
 
-import useRegisterMutation from "../mutations/useRegisterMutation";
-import type { RegisterUserType } from "../types/User";
-
-type Props = { onRegistered: () => void };
+import type { RegisterUserType } from "../types";
 
 type FieldProps = {
 	placeholder: string;
@@ -13,12 +10,7 @@ type FieldProps = {
 	registration: object;
 };
 
-function RegisterFormFieldBlock({
-	placeholder,
-	type = "text",
-	error,
-	registration,
-}: FieldProps) {
+function RegisterFormFieldBlock({ placeholder, type = "text", error, registration }: FieldProps) {
 	return (
 		<div className="flex flex-col gap-1">
 			<input
@@ -27,14 +19,18 @@ function RegisterFormFieldBlock({
 				placeholder={placeholder}
 				className="w-full px-4 py-2 rounded border-1 border-slate-300 focus:border-yellow-400 outline-none"
 			/>
-			<p className="text-red-500 px-2 pd-2 min-h-[25px]">
-				{error?.message}
-			</p>
+			<p className="text-red-500 px-2 pd-2 min-h-[25px]">{error?.message}</p>
 		</div>
 	);
 }
 
-function RegisterFormComp({ onRegistered }: Props) {
+interface RegisterFormCompProps {
+	onSubmit: (credentials: RegisterUserType) => void;
+	isPending: boolean;
+	error: Error | null;
+}
+
+export function RegisterFormComp({ onSubmit, isPending, error }: RegisterFormCompProps) {
 	const {
 		register,
 		handleSubmit,
@@ -43,22 +39,8 @@ function RegisterFormComp({ onRegistered }: Props) {
 		formState: { errors, isValid },
 	} = useForm<RegisterUserType>({ mode: "onChange" });
 
-	const { mutate: registermutation, isPending } = useRegisterMutation();
-
-	function onSubmit(data: RegisterUserType) {
-		registermutation(data, {
-			onSuccess: () => {
-				reset();
-				onRegistered();
-			},
-		});
-	}
-
 	return (
-		<form
-			onSubmit={handleSubmit(onSubmit)}
-			className="flex flex-col gap-1 w-[100%]"
-		>
+		<form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-1 w-[100%]">
 			<h1 className="text-xl font-bold px-2 py-6">Create New Account</h1>
 
 			<RegisterFormFieldBlock
@@ -96,8 +78,7 @@ function RegisterFormComp({ onRegistered }: Props) {
 				error={errors.confirmPassword}
 				registration={register("confirmPassword", {
 					required: "* Please confirm your password",
-					validate: (v) =>
-						v === watch("password") || "* Passwords do not match",
+					validate: (v) => v === watch("password") || "* Passwords do not match",
 				})}
 			/>
 
@@ -111,5 +92,3 @@ function RegisterFormComp({ onRegistered }: Props) {
 		</form>
 	);
 }
-
-export default RegisterFormComp;

@@ -2,7 +2,7 @@ const ROUTES = {
 	home: "/",
 	login: "/login",
 	profile: "/profile",
-	checkout: "/checkout",
+	cart: "/cart",
 	productdetails: "/product/:id",
 	navigatProductdetails: (id: string) => `/product/${id}`,
 	notFound: "*",

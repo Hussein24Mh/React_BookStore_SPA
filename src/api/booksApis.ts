@@ -1,5 +1,5 @@
 import { Books } from "../data/Books";
-import type { BookType } from "../types/Book";
+import type { BookType } from "../types";
 
 export function loadBooksApi(): BookType[] {
 	return Books;

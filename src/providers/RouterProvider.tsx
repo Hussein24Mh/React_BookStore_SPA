@@ -2,26 +2,22 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import ROUTES from "../utils/routs";
 
-import Main_Wrapper from "../layouts/Main_Wrapper";
-import ErrorPage from "../pages/Error";
+import MainWrapperLayout from "../layouts/Main_Wrapper";
 
-import HomePage from "../pages/Home";
-import LoginPage from "../pages/Login";
-import CartPage from "../pages/Cart";
-import UserProfilePage from "../pages/UserProfile";
-import ProductDetailsPage from "../pages/Productdetails";
+import { HomePage, CartPage, ErrorPage, LoginPage, NotFoundPage, ProductDetailsPage, UserProfilePage } from "../pages";
 
 // --- ROUTER ---
 const router = createBrowserRouter([
 	{
-		element: <Main_Wrapper />,
+		element: <MainWrapperLayout />,
 		errorElement: <ErrorPage />, // ← catches runtime errors in any child
 		children: [
 			{ path: ROUTES.home, element: <HomePage /> },
 			{ path: ROUTES.login, element: <LoginPage /> },
-			{ path: ROUTES.checkout, element: <CartPage /> },
+			{ path: ROUTES.cart, element: <CartPage /> },
 			{ path: ROUTES.profile, element: <UserProfilePage /> },
 			{ path: ROUTES.productdetails, element: <ProductDetailsPage /> },
+			{ path: "*", element: <NotFoundPage /> },
 		],
 	},
 ]);

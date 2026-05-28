@@ -3,13 +3,9 @@ import ROUTES from "../utils/routs";
 
 import { useQueryClient, useMutation } from "@tanstack/react-query";
 
-import {
-	loginService,
-	registerService,
-	logoutService,
-} from "../services/AuthServices";
+import { loginService, registerService, logoutService } from "../services";
 
-export function useRegisterMutation() {
+export function useRegisterMutation(onRegistered?: () => void) {
 	const navigate = useNavigate();
 
 	return useMutation({
@@ -18,6 +14,7 @@ export function useRegisterMutation() {
 		onSuccess: () => {
 			console.log("Account created successfully! Please log in.");
 			alert("Account created successfully! Please log in.");
+			onRegistered?.();
 			navigate(ROUTES.login);
 		},
 

@@ -4,8 +4,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html",
 		PRODUCT_NAME: "It's Only the Himalayas",
 		CATEGORY: "Travel",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/6d/41/6d418a73cc7d4ecfd75ca11d854041db.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/6d/41/6d418a73cc7d4ecfd75ca11d854041db.jpg",
 		UPC: "a22124811bfa8350",
 		PRICE: "45.17",
 		TAX: "0.0",
@@ -16,11 +15,9 @@ export const Books = [
 	{
 		ID: 2,
 		URL: "https://books.toscrape.com/catalogue/full-moon-over-noahs-ark-an-odyssey-to-mount-ararat-and-beyond_811/index.html",
-		PRODUCT_NAME:
-			"Full Moon over Noah’s Ark: An Odyssey to Mount Ararat and Beyond",
+		PRODUCT_NAME: "Full Moon over Noah’s Ark: An Odyssey to Mount Ararat and Beyond",
 		CATEGORY: "Travel",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/fe/8a/fe8af6ceec7718986380c0fde9b3b34f.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/fe/8a/fe8af6ceec7718986380c0fde9b3b34f.jpg",
 		UPC: "ce60436f52c5ee68",
 		PRICE: "49.43",
 		TAX: "0.0",
@@ -31,11 +28,9 @@ export const Books = [
 	{
 		ID: 3,
 		URL: "https://books.toscrape.com/catalogue/see-america-a-celebration-of-our-national-parks-treasured-sites_732/index.html",
-		PRODUCT_NAME:
-			"See America: A Celebration of Our National Parks & Treasured Sites",
+		PRODUCT_NAME: "See America: A Celebration of Our National Parks & Treasured Sites",
 		CATEGORY: "Travel",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/c7/1a/c71a85dbf8c2dbc75cb271026618477c.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/c7/1a/c71a85dbf8c2dbc75cb271026618477c.jpg",
 		UPC: "f9705c362f070608",
 		PRICE: "48.87",
 		TAX: "0.0",
@@ -46,11 +41,9 @@ export const Books = [
 	{
 		ID: 4,
 		URL: "https://books.toscrape.com/catalogue/vagabonding-an-uncommon-guide-to-the-art-of-long-term-world-travel_552/index.html",
-		PRODUCT_NAME:
-			"Vagabonding: An Uncommon Guide to the Art of Long-Term World Travel",
+		PRODUCT_NAME: "Vagabonding: An Uncommon Guide to the Art of Long-Term World Travel",
 		CATEGORY: "Travel",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/ca/30/ca30b1afe1e76ce7ba1db8176d398e53.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/ca/30/ca30b1afe1e76ce7ba1db8176d398e53.jpg",
 		UPC: "1809259a5a5f1d8d",
 		PRICE: "36.94",
 		TAX: "0.0",
@@ -63,8 +56,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/under-the-tuscan-sun_504/index.html",
 		PRODUCT_NAME: "Under the Tuscan Sun",
 		CATEGORY: "Travel",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/45/21/4521c581ba727f5c835e34860cbf53e5.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/45/21/4521c581ba727f5c835e34860cbf53e5.jpg",
 		UPC: "a94350ee74deaa07",
 		PRICE: "37.33",
 		TAX: "0.0",
@@ -77,8 +69,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/a-summer-in-europe_458/index.html",
 		PRODUCT_NAME: "A Summer In Europe",
 		CATEGORY: "Travel",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/6c/e3/6ce3003931701c7a3fd5354917538ea9.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/6c/e3/6ce3003931701c7a3fd5354917538ea9.jpg",
 		UPC: "cc1936a9f4e93477",
 		PRICE: "44.34",
 		TAX: "0.0",
@@ -91,8 +82,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-great-railway-bazaar_446/index.html",
 		PRODUCT_NAME: "The Great Railway Bazaar",
 		CATEGORY: "Travel",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/d5/82/d582f6b0261c2842330e893962276295.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/d5/82/d582f6b0261c2842330e893962276295.jpg",
 		UPC: "48736df57e7bec9f",
 		PRICE: "30.54",
 		TAX: "0.0",
@@ -105,8 +95,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/a-year-in-provence-provence-1_421/index.html",
 		PRODUCT_NAME: "A Year in Provence (Provence #1)",
 		CATEGORY: "Travel",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/8b/81/8b81cd9b2c8f89a12099a80bed1c4911.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/8b/81/8b81cd9b2c8f89a12099a80bed1c4911.jpg",
 		UPC: "9e60929f521fa280",
 		PRICE: "56.88",
 		TAX: "0.0",
@@ -120,8 +109,7 @@ export const Books = [
 		PRODUCT_NAME:
 			"The Road to Little Dribbling: Adventures of an American in Britain (Notes From a Small Island #2)",
 		CATEGORY: "Travel",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/26/f5/26f5d20239a45046e756c6d09611b3ea.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/26/f5/26f5d20239a45046e756c6d09611b3ea.jpg",
 		UPC: "366a236aa1ea6f07",
 		PRICE: "23.21",
 		TAX: "0.0",
@@ -134,8 +122,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/neither-here-nor-there-travels-in-europe_198/index.html",
 		PRODUCT_NAME: "Neither Here nor There: Travels in Europe",
 		CATEGORY: "Travel",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/c9/9a/c99a7a05537cd842eb4db83d537e3a4d.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/c9/9a/c99a7a05537cd842eb4db83d537e3a4d.jpg",
 		UPC: "747cf7fca2ccdbd4",
 		PRICE: "38.95",
 		TAX: "0.0",
@@ -148,8 +135,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/1000-places-to-see-before-you-die_1/index.html",
 		PRODUCT_NAME: "1,000 Places to See Before You Die",
 		CATEGORY: "Travel",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/9e/10/9e106f81f65b293e488718a4f54a6a3f.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/9e/10/9e106f81f65b293e488718a4f54a6a3f.jpg",
 		UPC: "228ba5e7577e1d49",
 		PRICE: "26.08",
 		TAX: "0.0",
@@ -162,8 +148,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/soumission_998/index.html",
 		PRODUCT_NAME: "Soumission",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/ee/cf/eecfe998905e455df12064dba399c075.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/ee/cf/eecfe998905e455df12064dba399c075.jpg",
 		UPC: "6957f44c3847a760",
 		PRICE: "50.1",
 		TAX: "0.0",
@@ -176,8 +161,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/private-paris-private-10_958/index.html",
 		PRODUCT_NAME: "Private Paris (Private #10)",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/05/87/0587ab519222a61f803fa4570c325ad2.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/05/87/0587ab519222a61f803fa4570c325ad2.jpg",
 		UPC: "b12b89017878a60d",
 		PRICE: "47.61",
 		TAX: "0.0",
@@ -190,8 +174,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/we-love-you-charlie-freeman_954/index.html",
 		PRODUCT_NAME: "We Love You, Charlie Freeman",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/87/a2/87a2fddd7f6b240c0351e1eb950b6716.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/87/a2/87a2fddd7f6b240c0351e1eb950b6716.jpg",
 		UPC: "8d455c7539795d2a",
 		PRICE: "50.27",
 		TAX: "0.0",
@@ -204,8 +187,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/thirst_946/index.html",
 		PRODUCT_NAME: "Thirst",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/8c/54/8c54a50576c204b80165a13545f73028.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/8c/54/8c54a50576c204b80165a13545f73028.jpg",
 		UPC: "709822d0b5bcb7f4",
 		PRICE: "17.27",
 		TAX: "0.0",
@@ -218,8 +200,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-murder-that-never-was-forensic-instincts-5_939/index.html",
 		PRODUCT_NAME: "The Murder That Never Was (Forensic Instincts #5)",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/29/e0/29e036acd8a6e3daa787ce2bc05bdbbb.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/29/e0/29e036acd8a6e3daa787ce2bc05bdbbb.jpg",
 		UPC: "d01ac97e2b8947c2",
 		PRICE: "54.11",
 		TAX: "0.0",
@@ -232,8 +213,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/tuesday-nights-in-1980_870/index.html",
 		PRODUCT_NAME: "Tuesday Nights in 1980",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/a3/ad/a3ade5edecde67449329c1ebb016c049.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/a3/ad/a3ade5edecde67449329c1ebb016c049.jpg",
 		UPC: "b8736690cf263a3c",
 		PRICE: "21.04",
 		TAX: "0.0",
@@ -246,8 +226,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-vacationers_863/index.html",
 		PRODUCT_NAME: "The Vacationers",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/34/c9/34c988a76c3cd7c04566d3030d8e7331.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/34/c9/34c988a76c3cd7c04566d3030d8e7331.jpg",
 		UPC: "fd3a622648667296",
 		PRICE: "42.15",
 		TAX: "0.0",
@@ -260,8 +239,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-regional-office-is-under-attack_858/index.html",
 		PRODUCT_NAME: "The Regional Office Is Under Attack!",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/d4/73/d473f01f077b91ce04e345305a3fa217.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/d4/73/d473f01f077b91ce04e345305a3fa217.jpg",
 		UPC: "0651062381f0636a",
 		PRICE: "51.36",
 		TAX: "0.0",
@@ -274,8 +252,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/finders-keepers-bill-hodges-trilogy-2_807/index.html",
 		PRODUCT_NAME: "Finders Keepers (Bill Hodges Trilogy #2)",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/76/80/76804e1881b630a110794fef5aad02cf.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/76/80/76804e1881b630a110794fef5aad02cf.jpg",
 		UPC: "edb3097e71330040",
 		PRICE: "53.53",
 		TAX: "0.0",
@@ -288,8 +265,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-time-keeper_766/index.html",
 		PRODUCT_NAME: "The Time Keeper",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/37/d1/37d108ff5b19028a52ddd73dba35d543.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/37/d1/37d108ff5b19028a52ddd73dba35d543.jpg",
 		UPC: "e9906e2f0d189745",
 		PRICE: "27.88",
 		TAX: "0.0",
@@ -302,8 +278,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-testament-of-mary_765/index.html",
 		PRODUCT_NAME: "The Testament of Mary",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/06/a6/06a62270c0700ae3c537cf394cf145ee.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/06/a6/06a62270c0700ae3c537cf394cf145ee.jpg",
 		UPC: "081305e6df719dff",
 		PRICE: "52.67",
 		TAX: "0.0",
@@ -316,8 +291,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-first-hostage-jb-collins-2_749/index.html",
 		PRODUCT_NAME: "The First Hostage (J.B. Collins #2)",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/81/3e/813e1d11126330de52d9368e78d116cc.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/81/3e/813e1d11126330de52d9368e78d116cc.jpg",
 		UPC: "a86972014275e072",
 		PRICE: "25.85",
 		TAX: "0.0",
@@ -330,8 +304,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/take-me-with-you_741/index.html",
 		PRODUCT_NAME: "Take Me with You",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/bd/ad/bdad8933d15df7d7c6f3a16a9315048b.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/bd/ad/bdad8933d15df7d7c6f3a16a9315048b.jpg",
 		UPC: "2c04320e110a14a3",
 		PRICE: "45.21",
 		TAX: "0.0",
@@ -344,8 +317,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/still-life-with-bread-crumbs_738/index.html",
 		PRODUCT_NAME: "Still Life with Bread Crumbs",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/a3/eb/a3ebe1ca5df0d3ff3e3d2b8fb8b2a551.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/a3/eb/a3ebe1ca5df0d3ff3e3d2b8fb8b2a551.jpg",
 		UPC: "fe44cc816576c652",
 		PRICE: "26.41",
 		TAX: "0.0",
@@ -358,8 +330,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/shtum_733/index.html",
 		PRODUCT_NAME: "Shtum",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/63/62/63623a0b014b1f26e49aa61786e6e708.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/63/62/63623a0b014b1f26e49aa61786e6e708.jpg",
 		UPC: "830fb3967c74866d",
 		PRICE: "55.84",
 		TAX: "0.0",
@@ -372,8 +343,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/my-name-is-lucy-barton_720/index.html",
 		PRODUCT_NAME: "My Name Is Lucy Barton",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/28/db/28db43984c765a1d02fd3495f5c52eb6.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/28/db/28db43984c765a1d02fd3495f5c52eb6.jpg",
 		UPC: "727bf2b86b19ad88",
 		PRICE: "41.56",
 		TAX: "0.0",
@@ -386,8 +356,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/my-mrs-brown_719/index.html",
 		PRODUCT_NAME: "My Mrs. Brown",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/2d/a3/2da3464fa2010bebedfba9eca77e42be.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/2d/a3/2da3464fa2010bebedfba9eca77e42be.jpg",
 		UPC: "cc82685d9f49bc2c",
 		PRICE: "24.48",
 		TAX: "0.0",
@@ -400,8 +369,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/mr-mercedes-bill-hodges-trilogy-1_717/index.html",
 		PRODUCT_NAME: "Mr. Mercedes (Bill Hodges Trilogy #1)",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/65/7f/657f9a3b7c0579c7fa499dddddd59422.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/65/7f/657f9a3b7c0579c7fa499dddddd59422.jpg",
 		UPC: "caa2e5b3fb1b2d4c",
 		PRICE: "28.9",
 		TAX: "0.0",
@@ -414,8 +382,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/i-am-pilgrim-pilgrim-1_703/index.html",
 		PRODUCT_NAME: "I Am Pilgrim (Pilgrim #1)",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/8d/a3/8da36f821f35b795a3a420c84ca9737e.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/8d/a3/8da36f821f35b795a3a420c84ca9737e.jpg",
 		UPC: "aeff7b87a8e83ebb",
 		PRICE: "10.6",
 		TAX: "0.0",
@@ -428,8 +395,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/eligible-the-austen-project-4_692/index.html",
 		PRODUCT_NAME: "Eligible (The Austen Project #4)",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/0a/9a/0a9a0b211bee87b544bd97a8320a0b73.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/0a/9a/0a9a0b211bee87b544bd97a8320a0b73.jpg",
 		UPC: "9eaf58b03a2779cc",
 		PRICE: "27.09",
 		TAX: "0.0",
@@ -442,8 +408,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/eight-hundred-grapes_690/index.html",
 		PRODUCT_NAME: "Eight Hundred Grapes",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/5b/34/5b34d6d54467af2d5e44a5f91031adf2.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/5b/34/5b34d6d54467af2d5e44a5f91031adf2.jpg",
 		UPC: "1d6dd0c87d90fe92",
 		PRICE: "14.39",
 		TAX: "0.0",
@@ -456,8 +421,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/dear-mr-knightley_684/index.html",
 		PRODUCT_NAME: "Dear Mr. Knightley",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/e1/8d/e18dc724d16d7501dcaaa56bdb49c16d.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/e1/8d/e18dc724d16d7501dcaaa56bdb49c16d.jpg",
 		UPC: "94a958ea126cdcd5",
 		PRICE: "11.21",
 		TAX: "0.0",
@@ -470,8 +434,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/cometh-the-hour-the-clifton-chronicles-6_681/index.html",
 		PRODUCT_NAME: "Cometh the Hour (The Clifton Chronicles #6)",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/a0/f6/a0f6ff77c5f4604f88b1c74bbf669995.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/a0/f6/a0f6ff77c5f4604f88b1c74bbf669995.jpg",
 		UPC: "28cf0d1c51b491e5",
 		PRICE: "25.01",
 		TAX: "0.0",
@@ -484,8 +447,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/balloon-animals_665/index.html",
 		PRODUCT_NAME: "Balloon Animals",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/f3/fc/f3fc38185b3b6ede38fd9dea2590c01f.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/f3/fc/f3fc38185b3b6ede38fd9dea2590c01f.jpg",
 		UPC: "9b65f676984c9f0c",
 		PRICE: "17.03",
 		TAX: "0.0",
@@ -498,8 +460,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/a-man-called-ove_653/index.html",
 		PRODUCT_NAME: "A Man Called Ove",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/e9/e2/e9e22f047d6733f6c9dbbb8bf5342b09.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/e9/e2/e9e22f047d6733f6c9dbbb8bf5342b09.jpg",
 		UPC: "8682c03de6a844ff",
 		PRICE: "39.72",
 		TAX: "0.0",
@@ -512,8 +473,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-silent-sister-riley-macpherson-1_641/index.html",
 		PRODUCT_NAME: "The Silent Sister (Riley MacPherson #1)",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/98/df/98df70802a22c17dac6026645da4ab87.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/98/df/98df70802a22c17dac6026645da4ab87.jpg",
 		UPC: "ce1ae197ada2aec4",
 		PRICE: "46.29",
 		TAX: "0.0",
@@ -526,8 +486,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-dinner-party_635/index.html",
 		PRODUCT_NAME: "The Dinner Party",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/a5/ad/a5ad88ff798c629eb24b19188c1ea902.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/a5/ad/a5ad88ff798c629eb24b19188c1ea902.jpg",
 		UPC: "c6ca293d4810e0d5",
 		PRICE: "56.54",
 		TAX: "0.0",
@@ -540,8 +499,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-improbability-of-love_607/index.html",
 		PRODUCT_NAME: "The Improbability of Love",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/7c/c3/7cc38fa8812d931bf38b10b7d91b4266.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/7c/c3/7cc38fa8812d931bf38b10b7d91b4266.jpg",
 		UPC: "437d8dea9272d0a9",
 		PRICE: "59.45",
 		TAX: "0.0",
@@ -554,8 +512,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/mothering-sunday_600/index.html",
 		PRODUCT_NAME: "Mothering Sunday",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/9b/1a/9b1a03d05c16c71050daefad8840ec91.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/9b/1a/9b1a03d05c16c71050daefad8840ec91.jpg",
 		UPC: "47e1b2d43f709995",
 		PRICE: "13.34",
 		TAX: "0.0",
@@ -568,8 +525,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/lies-and-other-acts-of-love_596/index.html",
 		PRODUCT_NAME: "Lies and Other Acts of Love",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/8f/26/8f269de5ec7cef02e538eb0466c68f0c.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/8f/26/8f269de5ec7cef02e538eb0466c68f0c.jpg",
 		UPC: "469508882dfc1991",
 		PRICE: "45.14",
 		TAX: "0.0",
@@ -582,8 +538,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/daredevils_590/index.html",
 		PRODUCT_NAME: "Daredevils",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/79/47/79478ba5ab673fbdfe79a745a14fb9de.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/79/47/79478ba5ab673fbdfe79a745a14fb9de.jpg",
 		UPC: "f608c903c451f387",
 		PRICE: "16.34",
 		TAX: "0.0",
@@ -596,8 +551,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/112263_583/index.html",
 		PRODUCT_NAME: "11/22/63",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/4c/4c/4c4ce2398c6ad6c074e8061f739964cc.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/4c/4c/4c4ce2398c6ad6c074e8061f739964cc.jpg",
 		UPC: "a9d7b75461084a26",
 		PRICE: "48.48",
 		TAX: "0.0",
@@ -610,8 +564,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-shack_576/index.html",
 		PRODUCT_NAME: "The Shack",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/4c/ae/4cae2beda2d1c5f851f8971f94fdbc91.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/4c/ae/4cae2beda2d1c5f851f8971f94fdbc91.jpg",
 		UPC: "903a9f8090104c2c",
 		PRICE: "28.03",
 		TAX: "0.0",
@@ -624,8 +577,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-high-mountains-of-portugal_547/index.html",
 		PRODUCT_NAME: "The High Mountains of Portugal",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/f3/28/f3285723c344576168d60806d266979a.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/f3/28/f3285723c344576168d60806d266979a.jpg",
 		UPC: "4f283dfcbeccc0d4",
 		PRICE: "51.15",
 		TAX: "0.0",
@@ -638,8 +590,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/millers-valley_534/index.html",
 		PRODUCT_NAME: "Miller's Valley",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/a8/b9/a8b940d9bf27d6aedad73f0230c14f56.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/a8/b9/a8b940d9bf27d6aedad73f0230c14f56.jpg",
 		UPC: "bff270fe9c86a5a9",
 		PRICE: "58.54",
 		TAX: "0.0",
@@ -652,8 +603,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/hystopia-a-novel_523/index.html",
 		PRODUCT_NAME: "Hystopia: A Novel",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/23/2f/232fdac6b00cd3c7cd2b2336ff3b730e.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/23/2f/232fdac6b00cd3c7cd2b2336ff3b730e.jpg",
 		UPC: "0bfdef63285d3019",
 		PRICE: "21.96",
 		TAX: "0.0",
@@ -666,8 +616,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-bourne-identity-jason-bourne-1_492/index.html",
 		PRODUCT_NAME: "The Bourne Identity (Jason Bourne #1)",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/fe/a4/fea443d174c2c9f0c7903f6c6a3ecc62.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/fe/a4/fea443d174c2c9f0c7903f6c6a3ecc62.jpg",
 		UPC: "d250657f0ebc5d73",
 		PRICE: "42.78",
 		TAX: "0.0",
@@ -680,8 +629,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/sister-dear_485/index.html",
 		PRODUCT_NAME: "Sister Dear",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/2a/0a/2a0a1543dd5f3edc407ab9989f29e992.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/2a/0a/2a0a1543dd5f3edc407ab9989f29e992.jpg",
 		UPC: "7ffebdd1d5148aef",
 		PRICE: "40.2",
 		TAX: "0.0",
@@ -694,8 +642,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/memoirs-of-a-geisha_477/index.html",
 		PRODUCT_NAME: "Memoirs of a Geisha",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/5e/4b/5e4b5ef50c54f173456606e70719cc84.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/5e/4b/5e4b5ef50c54f173456606e70719cc84.jpg",
 		UPC: "dac4b5847454fd9b",
 		PRICE: "49.67",
 		TAX: "0.0",
@@ -708,8 +655,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/me-before-you-me-before-you-1_434/index.html",
 		PRODUCT_NAME: "Me Before You (Me Before You #1)",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/81/c3/81c36cb2510dc47892dde52f3989a53f.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/81/c3/81c36cb2510dc47892dde52f3989a53f.jpg",
 		UPC: "7a2b51f69e81c722",
 		PRICE: "19.02",
 		TAX: "0.0",
@@ -722,8 +668,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/deception-point_426/index.html",
 		PRODUCT_NAME: "Deception Point",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/65/6d/656d264685962b55ff14fb310b0ae747.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/65/6d/656d264685962b55ff14fb310b0ae747.jpg",
 		UPC: "4e3b183180e2a992",
 		PRICE: "40.32",
 		TAX: "0.0",
@@ -736,8 +681,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-little-paris-bookshop_407/index.html",
 		PRODUCT_NAME: "The Little Paris Bookshop",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/ed/25/ed2540d08b66683313ffee9241bfd926.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/ed/25/ed2540d08b66683313ffee9241bfd926.jpg",
 		UPC: "dfd9ff1f343cdaff",
 		PRICE: "24.73",
 		TAX: "0.0",
@@ -750,8 +694,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-firm_404/index.html",
 		PRODUCT_NAME: "The Firm",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/30/64/3064d8c687f770efea3fabeac0cd2d6f.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/30/64/3064d8c687f770efea3fabeac0cd2d6f.jpg",
 		UPC: "ad84f18659e6bfe2",
 		PRICE: "45.56",
 		TAX: "0.0",
@@ -764,8 +707,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-expatriates_401/index.html",
 		PRODUCT_NAME: "The Expatriates",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/4a/96/4a96cd8c43ea6c74d5b8d9ce1d47c187.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/4a/96/4a96cd8c43ea6c74d5b8d9ce1d47c187.jpg",
 		UPC: "fe7210553d56c097",
 		PRICE: "44.58",
 		TAX: "0.0",
@@ -778,8 +720,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/siddhartha_393/index.html",
 		PRODUCT_NAME: "Siddhartha",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/6b/5f/6b5fba0f415741ab61c0cf24d11933ab.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/6b/5f/6b5fba0f415741ab61c0cf24d11933ab.jpg",
 		UPC: "84bb29c53592ac40",
 		PRICE: "34.22",
 		TAX: "0.0",
@@ -792,8 +733,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/last-one-home-new-beginnings-1_383/index.html",
 		PRODUCT_NAME: "Last One Home (New Beginnings #1)",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/0b/98/0b98d840b298be76c1a982a8d1f4688f.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/0b/98/0b98d840b298be76c1a982a8d1f4688f.jpg",
 		UPC: "07e6810fd3236bda",
 		PRICE: "59.98",
 		TAX: "0.0",
@@ -806,8 +746,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/digital-fortress_369/index.html",
 		PRODUCT_NAME: "Digital Fortress",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/86/78/86786e20ec80b5b3ec66657870750b73.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/86/78/86786e20ec80b5b3ec66657870750b73.jpg",
 		UPC: "94bb629a3f6dd00b",
 		PRICE: "58.0",
 		TAX: "0.0",
@@ -820,8 +759,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/atlas-shrugged_314/index.html",
 		PRODUCT_NAME: "Atlas Shrugged",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/9d/3c/9d3c5430a627260e4a8c9ca02c8a8924.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/9d/3c/9d3c5430a627260e4a8c9ca02c8a8924.jpg",
 		UPC: "78a4ac98191ac675",
 		PRICE: "26.58",
 		TAX: "0.0",
@@ -834,8 +772,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/three-martini-lunch_290/index.html",
 		PRODUCT_NAME: "Three-Martini Lunch",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/fc/c2/fcc2f183dde593b991e01585f5df1e09.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/fc/c2/fcc2f183dde593b991e01585f5df1e09.jpg",
 		UPC: "57f755143ee96fd4",
 		PRICE: "23.21",
 		TAX: "0.0",
@@ -848,8 +785,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-nightingale_267/index.html",
 		PRODUCT_NAME: "The Nightingale",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/c6/ac/c6ac29eaf9e7de9de175d014d2132428.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/c6/ac/c6ac29eaf9e7de9de175d014d2132428.jpg",
 		UPC: "29d6d87f3418638b",
 		PRICE: "26.26",
 		TAX: "0.0",
@@ -862,8 +798,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-infinities_257/index.html",
 		PRODUCT_NAME: "The Infinities",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/c8/9e/c89ec72cf70f8d37e049223b90708a5a.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/c8/9e/c89ec72cf70f8d37e049223b90708a5a.jpg",
 		UPC: "554e9e2d532b3a87",
 		PRICE: "27.41",
 		TAX: "0.0",
@@ -876,8 +811,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-husbands-secret_256/index.html",
 		PRODUCT_NAME: "The Husband's Secret",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/95/27/9527e680e56bb3f8d9bf4e8882a3b723.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/95/27/9527e680e56bb3f8d9bf4e8882a3b723.jpg",
 		UPC: "ff6bb30dd0c482a6",
 		PRICE: "52.51",
 		TAX: "0.0",
@@ -890,8 +824,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-da-vinci-code-robert-langdon-2_240/index.html",
 		PRODUCT_NAME: "The Da Vinci Code (Robert Langdon #2)",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/90/81/90810ccd85e7f49b9040246800a19b44.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/90/81/90810ccd85e7f49b9040246800a19b44.jpg",
 		UPC: "dabf11918b48b40c",
 		PRICE: "22.96",
 		TAX: "0.0",
@@ -904,8 +837,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-art-of-fielding_228/index.html",
 		PRODUCT_NAME: "The Art of Fielding",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/8a/fe/8afee4ecfc952010bcb70f72e4728d16.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/8a/fe/8afee4ecfc952010bcb70f72e4728d16.jpg",
 		UPC: "2858ac90c4758e1f",
 		PRICE: "22.1",
 		TAX: "0.0",
@@ -918,8 +850,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/lila-gilead-3_190/index.html",
 		PRODUCT_NAME: "Lila (Gilead #3)",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/9b/37/9b37bcfb1a44dabbef36f5bf899df4b0.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/9b/37/9b37bcfb1a44dabbef36f5bf899df4b0.jpg",
 		UPC: "4ef75307fb64e2ad",
 		PRICE: "12.47",
 		TAX: "0.0",
@@ -932,8 +863,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/jurassic-park-jurassic-park-1_180/index.html",
 		PRODUCT_NAME: "Jurassic Park (Jurassic Park #1)",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/26/9e/269e8962f39f359559a46cae86576128.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/26/9e/269e8962f39f359559a46cae86576128.jpg",
 		UPC: "a0dd11f6abc421ec",
 		PRICE: "44.97",
 		TAX: "0.0",
@@ -946,8 +876,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/inferno-robert-langdon-4_176/index.html",
 		PRODUCT_NAME: "Inferno (Robert Langdon #4)",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/ec/15/ec15a39e6f193636635f20a7354b08f6.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/ec/15/ec15a39e6f193636635f20a7354b08f6.jpg",
 		UPC: "6c4646d90b60a56c",
 		PRICE: "41.0",
 		TAX: "0.0",
@@ -960,8 +889,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/crazy-rich-asians-crazy-rich-asians-1_143/index.html",
 		PRODUCT_NAME: "Crazy Rich Asians (Crazy Rich Asians #1)",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/05/37/053789bf4a9b520bf76fc9eea14e780e.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/05/37/053789bf4a9b520bf76fc9eea14e780e.jpg",
 		UPC: "c9782ad2a0ed9331",
 		PRICE: "49.13",
 		TAX: "0.0",
@@ -974,8 +902,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/big-little-lies_129/index.html",
 		PRODUCT_NAME: "Big Little Lies",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/c5/3f/c53fd6a9300ac091351e3830273a4d42.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/c5/3f/c53fd6a9300ac091351e3830273a4d42.jpg",
 		UPC: "d3f9c4539c0caa64",
 		PRICE: "22.11",
 		TAX: "0.0",
@@ -988,8 +915,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-course-of-love_109/index.html",
 		PRODUCT_NAME: "The Course of Love",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/c9/b9/c9b9ce0ea36cc737d1693ac89c5d0361.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/c9/b9/c9b9ce0ea36cc737d1693ac89c5d0361.jpg",
 		UPC: "f3c76b53b239f511",
 		PRICE: "16.78",
 		TAX: "0.0",
@@ -1002,8 +928,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/when-im-gone_95/index.html",
 		PRODUCT_NAME: "When I'm Gone",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/f8/dd/f8ddbaef30884ed017b662b4069b78d4.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/f8/dd/f8ddbaef30884ed017b662b4069b78d4.jpg",
 		UPC: "c5f91eb481427dc5",
 		PRICE: "51.96",
 		TAX: "0.0",
@@ -1016,8 +941,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-silent-wife_83/index.html",
 		PRODUCT_NAME: "The Silent Wife",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/a6/37/a6378b97d817267de38ba58dfd0db412.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/a6/37/a6378b97d817267de38ba58dfd0db412.jpg",
 		UPC: "b78deb463531d078",
 		PRICE: "12.34",
 		TAX: "0.0",
@@ -1030,8 +954,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-bette-davis-club_59/index.html",
 		PRODUCT_NAME: "The Bette Davis Club",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/fb/6c/fb6c914f1da870442031095c85f4cf80.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/fb/6c/fb6c914f1da870442031095c85f4cf80.jpg",
 		UPC: "dfb0849016bc122c",
 		PRICE: "30.66",
 		TAX: "0.0",
@@ -1044,8 +967,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/kitchens-of-the-great-midwest_28/index.html",
 		PRODUCT_NAME: "Kitchens of the Great Midwest",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/ed/be/edbe83ef3ebf5c22b9ebc139d3232947.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/ed/be/edbe83ef3ebf5c22b9ebc139d3232947.jpg",
 		UPC: "06f6a57a6d532844",
 		PRICE: "57.2",
 		TAX: "0.0",
@@ -1058,8 +980,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/bright-lines_11/index.html",
 		PRODUCT_NAME: "Bright Lines",
 		CATEGORY: "Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/26/4f/264f79395041ac4b88038030da0433cd.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/26/4f/264f79395041ac4b88038030da0433cd.jpg",
 		UPC: "230ac636ea0ea415",
 		PRICE: "39.07",
 		TAX: "0.0",
@@ -1072,8 +993,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/birdsong-a-story-in-pictures_975/index.html",
 		PRODUCT_NAME: "Birdsong: A Story in Pictures",
 		CATEGORY: "Childrens",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/af/2f/af2fe2419ea136f2cd567aa92082c3ae.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/af/2f/af2fe2419ea136f2cd567aa92082c3ae.jpg",
 		UPC: "9528d0948525bf5f",
 		PRICE: "54.64",
 		TAX: "0.0",
@@ -1086,8 +1006,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-bear-and-the-piano_967/index.html",
 		PRODUCT_NAME: "The Bear and the Piano",
 		CATEGORY: "Childrens",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/d0/87/d0876dcd1a6530a4cb54903aad7a3e28.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/d0/87/d0876dcd1a6530a4cb54903aad7a3e28.jpg",
 		UPC: "9f6568e9c95f60b0",
 		PRICE: "36.89",
 		TAX: "0.0",
@@ -1100,8 +1019,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-secret-of-dreadwillow-carse_944/index.html",
 		PRODUCT_NAME: "The Secret of Dreadwillow Carse",
 		CATEGORY: "Childrens",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/7b/fd/7bfde4a3d6793f13e9a2d8851a398847.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/7b/fd/7bfde4a3d6793f13e9a2d8851a398847.jpg",
 		UPC: "b5ea0b5dabed25a8",
 		PRICE: "56.13",
 		TAX: "0.0",
@@ -1112,11 +1030,9 @@ export const Books = [
 	{
 		ID: 80,
 		URL: "https://books.toscrape.com/catalogue/the-white-cat-and-the-monk-a-retelling-of-the-poem-pangur-ban_865/index.html",
-		PRODUCT_NAME:
-			"The White Cat and the Monk: A Retelling of the Poem “Pangur Bán”",
+		PRODUCT_NAME: "The White Cat and the Monk: A Retelling of the Poem “Pangur Bán”",
 		CATEGORY: "Childrens",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/49/0e/490e049133ee9f398e6a70f25c12e308.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/49/0e/490e049133ee9f398e6a70f25c12e308.jpg",
 		UPC: "37c0cb19713d8dda",
 		PRICE: "58.08",
 		TAX: "0.0",
@@ -1129,8 +1045,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/little-red_817/index.html",
 		PRODUCT_NAME: "Little Red",
 		CATEGORY: "Childrens",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/63/6b/636b836f5c3d67b9cda1948f5ca08694.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/63/6b/636b836f5c3d67b9cda1948f5ca08694.jpg",
 		UPC: "4aa03792b50f0b22",
 		PRICE: "13.47",
 		TAX: "0.0",
@@ -1143,8 +1058,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/walt-disneys-alice-in-wonderland_777/index.html",
 		PRODUCT_NAME: "Walt Disney's Alice in Wonderland",
 		CATEGORY: "Childrens",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/0f/65/0f65a1f2a3705c67b3d2a787ab3e8b99.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/0f/65/0f65a1f2a3705c67b3d2a787ab3e8b99.jpg",
 		UPC: "6a31307a81e8f3a8",
 		PRICE: "12.96",
 		TAX: "0.0",
@@ -1157,8 +1071,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/twenty-yawns_773/index.html",
 		PRODUCT_NAME: "Twenty Yawns",
 		CATEGORY: "Childrens",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/40/d7/40d7f9433c2f23370659c925a45fdcad.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/40/d7/40d7f9433c2f23370659c925a45fdcad.jpg",
 		UPC: "1d6443ffba9dfd80",
 		PRICE: "22.08",
 		TAX: "0.0",
@@ -1171,8 +1084,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/rain-fish_728/index.html",
 		PRODUCT_NAME: "Rain Fish",
 		CATEGORY: "Childrens",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/ea/1f/ea1f22fa3179f3f84fbadd24fe89a1fd.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/ea/1f/ea1f22fa3179f3f84fbadd24fe89a1fd.jpg",
 		UPC: "a6454e329f872b78",
 		PRICE: "23.57",
 		TAX: "0.0",
@@ -1185,8 +1097,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/once-was-a-time_724/index.html",
 		PRODUCT_NAME: "Once Was a Time",
 		CATEGORY: "Childrens",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/e6/5e/e65e45701ce6d2da8c5cf31d6208ff02.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/e6/5e/e65e45701ce6d2da8c5cf31d6208ff02.jpg",
 		UPC: "e34efcc824685332",
 		PRICE: "18.28",
 		TAX: "0.0",
@@ -1199,8 +1110,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/luis-paints-the-world_714/index.html",
 		PRODUCT_NAME: "Luis Paints the World",
 		CATEGORY: "Childrens",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/34/1e/341e9af2106811a4ca8e56ce92762580.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/34/1e/341e9af2106811a4ca8e56ce92762580.jpg",
 		UPC: "5b43cae640f2338a",
 		PRICE: "53.95",
 		TAX: "0.0",
@@ -1213,8 +1123,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/nap-a-roo_567/index.html",
 		PRODUCT_NAME: "Nap-a-Roo",
 		CATEGORY: "Childrens",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/b9/43/b9437eda691f483d2174a1b94c8c9d06.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/b9/43/b9437eda691f483d2174a1b94c8c9d06.jpg",
 		UPC: "913e7109cec0cb4c",
 		PRICE: "25.08",
 		TAX: "0.0",
@@ -1227,8 +1136,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-whale_501/index.html",
 		PRODUCT_NAME: "The Whale",
 		CATEGORY: "Childrens",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/6c/df/6cdf7a3ee6cfd5ecbcfd37bd7a5c42e3.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/6c/df/6cdf7a3ee6cfd5ecbcfd37bd7a5c42e3.jpg",
 		UPC: "0ff9d10864db8364",
 		PRICE: "35.96",
 		TAX: "0.0",
@@ -1239,11 +1147,9 @@ export const Books = [
 	{
 		ID: 89,
 		URL: "https://books.toscrape.com/catalogue/shrunken-treasures-literary-classics-short-sweet-and-silly_484/index.html",
-		PRODUCT_NAME:
-			"Shrunken Treasures: Literary Classics, Short, Sweet, and Silly",
+		PRODUCT_NAME: "Shrunken Treasures: Literary Classics, Short, Sweet, and Silly",
 		CATEGORY: "Childrens",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/7b/b9/7bb9386b43f2aeaa6eaf042df1b4e96f.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/7b/b9/7bb9386b43f2aeaa6eaf042df1b4e96f.jpg",
 		UPC: "9639e89d20228e6e",
 		PRICE: "52.87",
 		TAX: "0.0",
@@ -1256,8 +1162,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/raymie-nightingale_482/index.html",
 		PRODUCT_NAME: "Raymie Nightingale",
 		CATEGORY: "Childrens",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/95/6b/956b5a8927463f4ea0774e2469e27ce5.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/95/6b/956b5a8927463f4ea0774e2469e27ce5.jpg",
 		UPC: "31c56c4d0fe19340",
 		PRICE: "34.41",
 		TAX: "0.0",
@@ -1270,8 +1175,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/playing-from-the-heart_481/index.html",
 		PRODUCT_NAME: "Playing from the Heart",
 		CATEGORY: "Childrens",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/b6/ba/b6ba2393c312701f1471db91eb73284d.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/b6/ba/b6ba2393c312701f1471db91eb73284d.jpg",
 		UPC: "68008abf6409dfde",
 		PRICE: "32.38",
 		TAX: "0.0",
@@ -1282,11 +1186,9 @@ export const Books = [
 	{
 		ID: 92,
 		URL: "https://books.toscrape.com/catalogue/maybe-something-beautiful-how-art-transformed-a-neighborhood_386/index.html",
-		PRODUCT_NAME:
-			"Maybe Something Beautiful: How Art Transformed a Neighborhood",
+		PRODUCT_NAME: "Maybe Something Beautiful: How Art Transformed a Neighborhood",
 		CATEGORY: "Childrens",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/89/9a/899a07816ced14262169345493bbbe51.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/89/9a/899a07816ced14262169345493bbbe51.jpg",
 		UPC: "81c68492ccd72941",
 		PRICE: "22.54",
 		TAX: "0.0",
@@ -1299,8 +1201,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-wild-robot_288/index.html",
 		PRODUCT_NAME: "The Wild Robot",
 		CATEGORY: "Childrens",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/42/48/424876ee529de5b557ebd69286c87343.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/42/48/424876ee529de5b557ebd69286c87343.jpg",
 		UPC: "75fed6a47f69859d",
 		PRICE: "56.07",
 		TAX: "0.0",
@@ -1313,8 +1214,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-thing-about-jellyfish_283/index.html",
 		PRODUCT_NAME: "The Thing About Jellyfish",
 		CATEGORY: "Childrens",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/ef/d3/efd3fd5390be3a440e28b03b5bb0fd95.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/ef/d3/efd3fd5390be3a440e28b03b5bb0fd95.jpg",
 		UPC: "3d15714d4d3d15dd",
 		PRICE: "48.77",
 		TAX: "0.0",
@@ -1327,8 +1227,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-lonely-ones_261/index.html",
 		PRODUCT_NAME: "The Lonely Ones",
 		CATEGORY: "Childrens",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/ff/f6/fff64acb3c65cbea2ac9209c2a57af17.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/ff/f6/fff64acb3c65cbea2ac9209c2a57af17.jpg",
 		UPC: "cf2f27fdf94ba20e",
 		PRICE: "43.59",
 		TAX: "0.0",
@@ -1341,8 +1240,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-day-the-crayons-came-home-crayons_241/index.html",
 		PRODUCT_NAME: "The Day the Crayons Came Home (Crayons)",
 		CATEGORY: "Childrens",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/34/b2/34b2631bafd148bcd8dcd850a4b75971.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/34/b2/34b2631bafd148bcd8dcd850a4b75971.jpg",
 		UPC: "b22362b434e8ee62",
 		PRICE: "26.33",
 		TAX: "0.0",
@@ -1355,8 +1253,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-cat-in-the-hat-beginner-books-b-1_235/index.html",
 		PRODUCT_NAME: "The Cat in the Hat (Beginner Books B-1)",
 		CATEGORY: "Childrens",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/3c/45/3c4578b3f58e5b4afea86f886b201fd8.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/3c/45/3c4578b3f58e5b4afea86f886b201fd8.jpg",
 		UPC: "b7f475238ed50429",
 		PRICE: "16.26",
 		TAX: "0.0",
@@ -1369,8 +1266,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/red-the-true-story-of-red-riding-hood_210/index.html",
 		PRODUCT_NAME: "Red: The True Story of Red Riding Hood",
 		CATEGORY: "Childrens",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/9d/dd/9ddd21ce54bf11eb84bf6986decb9915.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/9d/dd/9ddd21ce54bf11eb84bf6986decb9915.jpg",
 		UPC: "4c8ece50736f9e88",
 		PRICE: "28.54",
 		TAX: "0.0",
@@ -1383,8 +1279,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/horrible-bear_168/index.html",
 		PRODUCT_NAME: "Horrible Bear!",
 		CATEGORY: "Childrens",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/9f/9c/9f9c8afb3befd7ab2629c76983445766.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/9f/9c/9f9c8afb3befd7ab2629c76983445766.jpg",
 		UPC: "cc1ac978a6835ef6",
 		PRICE: "37.52",
 		TAX: "0.0",
@@ -1397,8 +1292,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/green-eggs-and-ham-beginner-books-b-16_165/index.html",
 		PRODUCT_NAME: "Green Eggs and Ham (Beginner Books B-16)",
 		CATEGORY: "Childrens",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/38/91/38916e718a4a117d62cbb8e10c7443ff.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/38/91/38916e718a4a117d62cbb8e10c7443ff.jpg",
 		UPC: "621e2c310cec8d32",
 		PRICE: "10.79",
 		TAX: "0.0",
@@ -1411,8 +1305,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/counting-thyme_142/index.html",
 		PRODUCT_NAME: "Counting Thyme",
 		CATEGORY: "Childrens",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/1a/53/1a53aab1bf630cb7da16181d405987cc.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/1a/53/1a53aab1bf630cb7da16181d405987cc.jpg",
 		UPC: "157f693d9e600ccc",
 		PRICE: "10.62",
 		TAX: "0.0",
@@ -1425,8 +1318,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/are-we-there-yet_122/index.html",
 		PRODUCT_NAME: "Are We There Yet?",
 		CATEGORY: "Childrens",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/5d/c7/5dc7a906a9257824ae5aca5e33dfb0cd.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/5d/c7/5dc7a906a9257824ae5aca5e33dfb0cd.jpg",
 		UPC: "ef9c4f2465513956",
 		PRICE: "10.66",
 		TAX: "0.0",
@@ -1437,11 +1329,9 @@ export const Books = [
 	{
 		ID: 103,
 		URL: "https://books.toscrape.com/catalogue/diary-of-a-minecraft-zombie-book-1-a-scare-of-a-dare-an-unofficial-minecraft-book_99/index.html",
-		PRODUCT_NAME:
-			"Diary of a Minecraft Zombie Book 1: A Scare of a Dare (An Unofficial Minecraft Book)",
+		PRODUCT_NAME: "Diary of a Minecraft Zombie Book 1: A Scare of a Dare (An Unofficial Minecraft Book)",
 		CATEGORY: "Childrens",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/a8/9a/a89a1b7ffea60884f203877bb89f6ef4.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/a8/9a/a89a1b7ffea60884f203877bb89f6ef4.jpg",
 		UPC: "d7b463918d3b8c39",
 		PRICE: "52.88",
 		TAX: "0.0",
@@ -1454,8 +1344,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/matilda_32/index.html",
 		PRODUCT_NAME: "Matilda",
 		CATEGORY: "Childrens",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/3c/db/3cdb7121cf09e7c5e3436cfff9834a67.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/3c/db/3cdb7121cf09e7c5e3436cfff9834a67.jpg",
 		UPC: "1053fb7ee17a1f33",
 		PRICE: "28.34",
 		TAX: "0.0",
@@ -1468,8 +1357,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/charlie-and-the-chocolate-factory-charlie-bucket-1_13/index.html",
 		PRODUCT_NAME: "Charlie and the Chocolate Factory (Charlie Bucket #1)",
 		CATEGORY: "Childrens",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/96/df/96dfbe6533f9705d2cdccc16310910ee.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/96/df/96dfbe6533f9705d2cdccc16310910ee.jpg",
 		UPC: "1774749f2cee292f",
 		PRICE: "22.85",
 		TAX: "0.0",
@@ -1482,8 +1370,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/worlds-elsewhere-journeys-around-shakespeares-globe_972/index.html",
 		PRODUCT_NAME: "Worlds Elsewhere: Journeys Around Shakespeare’s Globe",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/7b/d9/7bd93db091d736d0c6ff9d578e3ba3d7.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/7b/d9/7bd93db091d736d0c6ff9d578e3ba3d7.jpg",
 		UPC: "4c28def39d850cdf",
 		PRICE: "40.3",
 		TAX: "0.0",
@@ -1494,11 +1381,9 @@ export const Books = [
 	{
 		ID: 107,
 		URL: "https://books.toscrape.com/catalogue/the-five-love-languages-how-to-express-heartfelt-commitment-to-your-mate_969/index.html",
-		PRODUCT_NAME:
-			"The Five Love Languages: How to Express Heartfelt Commitment to Your Mate",
+		PRODUCT_NAME: "The Five Love Languages: How to Express Heartfelt Commitment to Your Mate",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/7c/10/7c10101fe1759c5a17ba57e4bef9e764.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/7c/10/7c10101fe1759c5a17ba57e4bef9e764.jpg",
 		UPC: "3c039985229453bf",
 		PRICE: "31.05",
 		TAX: "0.0",
@@ -1511,8 +1396,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/reasons-to-stay-alive_959/index.html",
 		PRODUCT_NAME: "Reasons to Stay Alive",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/f5/3c/f53c7d21723c860cfbca2b539bc55b8f.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/f5/3c/f53c7d21723c860cfbca2b539bc55b8f.jpg",
 		UPC: "c8f7f0cb1abb9cac",
 		PRICE: "26.41",
 		TAX: "0.0",
@@ -1523,11 +1407,9 @@ export const Books = [
 	{
 		ID: 109,
 		URL: "https://books.toscrape.com/catalogue/higherselfie-wake-up-your-life-free-your-soul-find-your-tribe_957/index.html",
-		PRODUCT_NAME:
-			"#HigherSelfie: Wake Up Your Life. Free Your Soul. Find Your Tribe.",
+		PRODUCT_NAME: "#HigherSelfie: Wake Up Your Life. Free Your Soul. Find Your Tribe.",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/71/45/71451e3bba61a8d888a4a2c6526a4bcf.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/71/45/71451e3bba61a8d888a4a2c6526a4bcf.jpg",
 		UPC: "c27f6e1f185b0383",
 		PRICE: "23.11",
 		TAX: "0.0",
@@ -1541,8 +1423,7 @@ export const Books = [
 		PRODUCT_NAME:
 			"Unseen City: The Majesty of Pigeons, the Discreet Charm of Snails & Other Wonders of the Urban Wilderness",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/88/a4/88a4b5f7236b8a36ba972be5ebe4f252.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/88/a4/88a4b5f7236b8a36ba972be5ebe4f252.jpg",
 		UPC: "d170b5a0da46380e",
 		PRICE: "44.18",
 		TAX: "0.0",
@@ -1553,11 +1434,9 @@ export const Books = [
 	{
 		ID: 111,
 		URL: "https://books.toscrape.com/catalogue/throwing-rocks-at-the-google-bus-how-growth-became-the-enemy-of-prosperity_948/index.html",
-		PRODUCT_NAME:
-			"Throwing Rocks at the Google Bus: How Growth Became the Enemy of Prosperity",
+		PRODUCT_NAME: "Throwing Rocks at the Google Bus: How Growth Became the Enemy of Prosperity",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/f4/21/f4210912ca58ef35f8ad120fe3dfed38.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/f4/21/f4210912ca58ef35f8ad120fe3dfed38.jpg",
 		UPC: "7858914fad68493c",
 		PRICE: "31.12",
 		TAX: "0.0",
@@ -1568,11 +1447,9 @@ export const Books = [
 	{
 		ID: 112,
 		URL: "https://books.toscrape.com/catalogue/the-life-changing-magic-of-tidying-up-the-japanese-art-of-decluttering-and-organizing_936/index.html",
-		PRODUCT_NAME:
-			"The Life-Changing Magic of Tidying Up: The Japanese Art of Decluttering and Organizing",
+		PRODUCT_NAME: "The Life-Changing Magic of Tidying Up: The Japanese Art of Decluttering and Organizing",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/26/65/2665876e19a6c92130f02cfda3bd3846.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/26/65/2665876e19a6c92130f02cfda3bd3846.jpg",
 		UPC: "0da9aa9d24677fc0",
 		PRICE: "16.77",
 		TAX: "0.0",
@@ -1583,11 +1460,9 @@ export const Books = [
 	{
 		ID: 113,
 		URL: "https://books.toscrape.com/catalogue/the-gutsy-girl-escapades-for-your-life-of-epic-adventure_934/index.html",
-		PRODUCT_NAME:
-			"The Gutsy Girl: Escapades for Your Life of Epic Adventure",
+		PRODUCT_NAME: "The Gutsy Girl: Escapades for Your Life of Epic Adventure",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/73/cb/73cb1236d96f455d712516fffeae2304.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/73/cb/73cb1236d96f455d712516fffeae2304.jpg",
 		UPC: "acd86a5426e21ca0",
 		PRICE: "37.13",
 		TAX: "0.0",
@@ -1598,11 +1473,9 @@ export const Books = [
 	{
 		ID: 114,
 		URL: "https://books.toscrape.com/catalogue/the-electric-pencil-drawings-from-inside-state-hospital-no-3_933/index.html",
-		PRODUCT_NAME:
-			"The Electric Pencil: Drawings from Inside State Hospital No. 3",
+		PRODUCT_NAME: "The Electric Pencil: Drawings from Inside State Hospital No. 3",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/b1/0f/b10faf0dee8994865437ffc79682dc2f.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/b1/0f/b10faf0dee8994865437ffc79682dc2f.jpg",
 		UPC: "a30b270e25489e5c",
 		PRICE: "56.06",
 		TAX: "0.0",
@@ -1613,11 +1486,9 @@ export const Books = [
 	{
 		ID: 115,
 		URL: "https://books.toscrape.com/catalogue/spark-joy-an-illustrated-master-class-on-the-art-of-organizing-and-tidying-up_927/index.html",
-		PRODUCT_NAME:
-			"Spark Joy: An Illustrated Master Class on the Art of Organizing and Tidying Up",
+		PRODUCT_NAME: "Spark Joy: An Illustrated Master Class on the Art of Organizing and Tidying Up",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/17/19/1719475c51206a410a90fe5f3708df4c.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/17/19/1719475c51206a410a90fe5f3708df4c.jpg",
 		UPC: "87b0615b6e1f4d7b",
 		PRICE: "41.83",
 		TAX: "0.0",
@@ -1628,11 +1499,9 @@ export const Books = [
 	{
 		ID: 116,
 		URL: "https://books.toscrape.com/catalogue/reskilling-america-learning-to-labor-in-the-twenty-first-century_922/index.html",
-		PRODUCT_NAME:
-			"Reskilling America: Learning to Labor in the Twenty-First Century",
+		PRODUCT_NAME: "Reskilling America: Learning to Labor in the Twenty-First Century",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/2c/d2/2cd2b814b8a8cd3a49895cbd13a8b1f4.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/2c/d2/2cd2b814b8a8cd3a49895cbd13a8b1f4.jpg",
 		UPC: "d7310206583a54b6",
 		PRICE: "19.83",
 		TAX: "0.0",
@@ -1645,8 +1514,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/in-the-country-we-love-my-family-divided_901/index.html",
 		PRODUCT_NAME: "In the Country We Love: My Family Divided",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/11/08/1108a8d9ebccd9cd474012121c32a7f5.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/11/08/1108a8d9ebccd9cd474012121c32a7f5.jpg",
 		UPC: "b136b1b180ca753a",
 		PRICE: "22.0",
 		TAX: "0.0",
@@ -1657,11 +1525,9 @@ export const Books = [
 	{
 		ID: 118,
 		URL: "https://books.toscrape.com/catalogue/everydata-the-misinformation-hidden-in-the-little-data-you-consume-every-day_891/index.html",
-		PRODUCT_NAME:
-			"Everydata: The Misinformation Hidden in the Little Data You Consume Every Day",
+		PRODUCT_NAME: "Everydata: The Misinformation Hidden in the Little Data You Consume Every Day",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/15/97/15972684c6f44f1be5e751d2e067cc16.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/15/97/15972684c6f44f1be5e751d2e067cc16.jpg",
 		UPC: "311c0dd0e354a33e",
 		PRICE: "54.35",
 		TAX: "0.0",
@@ -1672,11 +1538,9 @@ export const Books = [
 	{
 		ID: 119,
 		URL: "https://books.toscrape.com/catalogue/call-the-nurse-true-stories-of-a-country-nurse-on-a-scottish-isle_885/index.html",
-		PRODUCT_NAME:
-			"Call the Nurse: True Stories of a Country Nurse on a Scottish Isle",
+		PRODUCT_NAME: "Call the Nurse: True Stories of a Country Nurse on a Scottish Isle",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/c5/f2/c5f2361aab546bc7f851cf93aec94ca3.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/c5/f2/c5f2361aab546bc7f851cf93aec94ca3.jpg",
 		UPC: "bee3672891cca906",
 		PRICE: "29.14",
 		TAX: "0.0",
@@ -1687,11 +1551,9 @@ export const Books = [
 	{
 		ID: 120,
 		URL: "https://books.toscrape.com/catalogue/algorithms-to-live-by-the-computer-science-of-human-decisions_880/index.html",
-		PRODUCT_NAME:
-			"Algorithms to Live By: The Computer Science of Human Decisions",
+		PRODUCT_NAME: "Algorithms to Live By: The Computer Science of Human Decisions",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/28/ea/28ea530a8b7955e422df64beaed7871a.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/28/ea/28ea530a8b7955e422df64beaed7871a.jpg",
 		UPC: "38d45839cb1c83c1",
 		PRICE: "30.81",
 		TAX: "0.0",
@@ -1704,8 +1566,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-power-of-now-a-guide-to-spiritual-enlightenment_855/index.html",
 		PRODUCT_NAME: "The Power of Now: A Guide to Spiritual Enlightenment",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/13/2a/132a17f55f0048a2f2df748c9f5ce4e4.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/13/2a/132a17f55f0048a2f2df748c9f5ce4e4.jpg",
 		UPC: "8ec14b1576cb7cb5",
 		PRICE: "43.54",
 		TAX: "0.0",
@@ -1718,8 +1579,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-omnivores-dilemma-a-natural-history-of-four-meals_854/index.html",
 		PRODUCT_NAME: "The Omnivore's Dilemma: A Natural History of Four Meals",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/3d/9d/3d9d46815a4be5e5e6f5e641d8268961.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/3d/9d/3d9d46815a4be5e5e6f5e641d8268961.jpg",
 		UPC: "209adad1015af86f",
 		PRICE: "38.21",
 		TAX: "0.0",
@@ -1732,8 +1592,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-genius-of-birds_843/index.html",
 		PRODUCT_NAME: "The Genius of Birds",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/2e/52/2e52982210cbc8dffe414cab72b52e38.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/2e/52/2e52982210cbc8dffe414cab72b52e38.jpg",
 		UPC: "42d0d7c92b75fc1c",
 		PRICE: "17.24",
 		TAX: "0.0",
@@ -1746,8 +1605,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-artists-way-a-spiritual-path-to-higher-creativity_839/index.html",
 		PRODUCT_NAME: "The Artist's Way: A Spiritual Path to Higher Creativity",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/3b/41/3b414b6d0340a0cbbd05be0942ddaada.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/3b/41/3b414b6d0340a0cbbd05be0942ddaada.jpg",
 		UPC: "dd047728de72ad62",
 		PRICE: "38.49",
 		TAX: "0.0",
@@ -1760,8 +1618,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/so-youve-been-publicly-shamed_832/index.html",
 		PRODUCT_NAME: "So You've Been Publicly Shamed",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/9d/15/9d150a1d5832bb9e3b82bbc1541912d6.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/9d/15/9d150a1d5832bb9e3b82bbc1541912d6.jpg",
 		UPC: "1b33663ad7b95fd8",
 		PRICE: "12.23",
 		TAX: "0.0",
@@ -1775,8 +1632,7 @@ export const Books = [
 		PRODUCT_NAME:
 			"Daring Greatly: How the Courage to Be Vulnerable Transforms the Way We Live, Love, Parent, and Lead",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/38/ea/38ea04e1e16ebef78fd2595771fe2287.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/38/ea/38ea04e1e16ebef78fd2595771fe2287.jpg",
 		UPC: "3b9a3b4624b7fd6d",
 		PRICE: "19.43",
 		TAX: "0.0",
@@ -1789,8 +1645,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/big-magic-creative-living-beyond-fear_796/index.html",
 		PRODUCT_NAME: "Big Magic: Creative Living Beyond Fear",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/78/a6/78a64cdef1ea38f3ddcc77f5e3fac5fd.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/78/a6/78a64cdef1ea38f3ddcc77f5e3fac5fd.jpg",
 		UPC: "1f329c2e7d7de8bd",
 		PRICE: "30.8",
 		TAX: "0.0",
@@ -1801,11 +1656,9 @@ export const Books = [
 	{
 		ID: 128,
 		URL: "https://books.toscrape.com/catalogue/becoming-wise-an-inquiry-into-the-mystery-and-art-of-living_795/index.html",
-		PRODUCT_NAME:
-			"Becoming Wise: An Inquiry into the Mystery and Art of Living",
+		PRODUCT_NAME: "Becoming Wise: An Inquiry into the Mystery and Art of Living",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/33/65/3365a493bba6856798437c3e341a1e5d.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/33/65/3365a493bba6856798437c3e341a1e5d.jpg",
 		UPC: "919e7cb2269a25d2",
 		PRICE: "27.43",
 		TAX: "0.0",
@@ -1818,8 +1671,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/agnostic-a-spirited-manifesto_786/index.html",
 		PRODUCT_NAME: "Agnostic: A Spirited Manifesto",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/66/03/6603ceb9ac44fb012f8bf54383bc0165.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/66/03/6603ceb9ac44fb012f8bf54383bc0165.jpg",
 		UPC: "d195e7f4ed697350",
 		PRICE: "12.51",
 		TAX: "0.0",
@@ -1833,8 +1685,7 @@ export const Books = [
 		PRODUCT_NAME:
 			"Whole Lotta Creativity Going On: 60 Fun and Unusual Exercises to Awaken and Strengthen Your Creativity",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/e3/d5/e3d59328474571d53aad7d07144e2ef0.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/e3/d5/e3d59328474571d53aad7d07144e2ef0.jpg",
 		UPC: "44a10f1ac8ce822e",
 		PRICE: "38.2",
 		TAX: "0.0",
@@ -1845,11 +1696,9 @@ export const Books = [
 	{
 		ID: 131,
 		URL: "https://books.toscrape.com/catalogue/whats-it-like-in-space-stories-from-astronauts-whove-been-there_779/index.html",
-		PRODUCT_NAME:
-			"What's It Like in Space?: Stories from Astronauts Who've Been There",
+		PRODUCT_NAME: "What's It Like in Space?: Stories from Astronauts Who've Been There",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/96/6f/966f1fe13d231041bb516c281a675646.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/96/6f/966f1fe13d231041bb516c281a675646.jpg",
 		UPC: "6fd646a334e6e133",
 		PRICE: "19.6",
 		TAX: "0.0",
@@ -1862,8 +1711,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-year-of-magical-thinking_770/index.html",
 		PRODUCT_NAME: "The Year of Magical Thinking",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/06/2a/062af372ae666a16fa7e67ced2d1187c.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/06/2a/062af372ae666a16fa7e67ced2d1187c.jpg",
 		UPC: "34c0d7c4ee5650af",
 		PRICE: "43.04",
 		TAX: "0.0",
@@ -1876,8 +1724,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-literature-book-big-ideas-simply-explained_755/index.html",
 		PRODUCT_NAME: "The Literature Book (Big Ideas Simply Explained)",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/b7/95/b79552e4f08ebad6516f6ddefbb7bd92.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/b7/95/b79552e4f08ebad6516f6ddefbb7bd92.jpg",
 		UPC: "4881cc53f6c8892f",
 		PRICE: "17.43",
 		TAX: "0.0",
@@ -1891,8 +1738,7 @@ export const Books = [
 		PRODUCT_NAME:
 			"The Bad-Ass Librarians of Timbuktu: And Their Race to Save the World’s Most Precious Manuscripts",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/c4/d7/c4d78673f6228b246d5d547c29eaa58b.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/c4/d7/c4d78673f6228b246d5d547c29eaa58b.jpg",
 		UPC: "923831a05c9f91f7",
 		PRICE: "15.77",
 		TAX: "0.0",
@@ -1905,8 +1751,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/swell-a-year-of-waves_740/index.html",
 		PRODUCT_NAME: "Swell: A Year of Waves",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/7d/a6/7da658ca2d3fce1a9958fb754a179ba8.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/7d/a6/7da658ca2d3fce1a9958fb754a179ba8.jpg",
 		UPC: "4c8b7540409da4ac",
 		PRICE: "45.58",
 		TAX: "0.0",
@@ -1917,11 +1762,9 @@ export const Books = [
 	{
 		ID: 136,
 		URL: "https://books.toscrape.com/catalogue/no-dream-is-too-high-life-lessons-from-a-man-who-walked-on-the-moon_722/index.html",
-		PRODUCT_NAME:
-			"No Dream Is Too High: Life Lessons From a Man Who Walked on the Moon",
+		PRODUCT_NAME: "No Dream Is Too High: Life Lessons From a Man Who Walked on the Moon",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/c6/e5/c6e596ddbcd5d5f448d1bae14f2e09d3.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/c6/e5/c6e596ddbcd5d5f448d1bae14f2e09d3.jpg",
 		UPC: "132ec5e8c984adef",
 		PRICE: "21.95",
 		TAX: "0.0",
@@ -1934,8 +1777,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/looking-for-lovely-collecting-the-moments-that-matter_710/index.html",
 		PRODUCT_NAME: "Looking for Lovely: Collecting the Moments that Matter",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/f8/c7/f8c761844f257fed04cce95f9506cba4.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/f8/c7/f8c761844f257fed04cce95f9506cba4.jpg",
 		UPC: "24af96df0bafb925",
 		PRICE: "29.14",
 		TAX: "0.0",
@@ -1948,8 +1790,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/let-it-out-a-journey-through-journaling_708/index.html",
 		PRODUCT_NAME: "Let It Out: A Journey Through Journaling",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/2c/15/2c157b05b7b7014be2a05a5bdeca80e7.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/2c/15/2c157b05b7b7014be2a05a5bdeca80e7.jpg",
 		UPC: "1174156c4a0eccaa",
 		PRICE: "26.79",
 		TAX: "0.0",
@@ -1962,8 +1803,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/hamilton-the-revolution_699/index.html",
 		PRODUCT_NAME: "Hamilton: The Revolution",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/03/1f/031f508a4a8ef70743ea7e9d4f598d38.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/03/1f/031f508a4a8ef70743ea7e9d4f598d38.jpg",
 		UPC: "afa829857f82f99e",
 		PRICE: "58.79",
 		TAX: "0.0",
@@ -1974,11 +1814,9 @@ export const Books = [
 	{
 		ID: 140,
 		URL: "https://books.toscrape.com/catalogue/far-away-places-on-the-brink-of-change-seven-continents-twenty-five-years_694/index.html",
-		PRODUCT_NAME:
-			"Far & Away: Places on the Brink of Change: Seven Continents, Twenty-Five Years",
+		PRODUCT_NAME: "Far & Away: Places on the Brink of Change: Seven Continents, Twenty-Five Years",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/65/c4/65c4530fe298242e8b64c9ab8dd0c2d6.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/65/c4/65c4530fe298242e8b64c9ab8dd0c2d6.jpg",
 		UPC: "ac4dde0d1be05de0",
 		PRICE: "15.06",
 		TAX: "0.0",
@@ -1992,8 +1830,7 @@ export const Books = [
 		PRODUCT_NAME:
 			"Eaternity: More than 150 Deliciously Easy Vegan Recipes for a Long, Healthy, Satisfied, Joyful Life",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/8e/93/8e93f7095bcb98006b620dae07ef5514.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/8e/93/8e93f7095bcb98006b620dae07ef5514.jpg",
 		UPC: "a01f6d368ef64dc5",
 		PRICE: "51.75",
 		TAX: "0.0",
@@ -2004,11 +1841,9 @@ export const Books = [
 	{
 		ID: 142,
 		URL: "https://books.toscrape.com/catalogue/buying-in-the-secret-dialogue-between-what-we-buy-and-who-we-are_670/index.html",
-		PRODUCT_NAME:
-			"Buying In: The Secret Dialogue Between What We Buy and Who We Are",
+		PRODUCT_NAME: "Buying In: The Secret Dialogue Between What We Buy and Who We Are",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/db/36/db3686ef6b30490998c1b24dbdf730d8.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/db/36/db3686ef6b30490998c1b24dbdf730d8.jpg",
 		UPC: "16ef91b9d827859c",
 		PRICE: "37.8",
 		TAX: "0.0",
@@ -2021,8 +1856,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/brain-on-fire-my-month-of-madness_669/index.html",
 		PRODUCT_NAME: "Brain on Fire: My Month of Madness",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/03/2c/032c97318d71f028d40ab6f5d2ae023f.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/03/2c/032c97318d71f028d40ab6f5d2ae023f.jpg",
 		UPC: "a80f66b254fe9eb3",
 		PRICE: "49.32",
 		TAX: "0.0",
@@ -2035,8 +1869,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/abstract-city_658/index.html",
 		PRODUCT_NAME: "Abstract City",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/5f/5e/5f5e2741d6c84f05fdd5adf8ba0d5642.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/5f/5e/5f5e2741d6c84f05fdd5adf8ba0d5642.jpg",
 		UPC: "cf1aa2fc02a7d1e0",
 		PRICE: "56.37",
 		TAX: "0.0",
@@ -2047,11 +1880,9 @@ export const Books = [
 	{
 		ID: 145,
 		URL: "https://books.toscrape.com/catalogue/13-hours-the-inside-account-of-what-really-happened-in-benghazi_645/index.html",
-		PRODUCT_NAME:
-			"13 Hours: The Inside Account of What Really Happened In Benghazi",
+		PRODUCT_NAME: "13 Hours: The Inside Account of What Really Happened In Benghazi",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/db/8d/db8dda82c57fd0c2b466d40c04ed6075.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/db/8d/db8dda82c57fd0c2b466d40c04ed6075.jpg",
 		UPC: "4be9d1910f8a4e80",
 		PRICE: "27.06",
 		TAX: "0.0",
@@ -2064,8 +1895,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-lonely-city-adventures-in-the-art-of-being-alone_639/index.html",
 		PRODUCT_NAME: "The Lonely City: Adventures in the Art of Being Alone",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/79/66/79660d2683a90670aa014cae6e02b2dc.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/79/66/79660d2683a90670aa014cae6e02b2dc.jpg",
 		UPC: "582a21a1dbbef3cf",
 		PRICE: "33.26",
 		TAX: "0.0",
@@ -2078,8 +1908,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-diary-of-a-young-girl_634/index.html",
 		PRODUCT_NAME: "The Diary of a Young Girl",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/eb/26/eb2622ca0a304963d3bac0efa1bad775.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/eb/26/eb2622ca0a304963d3bac0efa1bad775.jpg",
 		UPC: "54fc03f1e1d355db",
 		PRICE: "59.9",
 		TAX: "0.0",
@@ -2090,11 +1919,9 @@ export const Books = [
 	{
 		ID: 148,
 		URL: "https://books.toscrape.com/catalogue/snatched-how-a-drug-queen-went-undercover-for-the-dea-and-was-kidnapped-by-colombian-guerillas_631/index.html",
-		PRODUCT_NAME:
-			"Snatched: How A Drug Queen Went Undercover for the DEA and Was Kidnapped By Colombian Guerillas",
+		PRODUCT_NAME: "Snatched: How A Drug Queen Went Undercover for the DEA and Was Kidnapped By Colombian Guerillas",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/17/95/17955609393fb4348e2321228d3e3e4f.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/17/95/17955609393fb4348e2321228d3e3e4f.jpg",
 		UPC: "f40fea200e0c644f",
 		PRICE: "21.21",
 		TAX: "0.0",
@@ -2107,8 +1934,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/furiously-happy-a-funny-book-about-horrible-things_619/index.html",
 		PRODUCT_NAME: "Furiously Happy: A Funny Book About Horrible Things",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/28/4c/284c3b0cbb254825f5bfd60e89d936af.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/28/4c/284c3b0cbb254825f5bfd60e89d936af.jpg",
 		UPC: "c6a29d6df8de968c",
 		PRICE: "41.46",
 		TAX: "0.0",
@@ -2119,11 +1945,9 @@ export const Books = [
 	{
 		ID: 150,
 		URL: "https://books.toscrape.com/catalogue/the-sleep-revolution-transforming-your-life-one-night-at-a-time_608/index.html",
-		PRODUCT_NAME:
-			"The Sleep Revolution: Transforming Your Life, One Night at a Time",
+		PRODUCT_NAME: "The Sleep Revolution: Transforming Your Life, One Night at a Time",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/b7/6a/b76a8c5c12390d9259b6235115ebf024.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/b7/6a/b76a8c5c12390d9259b6235115ebf024.jpg",
 		UPC: "985991708c47003e",
 		PRICE: "11.68",
 		TAX: "0.0",
@@ -2136,8 +1960,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/mother-can-you-not_599/index.html",
 		PRODUCT_NAME: "Mother, Can You Not?",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/88/b4/88b464746c5882cc605827a0521ddcea.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/88/b4/88b464746c5882cc605827a0521ddcea.jpg",
 		UPC: "28b2df9fadc9f07e",
 		PRICE: "16.89",
 		TAX: "0.0",
@@ -2148,11 +1971,9 @@ export const Books = [
 	{
 		ID: 152,
 		URL: "https://books.toscrape.com/catalogue/a-mothers-reckoning-living-in-the-aftermath-of-tragedy_585/index.html",
-		PRODUCT_NAME:
-			"A Mother's Reckoning: Living in the Aftermath of Tragedy",
+		PRODUCT_NAME: "A Mother's Reckoning: Living in the Aftermath of Tragedy",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/32/86/32861b2d37c7b8da7bbce3a86a27123b.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/32/86/32861b2d37c7b8da7bbce3a86a27123b.jpg",
 		UPC: "2b69dec0193511d9",
 		PRICE: "19.53",
 		TAX: "0.0",
@@ -2166,8 +1987,7 @@ export const Books = [
 		PRODUCT_NAME:
 			"10% Happier: How I Tamed the Voice in My Head, Reduced Stress Without Losing My Edge, and Found Self-Help That Actually Works",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/dd/89/dd8974991a279418738f38d5561979c4.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/dd/89/dd8974991a279418738f38d5561979c4.jpg",
 		UPC: "34669b2e9d407d3a",
 		PRICE: "24.57",
 		TAX: "0.0",
@@ -2178,11 +1998,9 @@ export const Books = [
 	{
 		ID: 154,
 		URL: "https://books.toscrape.com/catalogue/chernobyl-012340-the-incredible-true-story-of-the-worlds-worst-nuclear-disaster_560/index.html",
-		PRODUCT_NAME:
-			"Chernobyl 01:23:40: The Incredible True Story of the World's Worst Nuclear Disaster",
+		PRODUCT_NAME: "Chernobyl 01:23:40: The Incredible True Story of the World's Worst Nuclear Disaster",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/58/4a/584ac01e05ae76b1672f25a53384c617.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/58/4a/584ac01e05ae76b1672f25a53384c617.jpg",
 		UPC: "7186241e043de5dc",
 		PRICE: "35.92",
 		TAX: "0.0",
@@ -2193,11 +2011,9 @@ export const Books = [
 	{
 		ID: 155,
 		URL: "https://books.toscrape.com/catalogue/zero-to-one-notes-on-startups-or-how-to-build-the-future_555/index.html",
-		PRODUCT_NAME:
-			"Zero to One: Notes on Startups, or How to Build the Future",
+		PRODUCT_NAME: "Zero to One: Notes on Startups, or How to Build the Future",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/f3/00/f30001f2851f82c266e2faa77bcdd924.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/f3/00/f30001f2851f82c266e2faa77bcdd924.jpg",
 		UPC: "e77033ce559947f7",
 		PRICE: "34.06",
 		TAX: "0.0",
@@ -2210,8 +2026,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/why-not-me_554/index.html",
 		PRODUCT_NAME: "Why Not Me?",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/66/95/6695cfb7ba5e0a6ef995300db6762fb6.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/66/95/6695cfb7ba5e0a6ef995300db6762fb6.jpg",
 		UPC: "04f6c929888f4f11",
 		PRICE: "17.76",
 		TAX: "0.0",
@@ -2224,8 +2039,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/when-breath-becomes-air_553/index.html",
 		PRODUCT_NAME: "When Breath Becomes Air",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/26/9d/269d1774be6dd9e649c4170fbc8d27eb.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/26/9d/269d1774be6dd9e649c4170fbc8d27eb.jpg",
 		UPC: "b69c852e7e3956af",
 		PRICE: "39.36",
 		TAX: "0.0",
@@ -2236,11 +2050,9 @@ export const Books = [
 	{
 		ID: 158,
 		URL: "https://books.toscrape.com/catalogue/the-midnight-assassin-panic-scandal-and-the-hunt-for-americas-first-serial-killer_549/index.html",
-		PRODUCT_NAME:
-			"The Midnight Assassin: Panic, Scandal, and the Hunt for America's First Serial Killer",
+		PRODUCT_NAME: "The Midnight Assassin: Panic, Scandal, and the Hunt for America's First Serial Killer",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/38/ec/38ec5240eb37dfc9ebe54fa7584842ed.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/38/ec/38ec5240eb37dfc9ebe54fa7584842ed.jpg",
 		UPC: "5a0d2e9284004266",
 		PRICE: "28.45",
 		TAX: "0.0",
@@ -2251,11 +2063,9 @@ export const Books = [
 	{
 		ID: 159,
 		URL: "https://books.toscrape.com/catalogue/smarter-faster-better-the-secrets-of-being-productive-in-life-and-business_543/index.html",
-		PRODUCT_NAME:
-			"Smarter Faster Better: The Secrets of Being Productive in Life and Business",
+		PRODUCT_NAME: "Smarter Faster Better: The Secrets of Being Productive in Life and Business",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/16/65/1665c94f1ec5580132a16c3bdfd0c421.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/16/65/1665c94f1ec5580132a16c3bdfd0c421.jpg",
 		UPC: "a2475a245c9907c4",
 		PRICE: "38.89",
 		TAX: "0.0",
@@ -2268,8 +2078,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/rising-strong_539/index.html",
 		PRODUCT_NAME: "Rising Strong",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/de/5c/de5c4ea75d455748861ce2bc844fb198.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/de/5c/de5c4ea75d455748861ce2bc844fb198.jpg",
 		UPC: "52fc458ffc756faf",
 		PRICE: "21.82",
 		TAX: "0.0",
@@ -2282,8 +2091,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/mans-search-for-meaning_533/index.html",
 		PRODUCT_NAME: "Man's Search for Meaning",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/97/da/97dac3668fcca2cf5af4e1bb971af546.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/97/da/97dac3668fcca2cf5af4e1bb971af546.jpg",
 		UPC: "4729afff3bea0f0a",
 		PRICE: "29.48",
 		TAX: "0.0",
@@ -2297,8 +2105,7 @@ export const Books = [
 		PRODUCT_NAME:
 			"Love That Boy: What Two Presidents, Eight Road Trips, and My Son Taught Me About a Parent's Expectations",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/00/6e/006e242a10f2e27b71edfd1ca8020318.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/00/6e/006e242a10f2e27b71edfd1ca8020318.jpg",
 		UPC: "4d3a4c7b442a9a4e",
 		PRICE: "25.06",
 		TAX: "0.0",
@@ -2309,11 +2116,9 @@ export const Books = [
 	{
 		ID: 163,
 		URL: "https://books.toscrape.com/catalogue/living-forward-a-proven-plan-to-stop-drifting-and-get-the-life-you-want_531/index.html",
-		PRODUCT_NAME:
-			"Living Forward: A Proven Plan to Stop Drifting and Get the Life You Want",
+		PRODUCT_NAME: "Living Forward: A Proven Plan to Stop Drifting and Get the Life You Want",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/06/bf/06bf33339562e138906eef6793ef53cd.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/06/bf/06bf33339562e138906eef6793ef53cd.jpg",
 		UPC: "044534b0b28b4e87",
 		PRICE: "12.55",
 		TAX: "0.0",
@@ -2326,8 +2131,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/i-will-find-you_524/index.html",
 		PRODUCT_NAME: "I Will Find You",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/58/08/58080dbe2c118867331f4ef932ca96c0.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/58/08/58080dbe2c118867331f4ef932ca96c0.jpg",
 		UPC: "bbf1ea50be8008ab",
 		PRICE: "44.21",
 		TAX: "0.0",
@@ -2340,8 +2144,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/brazen-the-courage-to-find-the-you-thats-been-hiding_514/index.html",
 		PRODUCT_NAME: "Brazen: The Courage to Find the You That's Been Hiding",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/4c/54/4c5479ee2b9edd4b2f22b888d139b08f.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/4c/54/4c5479ee2b9edd4b2f22b888d139b08f.jpg",
 		UPC: "77e9ea355bd8ae57",
 		PRICE: "19.22",
 		TAX: "0.0",
@@ -2354,8 +2157,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/between-the-world-and-me_513/index.html",
 		PRODUCT_NAME: "Between the World and Me",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/35/5f/355fa36362b722a241788d687fbc91af.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/35/5f/355fa36362b722a241788d687fbc91af.jpg",
 		UPC: "04e3de7ac35ec5cd",
 		PRICE: "56.91",
 		TAX: "0.0",
@@ -2368,8 +2170,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/being-mortal-medicine-and-what-matters-in-the-end_512/index.html",
 		PRODUCT_NAME: "Being Mortal: Medicine and What Matters in the End",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/73/ee/73ee61bd8724a36a83b691bb7b1a70b8.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/73/ee/73ee61bd8724a36a83b691bb7b1a70b8.jpg",
 		UPC: "15ebd83e53d0391b",
 		PRICE: "55.06",
 		TAX: "0.0",
@@ -2382,8 +2183,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/a-murder-over-a-girl-justice-gender-junior-high_511/index.html",
 		PRODUCT_NAME: "A Murder Over a Girl: Justice, Gender, Junior High",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/98/e3/98e30c1a7b9f2acd9e44d77e0a7dbff1.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/98/e3/98e30c1a7b9f2acd9e44d77e0a7dbff1.jpg",
 		UPC: "fef91502cbacf23a",
 		PRICE: "13.2",
 		TAX: "0.0",
@@ -2394,11 +2194,9 @@ export const Books = [
 	{
 		ID: 169,
 		URL: "https://books.toscrape.com/catalogue/for-the-love-fighting-for-grace-in-a-world-of-impossible-standards_467/index.html",
-		PRODUCT_NAME:
-			"For the Love: Fighting for Grace in a World of Impossible Standards",
+		PRODUCT_NAME: "For the Love: Fighting for Grace in a World of Impossible Standards",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/a9/f4/a9f4d0f649833b477383263a8c5fb217.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/a9/f4/a9f4d0f649833b477383263a8c5fb217.jpg",
 		UPC: "2e40333991f56f45",
 		PRICE: "45.13",
 		TAX: "0.0",
@@ -2411,8 +2209,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/finding-god-in-the-ruins-how-god-redeems-pain_466/index.html",
 		PRODUCT_NAME: "Finding God in the Ruins: How God Redeems Pain",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/da/0f/da0f0c01b1b9819fa7cb5e27a295351f.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/da/0f/da0f0c01b1b9819fa7cb5e27a295351f.jpg",
 		UPC: "4e78f06160b717ac",
 		PRICE: "46.64",
 		TAX: "0.0",
@@ -2423,11 +2220,9 @@ export const Books = [
 	{
 		ID: 171,
 		URL: "https://books.toscrape.com/catalogue/the-man-who-mistook-his-wife-for-a-hat-and-other-clinical-tales_451/index.html",
-		PRODUCT_NAME:
-			"The Man Who Mistook His Wife for a Hat and Other Clinical Tales",
+		PRODUCT_NAME: "The Man Who Mistook His Wife for a Hat and Other Clinical Tales",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/d7/58/d758851b2790471b1de776f49a997157.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/d7/58/d758851b2790471b1de776f49a997157.jpg",
 		UPC: "60376aa71be66083",
 		PRICE: "59.45",
 		TAX: "0.0",
@@ -2440,8 +2235,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/in-cold-blood_432/index.html",
 		PRODUCT_NAME: "In Cold Blood",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/78/52/7852b87face58f30b46004a4a4270f2d.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/78/52/7852b87face58f30b46004a4a4270f2d.jpg",
 		UPC: "fe0f34ebed689381",
 		PRICE: "49.98",
 		TAX: "0.0",
@@ -2454,8 +2248,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/girl-interrupted_429/index.html",
 		PRODUCT_NAME: "Girl, Interrupted",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/9d/6c/9d6c5f23127bf494bc226daa02bc7daf.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/9d/6c/9d6c5f23127bf494bc226daa02bc7daf.jpg",
 		UPC: "384c7d41d5ffe9d1",
 		PRICE: "42.14",
 		TAX: "0.0",
@@ -2466,11 +2259,9 @@ export const Books = [
 	{
 		ID: 174,
 		URL: "https://books.toscrape.com/catalogue/why-save-the-bankers-and-other-essays-on-our-economic-and-political-crisis_418/index.html",
-		PRODUCT_NAME:
-			"Why Save the Bankers?: And Other Essays on Our Economic and Political Crisis",
+		PRODUCT_NAME: "Why Save the Bankers?: And Other Essays on Our Economic and Political Crisis",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/be/98/be98641184d97b2fad1bc6c90c571b80.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/be/98/be98641184d97b2fad1bc6c90c571b80.jpg",
 		UPC: "759ee7d059b1beb8",
 		PRICE: "48.67",
 		TAX: "0.0",
@@ -2481,11 +2272,9 @@ export const Books = [
 	{
 		ID: 175,
 		URL: "https://books.toscrape.com/catalogue/talking-to-girls-about-duran-duran-one-young-mans-quest-for-true-love-and-a-cooler-haircut_394/index.html",
-		PRODUCT_NAME:
-			"Talking to Girls About Duran Duran: One Young Man's Quest for True Love and a Cooler Haircut",
+		PRODUCT_NAME: "Talking to Girls About Duran Duran: One Young Man's Quest for True Love and a Cooler Haircut",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/5d/62/5d62099546e3889ad385b13c62bc8874.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/5d/62/5d62099546e3889ad385b13c62bc8874.jpg",
 		UPC: "1dba84766a5e87b8",
 		PRICE: "25.15",
 		TAX: "0.0",
@@ -2498,8 +2287,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/my-mother-was-nuts_388/index.html",
 		PRODUCT_NAME: "My Mother Was Nuts",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/65/67/6567e9868a3d1196f32c063c0f73ea01.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/65/67/6567e9868a3d1196f32c063c0f73ea01.jpg",
 		UPC: "a4ce39a3720cd679",
 		PRICE: "31.63",
 		TAX: "0.0",
@@ -2510,11 +2298,9 @@ export const Books = [
 	{
 		ID: 177,
 		URL: "https://books.toscrape.com/catalogue/data-a-love-story-how-i-gamed-online-dating-to-meet-my-match_367/index.html",
-		PRODUCT_NAME:
-			"Data, A Love Story: How I Gamed Online Dating to Meet My Match",
+		PRODUCT_NAME: "Data, A Love Story: How I Gamed Online Dating to Meet My Match",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/f2/c5/f2c56824a5aef38387350243762216eb.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/f2/c5/f2c56824a5aef38387350243762216eb.jpg",
 		UPC: "bcf567421c581f0a",
 		PRICE: "32.35",
 		TAX: "0.0",
@@ -2525,11 +2311,9 @@ export const Books = [
 	{
 		ID: 178,
 		URL: "https://books.toscrape.com/catalogue/the-jazz-of-physics-the-secret-link-between-music-and-the-structure-of-the-universe_350/index.html",
-		PRODUCT_NAME:
-			"The Jazz of Physics: The Secret Link Between Music and the Structure of the Universe",
+		PRODUCT_NAME: "The Jazz of Physics: The Secret Link Between Music and the Structure of the Universe",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/f3/d1/f3d18f7fa858139e133fe4809d3827b5.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/f3/d1/f3d18f7fa858139e133fe4809d3827b5.jpg",
 		UPC: "6a57286a8890d8c5",
 		PRICE: "38.71",
 		TAX: "0.0",
@@ -2540,11 +2324,9 @@ export const Books = [
 	{
 		ID: 179,
 		URL: "https://books.toscrape.com/catalogue/the-gunning-of-america-business-and-the-making-of-american-gun-culture_347/index.html",
-		PRODUCT_NAME:
-			"The Gunning of America: Business and the Making of American Gun Culture",
+		PRODUCT_NAME: "The Gunning of America: Business and the Making of American Gun Culture",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/e2/23/e223db017107fcccf532e5fe753f307d.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/e2/23/e223db017107fcccf532e5fe753f307d.jpg",
 		UPC: "45033bdf3d9ed158",
 		PRICE: "16.81",
 		TAX: "0.0",
@@ -2555,11 +2337,9 @@ export const Books = [
 	{
 		ID: 180,
 		URL: "https://books.toscrape.com/catalogue/the-geography-of-bliss-one-grumps-search-for-the-happiest-places-in-the-world_346/index.html",
-		PRODUCT_NAME:
-			"The Geography of Bliss: One Grump's Search for the Happiest Places in the World",
+		PRODUCT_NAME: "The Geography of Bliss: One Grump's Search for the Happiest Places in the World",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/fd/51/fd513e918a0b34fb08bc67d1d7065e40.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/fd/51/fd513e918a0b34fb08bc67d1d7065e40.jpg",
 		UPC: "c65ee14957c0fa5c",
 		PRICE: "28.23",
 		TAX: "0.0",
@@ -2572,8 +2352,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/god-is-not-great-how-religion-poisons-everything_323/index.html",
 		PRODUCT_NAME: "God Is Not Great: How Religion Poisons Everything",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/ff/b8/ffb857154e4bc8af56f33d7277cb9939.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/ff/b8/ffb857154e4bc8af56f33d7277cb9939.jpg",
 		UPC: "ddbc5530d2939d49",
 		PRICE: "27.8",
 		TAX: "0.0",
@@ -2587,8 +2366,7 @@ export const Books = [
 		PRODUCT_NAME:
 			"We the People: The Modern-Day Figures Who Have Reshaped and Affirmed the Founding Fathers' Vision of America",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/b9/45/b945e870e5188ce6dabbf79ed98b10f1.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/b9/45/b945e870e5188ce6dabbf79ed98b10f1.jpg",
 		UPC: "06bab964fd536971",
 		PRICE: "31.95",
 		TAX: "0.0",
@@ -2599,11 +2377,9 @@ export const Books = [
 	{
 		ID: 183,
 		URL: "https://books.toscrape.com/catalogue/very-good-lives-the-fringe-benefits-of-failure-and-the-importance-of-imagination_298/index.html",
-		PRODUCT_NAME:
-			"Very Good Lives: The Fringe Benefits of Failure and the Importance of Imagination",
+		PRODUCT_NAME: "Very Good Lives: The Fringe Benefits of Failure and the Importance of Imagination",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/fd/26/fd264a20852bbecf647475d968ac0409.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/fd/26/fd264a20852bbecf647475d968ac0409.jpg",
 		UPC: "52aa3d79b1cee455",
 		PRICE: "50.66",
 		TAX: "0.0",
@@ -2616,8 +2392,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/unstuffed-decluttering-your-home-mind-and-soul_296/index.html",
 		PRODUCT_NAME: "Unstuffed: Decluttering Your Home, Mind, and Soul",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/68/2d/682d1c7c8aa1010bd138203ae9d2d10b.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/68/2d/682d1c7c8aa1010bd138203ae9d2d10b.jpg",
 		UPC: "b830685072fa871f",
 		PRICE: "58.09",
 		TAX: "0.0",
@@ -2630,8 +2405,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/under-the-banner-of-heaven-a-story-of-violent-faith_295/index.html",
 		PRODUCT_NAME: "Under the Banner of Heaven: A Story of Violent Faith",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/0a/44/0a44a38a50b7d61facccae446cf30630.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/0a/44/0a44a38a50b7d61facccae446cf30630.jpg",
 		UPC: "599a4f98bb193368",
 		PRICE: "30.0",
 		TAX: "0.0",
@@ -2644,8 +2418,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/sharp-objects_997/index.html",
 		PRODUCT_NAME: "Sharp Objects",
 		CATEGORY: "Mystery",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/c0/59/c05972805aa7201171b8fc71a5b00292.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/c0/59/c05972805aa7201171b8fc71a5b00292.jpg",
 		UPC: "e00eb4fd7b871a48",
 		PRICE: "47.82",
 		TAX: "0.0",
@@ -2658,8 +2431,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/in-a-dark-dark-wood_963/index.html",
 		PRODUCT_NAME: "In a Dark, Dark Wood",
 		CATEGORY: "Mystery",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/95/84/95840dfd67c020067c99d70451147e20.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/95/84/95840dfd67c020067c99d70451147e20.jpg",
 		UPC: "19ed25f4641d5efd",
 		PRICE: "19.63",
 		TAX: "0.0",
@@ -2672,8 +2444,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-past-never-ends_942/index.html",
 		PRODUCT_NAME: "The Past Never Ends",
 		CATEGORY: "Mystery",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/9d/f2/9df248dcefeaba9eeb519a59b248f72c.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/9d/f2/9df248dcefeaba9eeb519a59b248f72c.jpg",
 		UPC: "5ee94540d0749ea0",
 		PRICE: "56.5",
 		TAX: "0.0",
@@ -2686,8 +2457,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/a-murder-in-time_877/index.html",
 		PRODUCT_NAME: "A Murder in Time",
 		CATEGORY: "Mystery",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/cc/bd/ccbd7a62caefd5a3a2e04dd7c2ff48fe.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/cc/bd/ccbd7a62caefd5a3a2e04dd7c2ff48fe.jpg",
 		UPC: "f733e8c19d40ec2e",
 		PRICE: "16.64",
 		TAX: "0.0",
@@ -2700,8 +2470,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-murder-of-roger-ackroyd-hercule-poirot-4_852/index.html",
 		PRODUCT_NAME: "The Murder of Roger Ackroyd (Hercule Poirot #4)",
 		CATEGORY: "Mystery",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/86/38/8638ba095b3b32e0abdef170e7bc4fd6.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/86/38/8638ba095b3b32e0abdef170e7bc4fd6.jpg",
 		UPC: "c7b5183f4d1d4efe",
 		PRICE: "44.1",
 		TAX: "0.0",
@@ -2714,8 +2483,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-last-mile-amos-decker-2_754/index.html",
 		PRODUCT_NAME: "The Last Mile (Amos Decker #2)",
 		CATEGORY: "Mystery",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/e6/dc/e6dcc8f75214eb14edc1ce09c98f3d71.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/e6/dc/e6dcc8f75214eb14edc1ce09c98f3d71.jpg",
 		UPC: "3bc89353f7e3a3cc",
 		PRICE: "54.21",
 		TAX: "0.0",
@@ -2728,8 +2496,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/that-darkness-gardiner-and-renner-1_743/index.html",
 		PRODUCT_NAME: "That Darkness (Gardiner and Renner #1)",
 		CATEGORY: "Mystery",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/23/b8/23b81994234ac127d701db1531a08e48.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/23/b8/23b81994234ac127d701db1531a08e48.jpg",
 		UPC: "0c7b9cf2b7662b65",
 		PRICE: "13.92",
 		TAX: "0.0",
@@ -2742,8 +2509,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/tastes-like-fear-di-marnie-rome-3_742/index.html",
 		PRODUCT_NAME: "Tastes Like Fear (DI Marnie Rome #3)",
 		CATEGORY: "Mystery",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/74/9b/749bca168778cf35fdb2441a9d6b403f.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/74/9b/749bca168778cf35fdb2441a9d6b403f.jpg",
 		UPC: "2d1e337aaf341858",
 		PRICE: "10.69",
 		TAX: "0.0",
@@ -2756,8 +2522,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/a-time-of-torment-charlie-parker-14_657/index.html",
 		PRODUCT_NAME: "A Time of Torment (Charlie Parker #14)",
 		CATEGORY: "Mystery",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/f1/37/f137a410ed7d6fcfce17d081caf97915.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/f1/37/f137a410ed7d6fcfce17d081caf97915.jpg",
 		UPC: "4416c474713ec1f5",
 		PRICE: "48.35",
 		TAX: "0.0",
@@ -2770,8 +2535,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/a-study-in-scarlet-sherlock-holmes-1_656/index.html",
 		PRODUCT_NAME: "A Study in Scarlet (Sherlock Holmes #1)",
 		CATEGORY: "Mystery",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/27/40/274003f2720f82844873945b87af6c19.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/27/40/274003f2720f82844873945b87af6c19.jpg",
 		UPC: "63ee5bc46066a8a8",
 		PRICE: "16.73",
 		TAX: "0.0",
@@ -2784,8 +2548,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/poisonous-max-revere-novels-3_627/index.html",
 		PRODUCT_NAME: "Poisonous (Max Revere Novels #3)",
 		CATEGORY: "Mystery",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/8d/52/8d52227d29e03695ef755620078b7815.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/8d/52/8d52227d29e03695ef755620078b7815.jpg",
 		UPC: "abdd91e96515a617",
 		PRICE: "26.8",
 		TAX: "0.0",
@@ -2798,8 +2561,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/murder-at-the-42nd-street-library-raymond-ambler-1_624/index.html",
 		PRODUCT_NAME: "Murder at the 42nd Street Library (Raymond Ambler #1)",
 		CATEGORY: "Mystery",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/19/74/19748437aac103dbdeb1918062728726.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/19/74/19748437aac103dbdeb1918062728726.jpg",
 		UPC: "e7fe3bf2768602cf",
 		PRICE: "54.36",
 		TAX: "0.0",
@@ -2812,8 +2574,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/most-wanted_623/index.html",
 		PRODUCT_NAME: "Most Wanted",
 		CATEGORY: "Mystery",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/fa/b5/fab5e650b19b76c5f5d1ce3a626376b1.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/fa/b5/fab5e650b19b76c5f5d1ce3a626376b1.jpg",
 		UPC: "c039f5aceb093537",
 		PRICE: "35.28",
 		TAX: "0.0",
@@ -2826,8 +2587,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/hide-away-eve-duncan-20_620/index.html",
 		PRODUCT_NAME: "Hide Away (Eve Duncan #20)",
 		CATEGORY: "Mystery",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/b2/c5/b2c501b848bccd9cc375771f53c0fb6e.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/b2/c5/b2c501b848bccd9cc375771f53c0fb6e.jpg",
 		UPC: "bddc6fd036eb6279",
 		PRICE: "11.84",
 		TAX: "0.0",
@@ -2840,8 +2600,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/boar-island-anna-pigeon-19_613/index.html",
 		PRODUCT_NAME: "Boar Island (Anna Pigeon #19)",
 		CATEGORY: "Mystery",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/91/8c/918c2c95ae90495cdb0371a22b726d82.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/91/8c/918c2c95ae90495cdb0371a22b726d82.jpg",
 		UPC: "49b24c6a41b82bd2",
 		PRICE: "59.48",
 		TAX: "0.0",
@@ -2854,8 +2613,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-widow_609/index.html",
 		PRODUCT_NAME: "The Widow",
 		CATEGORY: "Mystery",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/e4/37/e43737572b04c7ad28b35f3da29eb8dd.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/e4/37/e43737572b04c7ad28b35f3da29eb8dd.jpg",
 		UPC: "6159d8b187831770",
 		PRICE: "27.26",
 		TAX: "0.0",
@@ -2868,8 +2626,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/playing-with-fire_602/index.html",
 		PRODUCT_NAME: "Playing with Fire",
 		CATEGORY: "Mystery",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/09/02/0902666ade8ab8183363e53c108e5069.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/09/02/0902666ade8ab8183363e53c108e5069.jpg",
 		UPC: "05a61a3bd8ca4149",
 		PRICE: "13.71",
 		TAX: "0.0",
@@ -2880,11 +2637,9 @@ export const Books = [
 	{
 		ID: 203,
 		URL: "https://books.toscrape.com/catalogue/what-happened-on-beale-street-secrets-of-the-south-mysteries-2_506/index.html",
-		PRODUCT_NAME:
-			"What Happened on Beale Street (Secrets of the South Mysteries #2)",
+		PRODUCT_NAME: "What Happened on Beale Street (Secrets of the South Mysteries #2)",
 		CATEGORY: "Mystery",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/2c/68/2c6857eb1c10995c8b9e77a1804f68cd.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/2c/68/2c6857eb1c10995c8b9e77a1804f68cd.jpg",
 		UPC: "9735c969c652dd89",
 		PRICE: "25.37",
 		TAX: "0.0",
@@ -2895,11 +2650,9 @@ export const Books = [
 	{
 		ID: 204,
 		URL: "https://books.toscrape.com/catalogue/the-bachelor-girls-guide-to-murder-herringford-and-watts-mysteries-1_491/index.html",
-		PRODUCT_NAME:
-			"The Bachelor Girl's Guide to Murder (Herringford and Watts Mysteries #1)",
+		PRODUCT_NAME: "The Bachelor Girl's Guide to Murder (Herringford and Watts Mysteries #1)",
 		CATEGORY: "Mystery",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/38/a4/38a44ac4f642f4717d865c81ec594529.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/38/a4/38a44ac4f642f4717d865c81ec594529.jpg",
 		UPC: "20789fb17b423c4c",
 		PRICE: "52.3",
 		TAX: "0.0",
@@ -2912,8 +2665,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/delivering-the-truth-quaker-midwife-mystery-1_464/index.html",
 		PRODUCT_NAME: "Delivering the Truth (Quaker Midwife Mystery #1)",
 		CATEGORY: "Mystery",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/5c/8a/5c8acde540a88aed464ab5c52bafcd83.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/5c/8a/5c8acde540a88aed464ab5c52bafcd83.jpg",
 		UPC: "4e980425468708da",
 		PRICE: "20.89",
 		TAX: "0.0",
@@ -2927,8 +2679,7 @@ export const Books = [
 		PRODUCT_NAME:
 			"Trespassing Across America: One Man's Epic, Never-Done-Before (and Sort of Illegal) Hike Across the Heartland",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/fb/65/fb6511ce55f5cf2ebf22a90655ad7c42.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/fb/65/fb6511ce55f5cf2ebf22a90655ad7c42.jpg",
 		UPC: "2173a2ce35f6ace1",
 		PRICE: "53.51",
 		TAX: "0.0",
@@ -2941,8 +2692,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-name-of-god-is-mercy_264/index.html",
 		PRODUCT_NAME: "The Name of God is Mercy",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/01/7c/017c9fd993b4ebb5676213f6de1f96c5.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/01/7c/017c9fd993b4ebb5676213f6de1f96c5.jpg",
 		UPC: "0baf71623648413a",
 		PRICE: "37.25",
 		TAX: "0.0",
@@ -2955,8 +2705,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/stiff-the-curious-lives-of-human-cadavers_226/index.html",
 		PRODUCT_NAME: "Stiff: The Curious Lives of Human Cadavers",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/00/01/0001685f344cae0e6921bc3f8256b54e.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/00/01/0001685f344cae0e6921bc3f8256b54e.jpg",
 		UPC: "a11ae5f07572ef49",
 		PRICE: "36.74",
 		TAX: "0.0",
@@ -2969,8 +2718,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/spilled-milk-based-on-a-true-story_225/index.html",
 		PRODUCT_NAME: "Spilled Milk: Based on a True Story",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/2e/a3/2ea30e892e0060412f854b31a4e72e47.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/2e/a3/2ea30e892e0060412f854b31a4e72e47.jpg",
 		UPC: "f08667e4c0458f37",
 		PRICE: "49.51",
 		TAX: "0.0",
@@ -2981,11 +2729,9 @@ export const Books = [
 	{
 		ID: 210,
 		URL: "https://books.toscrape.com/catalogue/rise-of-the-rocket-girls-the-women-who-propelled-us-from-missiles-to-the-moon-to-mars_213/index.html",
-		PRODUCT_NAME:
-			"Rise of the Rocket Girls: The Women Who Propelled Us, from Missiles to the Moon to Mars",
+		PRODUCT_NAME: "Rise of the Rocket Girls: The Women Who Propelled Us, from Missiles to the Moon to Mars",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/1c/41/1c41d9cb63d3627fc60a1f3ba42da963.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/1c/41/1c41d9cb63d3627fc60a1f3ba42da963.jpg",
 		UPC: "89cad3f37c9ce226",
 		PRICE: "41.67",
 		TAX: "0.0",
@@ -2998,8 +2744,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/outliers-the-story-of-success_204/index.html",
 		PRODUCT_NAME: "Outliers: The Story of Success",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/7c/7f/7c7f3a48d03cdbdd87c07482711b72f9.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/7c/7f/7c7f3a48d03cdbdd87c07482711b72f9.jpg",
 		UPC: "09a7b0b566ad6225",
 		PRICE: "14.16",
 		TAX: "0.0",
@@ -3010,11 +2755,9 @@ export const Books = [
 	{
 		ID: 212,
 		URL: "https://books.toscrape.com/catalogue/notes-from-a-small-island-notes-from-a-small-island-1_200/index.html",
-		PRODUCT_NAME:
-			"Notes from a Small Island (Notes From a Small Island #1)",
+		PRODUCT_NAME: "Notes from a Small Island (Notes From a Small Island #1)",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/8f/40/8f40ba4f73d2c70e0ccc15d77dc3c220.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/8f/40/8f40ba4f73d2c70e0ccc15d77dc3c220.jpg",
 		UPC: "cb65e49993db9a93",
 		PRICE: "40.17",
 		TAX: "0.0",
@@ -3027,8 +2770,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/night-the-night-trilogy-1_199/index.html",
 		PRODUCT_NAME: "Night (The Night Trilogy #1)",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/b2/45/b245b0b715de260634e66a05a024cc52.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/b2/45/b245b0b715de260634e66a05a024cc52.jpg",
 		UPC: "c4d9fce9eff3b8ba",
 		PRICE: "13.51",
 		TAX: "0.0",
@@ -3039,11 +2781,9 @@ export const Books = [
 	{
 		ID: 214,
 		URL: "https://books.toscrape.com/catalogue/miracles-from-heaven-a-little-girl-her-journey-to-heaven-and-her-amazing-story-of-healing_195/index.html",
-		PRODUCT_NAME:
-			"Miracles from Heaven: A Little Girl, Her Journey to Heaven, and Her Amazing Story of Healing",
+		PRODUCT_NAME: "Miracles from Heaven: A Little Girl, Her Journey to Heaven, and Her Amazing Story of Healing",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/60/cd/60cda3c756f14ef6625b979cfeb230ea.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/60/cd/60cda3c756f14ef6625b979cfeb230ea.jpg",
 		UPC: "7980fa06f2b704d8",
 		PRICE: "57.83",
 		TAX: "0.0",
@@ -3056,8 +2796,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/letter-to-a-christian-nation_186/index.html",
 		PRODUCT_NAME: "Letter to a Christian Nation",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/88/21/8821ea9cd21326e41e095619b822a4a8.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/88/21/8821ea9cd21326e41e095619b822a4a8.jpg",
 		UPC: "1de75f05d57bfc10",
 		PRICE: "22.2",
 		TAX: "0.0",
@@ -3070,8 +2809,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/lets-pretend-this-never-happened-a-mostly-true-memoir_185/index.html",
 		PRODUCT_NAME: "Let's Pretend This Never Happened: A Mostly True Memoir",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/f5/8a/f58a15a50b2d70a4a8fd4fa6485a7009.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/f5/8a/f58a15a50b2d70a4a8fd4fa6485a7009.jpg",
 		UPC: "1246e4ffeb5ac4ea",
 		PRICE: "45.11",
 		TAX: "0.0",
@@ -3082,11 +2820,9 @@ export const Books = [
 	{
 		ID: 217,
 		URL: "https://books.toscrape.com/catalogue/its-never-too-late-to-begin-again-discovering-creativity-and-meaning-at-midlife-and-beyond_179/index.html",
-		PRODUCT_NAME:
-			"It's Never Too Late to Begin Again: Discovering Creativity and Meaning at Midlife and Beyond",
+		PRODUCT_NAME: "It's Never Too Late to Begin Again: Discovering Creativity and Meaning at Midlife and Beyond",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/27/f5/27f54466115767b767133ee034543cb5.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/27/f5/27f54466115767b767133ee034543cb5.jpg",
 		UPC: "d4a29356fc992879",
 		PRICE: "42.38",
 		TAX: "0.0",
@@ -3099,8 +2835,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/into-the-wild_177/index.html",
 		PRODUCT_NAME: "Into the Wild",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/de/c9/dec9168a8a3876b60feedb68aeb0225b.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/de/c9/dec9168a8a3876b60feedb68aeb0225b.jpg",
 		UPC: "a7c3f1010d64799a",
 		PRICE: "56.7",
 		TAX: "0.0",
@@ -3111,11 +2846,9 @@ export const Books = [
 	{
 		ID: 219,
 		URL: "https://books.toscrape.com/catalogue/in-the-garden-of-beasts-love-terror-and-an-american-family-in-hitlers-berlin_175/index.html",
-		PRODUCT_NAME:
-			"In the Garden of Beasts: Love, Terror, and an American Family in Hitler's Berlin",
+		PRODUCT_NAME: "In the Garden of Beasts: Love, Terror, and an American Family in Hitler's Berlin",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/b5/a2/b5a295c15ac586c6daa84e6e20f47b06.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/b5/a2/b5a295c15ac586c6daa84e6e20f47b06.jpg",
 		UPC: "d8292cd5f1aca291",
 		PRICE: "28.85",
 		TAX: "0.0",
@@ -3126,11 +2859,9 @@ export const Books = [
 	{
 		ID: 220,
 		URL: "https://books.toscrape.com/catalogue/i-am-malala-the-girl-who-stood-up-for-education-and-was-shot-by-the-taliban_172/index.html",
-		PRODUCT_NAME:
-			"I Am Malala: The Girl Who Stood Up for Education and Was Shot by the Taliban",
+		PRODUCT_NAME: "I Am Malala: The Girl Who Stood Up for Education and Was Shot by the Taliban",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/69/07/69077c48327b2702f44adc035fcc1ce4.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/69/07/69077c48327b2702f44adc035fcc1ce4.jpg",
 		UPC: "8010c7c148057fd3",
 		PRICE: "28.88",
 		TAX: "0.0",
@@ -3143,8 +2874,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/gratitude_163/index.html",
 		PRODUCT_NAME: "Gratitude",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/56/73/5673fea5d08ad840ade774146ce07b28.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/56/73/5673fea5d08ad840ade774146ce07b28.jpg",
 		UPC: "c300cc9326592b65",
 		PRICE: "26.66",
 		TAX: "0.0",
@@ -3157,8 +2887,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/disrupted-my-misadventure-in-the-start-up-bubble_148/index.html",
 		PRODUCT_NAME: "Disrupted: My Misadventure in the Start-Up Bubble",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/b7/2e/b72ee05aebe1a2563e30582a35bb5372.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/b7/2e/b72ee05aebe1a2563e30582a35bb5372.jpg",
 		UPC: "81372abc86f65c79",
 		PRICE: "15.28",
 		TAX: "0.0",
@@ -3171,8 +2900,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/brave-enough_135/index.html",
 		PRODUCT_NAME: "Brave Enough",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/52/f5/52f5c0cb27e1f26b2639ff3f78acf833.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/52/f5/52f5c0cb27e1f26b2639ff3f78acf833.jpg",
 		UPC: "fd2337c1b73b686e",
 		PRICE: "51.32",
 		TAX: "0.0",
@@ -3183,11 +2911,9 @@ export const Books = [
 	{
 		ID: 224,
 		URL: "https://books.toscrape.com/catalogue/born-to-run-a-hidden-tribe-superathletes-and-the-greatest-race-the-world-has-never-seen_133/index.html",
-		PRODUCT_NAME:
-			"Born to Run: A Hidden Tribe, Superathletes, and the Greatest Race the World Has Never Seen",
+		PRODUCT_NAME: "Born to Run: A Hidden Tribe, Superathletes, and the Greatest Race the World Has Never Seen",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/3a/bd/3abdfc779aede13dbd2eefe34f91dbb1.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/3a/bd/3abdfc779aede13dbd2eefe34f91dbb1.jpg",
 		UPC: "e256de8aa0c2115f",
 		PRICE: "27.35",
 		TAX: "0.0",
@@ -3200,8 +2926,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/blink-the-power-of-thinking-without-thinking_132/index.html",
 		PRODUCT_NAME: "Blink: The Power of Thinking Without Thinking",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/41/be/41be12dcc78968882b11108acb79d1c7.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/41/be/41be12dcc78968882b11108acb79d1c7.jpg",
 		UPC: "0bbc48294707ba96",
 		PRICE: "21.74",
 		TAX: "0.0",
@@ -3214,8 +2939,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/black-flags-the-rise-of-isis_131/index.html",
 		PRODUCT_NAME: "Black Flags: The Rise of ISIS",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/54/a3/54a3916506dc5bd1a6ea2200a3d0b28f.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/54/a3/54a3916506dc5bd1a6ea2200a3d0b28f.jpg",
 		UPC: "860318b8e244f39c",
 		PRICE: "40.87",
 		TAX: "0.0",
@@ -3228,8 +2952,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/are-we-smart-enough-to-know-how-smart-animals-are_121/index.html",
 		PRODUCT_NAME: "Are We Smart Enough to Know How Smart Animals Are?",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/18/c1/18c1089811f55295b689bda892628fee.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/18/c1/18c1089811f55295b689bda892628fee.jpg",
 		UPC: "da0349a87c8caa2f",
 		PRICE: "56.58",
 		TAX: "0.0",
@@ -3240,11 +2963,9 @@ export const Books = [
 	{
 		ID: 228,
 		URL: "https://books.toscrape.com/catalogue/a-walk-in-the-woods-rediscovering-america-on-the-appalachian-trail_118/index.html",
-		PRODUCT_NAME:
-			"A Walk in the Woods: Rediscovering America on the Appalachian Trail",
+		PRODUCT_NAME: "A Walk in the Woods: Rediscovering America on the Appalachian Trail",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/39/51/3951dc08d449aa692ce82eefb692254e.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/39/51/3951dc08d449aa692ce82eefb692254e.jpg",
 		UPC: "bcee4f289ff6699c",
 		PRICE: "30.48",
 		TAX: "0.0",
@@ -3257,8 +2978,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-suffragettes-little-black-classics-96_112/index.html",
 		PRODUCT_NAME: "The Suffragettes (Little Black Classics, #96)",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/8f/39/8f399ee98cb1a7c77525123b00d4b3e0.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/8f/39/8f399ee98cb1a7c77525123b00d4b3e0.jpg",
 		UPC: "d2185b65af52d68c",
 		PRICE: "11.89",
 		TAX: "0.0",
@@ -3271,8 +2991,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/kindle-paperwhite-users-guide_103/index.html",
 		PRODUCT_NAME: "Kindle Paperwhite User's Guide",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/06/71/0671e3db3053c0dc22122eda29d6734c.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/06/71/0671e3db3053c0dc22122eda29d6734c.jpg",
 		UPC: "fb495f9f9015a772",
 		PRICE: "34.0",
 		TAX: "0.0",
@@ -3284,8 +3003,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/h-is-for-hawk_102/index.html",
 		PRODUCT_NAME: "H is for Hawk",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/14/00/140096c16c6e0b5d6df9d19f9493e8a5.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/14/00/140096c16c6e0b5d6df9d19f9493e8a5.jpg",
 		UPC: "b6d3f4f4ee1f6069",
 		PRICE: "57.42",
 		TAX: "0.0",
@@ -3298,8 +3016,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/travels-with-charley-in-search-of-america_90/index.html",
 		PRODUCT_NAME: "Travels with Charley: In Search of America",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/3f/c2/3fc2d771fe5f12df5de998d99036a35a.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/3f/c2/3fc2d771fe5f12df5de998d99036a35a.jpg",
 		UPC: "0268f149d014b389",
 		PRICE: "57.82",
 		TAX: "0.0",
@@ -3312,8 +3029,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-tumor_85/index.html",
 		PRODUCT_NAME: "The Tumor",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/8a/14/8a14b06317e794b3469e57d20270f80f.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/8a/14/8a14b06317e794b3469e57d20270f80f.jpg",
 		UPC: "6514add13c82b115",
 		PRICE: "41.56",
 		TAX: "0.0",
@@ -3326,8 +3042,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-end-of-the-jesus-era-an-investigation-1_64/index.html",
 		PRODUCT_NAME: "The End of the Jesus Era (An Investigation #1)",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/fa/9d/fa9db3f9dfc5a859c091d1262a56a89f.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/fa/9d/fa9db3f9dfc5a859c091d1262a56a89f.jpg",
 		UPC: "09659d1639a1f978",
 		PRICE: "14.4",
 		TAX: "0.0",
@@ -3340,8 +3055,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/eat-pray-love_16/index.html",
 		PRODUCT_NAME: "Eat, Pray, Love",
 		CATEGORY: "Nonfiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/5b/82/5b827f00893b7119360e8a67d939e0b5.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/5b/82/5b827f00893b7119360e8a67d939e0b5.jpg",
 		UPC: "df56868afd166557",
 		PRICE: "51.32",
 		TAX: "0.0",
@@ -3354,8 +3068,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/mesaerion-the-best-science-fiction-stories-1800-1849_983/index.html",
 		PRODUCT_NAME: "Mesaerion: The Best Science Fiction Stories 1800-1849",
 		CATEGORY: "Science Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/e8/1f/e81f850db9b9622c65619c9f15748de7.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/e8/1f/e81f850db9b9622c65619c9f15748de7.jpg",
 		UPC: "e30f54cea9b38190",
 		PRICE: "37.59",
 		TAX: "0.0",
@@ -3368,8 +3081,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/join_902/index.html",
 		PRODUCT_NAME: "Join",
 		CATEGORY: "Science Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/df/64/df642e483f7ae23de6888c73f05e2014.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/df/64/df642e483f7ae23de6888c73f05e2014.jpg",
 		UPC: "18ad3ed896c7ce05",
 		PRICE: "35.67",
 		TAX: "0.0",
@@ -3380,11 +3092,9 @@ export const Books = [
 	{
 		ID: 238,
 		URL: "https://books.toscrape.com/catalogue/william-shakespeares-star-wars-verily-a-new-hope-william-shakespeares-star-wars-4_871/index.html",
-		PRODUCT_NAME:
-			"William Shakespeare's Star Wars: Verily, A New Hope (William Shakespeare's Star Wars #4)",
+		PRODUCT_NAME: "William Shakespeare's Star Wars: Verily, A New Hope (William Shakespeare's Star Wars #4)",
 		CATEGORY: "Science Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/02/7a/027a1f131d94c38f9e785f5d85a109c7.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/02/7a/027a1f131d94c38f9e785f5d85a109c7.jpg",
 		UPC: "9270575728a13a61",
 		PRICE: "43.3",
 		TAX: "0.0",
@@ -3397,8 +3107,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-project_856/index.html",
 		PRODUCT_NAME: "The Project",
 		CATEGORY: "Science Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/4c/57/4c57c192057269132623f9c6b3f69559.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/4c/57/4c57c192057269132623f9c6b3f69559.jpg",
 		UPC: "790ef197c8f236f5",
 		PRICE: "10.65",
 		TAX: "0.0",
@@ -3411,8 +3120,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/soft-apocalypse_833/index.html",
 		PRODUCT_NAME: "Soft Apocalypse",
 		CATEGORY: "Science Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/61/ca/61ca5ab6bc514b9527af9f805fa03c31.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/61/ca/61ca5ab6bc514b9527af9f805fa03c31.jpg",
 		UPC: "2a70769cdc6eb8b8",
 		PRICE: "26.12",
 		TAX: "0.0",
@@ -3425,8 +3133,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/sleeping-giants-themis-files-1_604/index.html",
 		PRODUCT_NAME: "Sleeping Giants (Themis Files #1)",
 		CATEGORY: "Science Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/ac/a5/aca5de2e61ca2754de496a75dea25f91.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/ac/a5/aca5de2e61ca2754de496a75dea25f91.jpg",
 		UPC: "f435aa99d864077d",
 		PRICE: "48.74",
 		TAX: "0.0",
@@ -3439,8 +3146,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/arena_587/index.html",
 		PRODUCT_NAME: "Arena",
 		CATEGORY: "Science Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/01/c5/01c50c5f341b8f1d030e9dffba5e5498.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/01/c5/01c50c5f341b8f1d030e9dffba5e5498.jpg",
 		UPC: "2c34f9432069b52b",
 		PRICE: "21.36",
 		TAX: "0.0",
@@ -3453,8 +3159,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/foundation-foundation-publication-order-1_375/index.html",
 		PRODUCT_NAME: "Foundation (Foundation (Publication Order) #1)",
 		CATEGORY: "Science Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/da/a0/daa08c54a927c27494ea5bb90af79c60.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/da/a0/daa08c54a927c27494ea5bb90af79c60.jpg",
 		UPC: "3fc124f59f3068e4",
 		PRICE: "32.42",
 		TAX: "0.0",
@@ -3465,11 +3170,9 @@ export const Books = [
 	{
 		ID: 244,
 		URL: "https://books.toscrape.com/catalogue/the-restaurant-at-the-end-of-the-universe-hitchhikers-guide-to-the-galaxy-2_275/index.html",
-		PRODUCT_NAME:
-			"The Restaurant at the End of the Universe (Hitchhiker's Guide to the Galaxy #2)",
+		PRODUCT_NAME: "The Restaurant at the End of the Universe (Hitchhiker's Guide to the Galaxy #2)",
 		CATEGORY: "Science Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/aa/8f/aa8fc991d84aca12ed94a0a2fa1099e5.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/aa/8f/aa8fc991d84aca12ed94a0a2fa1099e5.jpg",
 		UPC: "0e92ccf1bd39e68f",
 		PRICE: "10.92",
 		TAX: "0.0",
@@ -3482,8 +3185,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/ready-player-one_209/index.html",
 		PRODUCT_NAME: "Ready Player One",
 		CATEGORY: "Science Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/b9/af/b9afd75c09ff7bf82c9a158a34cb993d.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/b9/af/b9afd75c09ff7bf82c9a158a34cb993d.jpg",
 		UPC: "2ef5dc7e278e562a",
 		PRICE: "19.07",
 		TAX: "0.0",
@@ -3494,11 +3196,9 @@ export const Books = [
 	{
 		ID: 246,
 		URL: "https://books.toscrape.com/catalogue/life-the-universe-and-everything-hitchhikers-guide-to-the-galaxy-3_189/index.html",
-		PRODUCT_NAME:
-			"Life, the Universe and Everything (Hitchhiker's Guide to the Galaxy #3)",
+		PRODUCT_NAME: "Life, the Universe and Everything (Hitchhiker's Guide to the Galaxy #3)",
 		CATEGORY: "Science Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/54/ca/54cac05a3026d35e713133a1fe49f6c8.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/54/ca/54cac05a3026d35e713133a1fe49f6c8.jpg",
 		UPC: "4b3f4f151c99f472",
 		PRICE: "33.26",
 		TAX: "0.0",
@@ -3511,8 +3211,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/dune-dune-1_151/index.html",
 		PRODUCT_NAME: "Dune (Dune #1)",
 		CATEGORY: "Science Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/63/a9/63a9a4e0c8e3c6ee2075a766b873cd31.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/63/a9/63a9a4e0c8e3c6ee2075a766b873cd31.jpg",
 		UPC: "36d5884d44484277",
 		PRICE: "54.86",
 		TAX: "0.0",
@@ -3525,8 +3224,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/do-androids-dream-of-electric-sheep-blade-runner-1_149/index.html",
 		PRODUCT_NAME: "Do Androids Dream of Electric Sheep? (Blade Runner #1)",
 		CATEGORY: "Science Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/c7/a3/c7a3d04df9cbc857b149cd76d32e3030.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/c7/a3/c7a3d04df9cbc857b149cd76d32e3030.jpg",
 		UPC: "98330e431e56a9ea",
 		PRICE: "51.48",
 		TAX: "0.0",
@@ -3539,8 +3237,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/three-wishes-river-of-time-california-1_89/index.html",
 		PRODUCT_NAME: "Three Wishes (River of Time: California #1)",
 		CATEGORY: "Science Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/48/e6/48e697e9c8bba8ca04a3064551cda630.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/48/e6/48e697e9c8bba8ca04a3064551cda630.jpg",
 		UPC: "460f97a346b44bac",
 		PRICE: "44.18",
 		TAX: "0.0",
@@ -3553,8 +3250,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-last-girl-the-dominion-trilogy-1_70/index.html",
 		PRODUCT_NAME: "The Last Girl (The Dominion Trilogy #1)",
 		CATEGORY: "Science Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/2a/88/2a88181c495875c02f87c2e6010b046d.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/2a/88/2a88181c495875c02f87c2e6010b046d.jpg",
 		UPC: "16c71736dae78764",
 		PRICE: "36.26",
 		TAX: "0.0",
@@ -3565,11 +3261,9 @@ export const Books = [
 	{
 		ID: 251,
 		URL: "https://books.toscrape.com/catalogue/having-the-barbarians-baby-ice-planet-barbarians-75_23/index.html",
-		PRODUCT_NAME:
-			"Having the Barbarian's Baby (Ice Planet Barbarians #7.5)",
+		PRODUCT_NAME: "Having the Barbarian's Baby (Ice Planet Barbarians #7.5)",
 		CATEGORY: "Science Fiction",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/13/8a/138a09170e0431cce98921b857a6eeb5.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/13/8a/138a09170e0431cce98921b857a6eeb5.jpg",
 		UPC: "6717a70913b3db79",
 		PRICE: "34.96",
 		TAX: "0.0",
@@ -3580,11 +3274,9 @@ export const Books = [
 	{
 		ID: 252,
 		URL: "https://books.toscrape.com/catalogue/the-most-perfect-thing-inside-and-outside-a-birds-egg_938/index.html",
-		PRODUCT_NAME:
-			"The Most Perfect Thing: Inside (and Outside) a Bird's Egg",
+		PRODUCT_NAME: "The Most Perfect Thing: Inside (and Outside) a Bird's Egg",
 		CATEGORY: "Science",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/a3/9e/a39e7c5c9fc61c2ae0f81116aa8cbb0e.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/a3/9e/a39e7c5c9fc61c2ae0f81116aa8cbb0e.jpg",
 		UPC: "aadee1c326d286e3",
 		PRICE: "42.96",
 		TAX: "0.0",
@@ -3595,11 +3287,9 @@ export const Books = [
 	{
 		ID: 253,
 		URL: "https://books.toscrape.com/catalogue/immunity-how-elie-metchnikoff-changed-the-course-of-modern-medicine_900/index.html",
-		PRODUCT_NAME:
-			"Immunity: How Elie Metchnikoff Changed the Course of Modern Medicine",
+		PRODUCT_NAME: "Immunity: How Elie Metchnikoff Changed the Course of Modern Medicine",
 		CATEGORY: "Science",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/e1/1e/e11e7e9514a123aee2415a1def85e638.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/e1/1e/e11e7e9514a123aee2415a1def85e638.jpg",
 		UPC: "e4f74c16de34d440",
 		PRICE: "57.36",
 		TAX: "0.0",
@@ -3610,11 +3300,9 @@ export const Books = [
 	{
 		ID: 254,
 		URL: "https://books.toscrape.com/catalogue/sorting-the-beef-from-the-bull-the-science-of-food-fraud-forensics_736/index.html",
-		PRODUCT_NAME:
-			"Sorting the Beef from the Bull: The Science of Food Fraud Forensics",
+		PRODUCT_NAME: "Sorting the Beef from the Bull: The Science of Food Fraud Forensics",
 		CATEGORY: "Science",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/5d/a5/5da545b9d44464af8b3d0a9511a050ca.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/5d/a5/5da545b9d44464af8b3d0a9511a050ca.jpg",
 		UPC: "3edcccc4f341fb1a",
 		PRICE: "44.74",
 		TAX: "0.0",
@@ -3625,11 +3313,9 @@ export const Books = [
 	{
 		ID: 255,
 		URL: "https://books.toscrape.com/catalogue/tipping-point-for-planet-earth-how-close-are-we-to-the-edge_643/index.html",
-		PRODUCT_NAME:
-			"Tipping Point for Planet Earth: How Close Are We to the Edge?",
+		PRODUCT_NAME: "Tipping Point for Planet Earth: How Close Are We to the Edge?",
 		CATEGORY: "Science",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/8e/cb/8ecbec21e76445ee83229a439e22aeaa.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/8e/cb/8ecbec21e76445ee83229a439e22aeaa.jpg",
 		UPC: "148715df5a02ea5e",
 		PRICE: "37.55",
 		TAX: "0.0",
@@ -3640,11 +3326,9 @@ export const Books = [
 	{
 		ID: 256,
 		URL: "https://books.toscrape.com/catalogue/the-fabric-of-the-cosmos-space-time-and-the-texture-of-reality_572/index.html",
-		PRODUCT_NAME:
-			"The Fabric of the Cosmos: Space, Time, and the Texture of Reality",
+		PRODUCT_NAME: "The Fabric of the Cosmos: Space, Time, and the Texture of Reality",
 		CATEGORY: "Science",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/b2/5a/b25a722c3bab8b311454bc251a75334a.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/b2/5a/b25a722c3bab8b311454bc251a75334a.jpg",
 		UPC: "ca74f2e3c35a3e77",
 		PRICE: "55.91",
 		TAX: "0.0",
@@ -3655,11 +3339,9 @@ export const Books = [
 	{
 		ID: 257,
 		URL: "https://books.toscrape.com/catalogue/diary-of-a-citizen-scientist-chasing-tiger-beetles-and-other-new-ways-of-engaging-the-world_517/index.html",
-		PRODUCT_NAME:
-			"Diary of a Citizen Scientist: Chasing Tiger Beetles and Other New Ways of Engaging the World",
+		PRODUCT_NAME: "Diary of a Citizen Scientist: Chasing Tiger Beetles and Other New Ways of Engaging the World",
 		CATEGORY: "Science",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/29/5c/295ca7f5981786e8b2c6616d10158808.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/29/5c/295ca7f5981786e8b2c6616d10158808.jpg",
 		UPC: "0c11e2d068768dbb",
 		PRICE: "28.41",
 		TAX: "0.0",
@@ -3672,8 +3354,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-origin-of-species_499/index.html",
 		PRODUCT_NAME: "The Origin of Species",
 		CATEGORY: "Science",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/d5/45/d54527d34174d5dd7eaeaaffdfcb3c5c.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/d5/45/d54527d34174d5dd7eaeaaffdfcb3c5c.jpg",
 		UPC: "0345872b14f9e774",
 		PRICE: "10.01",
 		TAX: "0.0",
@@ -3686,8 +3367,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-grand-design_405/index.html",
 		PRODUCT_NAME: "The Grand Design",
 		CATEGORY: "Science",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/9b/69/9b696c2064d6ee387774b6121bb4be91.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/9b/69/9b696c2064d6ee387774b6121bb4be91.jpg",
 		UPC: "3213b1f13f5f0f7c",
 		PRICE: "13.76",
 		TAX: "0.0",
@@ -3700,8 +3380,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/peak-secrets-from-the-new-science-of-expertise_389/index.html",
 		PRODUCT_NAME: "Peak: Secrets from the New Science of Expertise",
 		CATEGORY: "Science",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/7c/04/7c04c7a92b5ba83361eba81fa364a2ca.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/7c/04/7c04c7a92b5ba83361eba81fa364a2ca.jpg",
 		UPC: "6036239d2ab349b7",
 		PRICE: "16.28",
 		TAX: "0.0",
@@ -3712,11 +3391,9 @@ export const Books = [
 	{
 		ID: 261,
 		URL: "https://books.toscrape.com/catalogue/the-elegant-universe-superstrings-hidden-dimensions-and-the-quest-for-the-ultimate-theory_245/index.html",
-		PRODUCT_NAME:
-			"The Elegant Universe: Superstrings, Hidden Dimensions, and the Quest for the Ultimate Theory",
+		PRODUCT_NAME: "The Elegant Universe: Superstrings, Hidden Dimensions, and the Quest for the Ultimate Theory",
 		CATEGORY: "Science",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/5e/db/5edba3f8d50df6306bc5aa3f2516bd0c.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/5e/db/5edba3f8d50df6306bc5aa3f2516bd0c.jpg",
 		UPC: "c6bf14cb901c63ac",
 		PRICE: "13.03",
 		TAX: "0.0",
@@ -3730,8 +3407,7 @@ export const Books = [
 		PRODUCT_NAME:
 			"The Disappearing Spoon: And Other True Tales of Madness, Love, and the History of the World from the Periodic Table of the Elements",
 		CATEGORY: "Science",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/47/cd/47cd27d1ae8935f974541829eea328f2.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/47/cd/47cd27d1ae8935f974541829eea328f2.jpg",
 		UPC: "63c0826ef59eae66",
 		PRICE: "57.35",
 		TAX: "0.0",
@@ -3742,11 +3418,9 @@ export const Books = [
 	{
 		ID: 263,
 		URL: "https://books.toscrape.com/catalogue/surely-youre-joking-mr-feynman-adventures-of-a-curious-character_227/index.html",
-		PRODUCT_NAME:
-			"Surely You're Joking, Mr. Feynman!: Adventures of a Curious Character",
+		PRODUCT_NAME: "Surely You're Joking, Mr. Feynman!: Adventures of a Curious Character",
 		CATEGORY: "Science",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/a5/50/a550edf8668b36d52d37080a804944ab.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/a5/50/a550edf8668b36d52d37080a804944ab.jpg",
 		UPC: "61002f3b7ba5d780",
 		PRICE: "25.83",
 		TAX: "0.0",
@@ -3759,8 +3433,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/seven-brief-lessons-on-physics_219/index.html",
 		PRODUCT_NAME: "Seven Brief Lessons on Physics",
 		CATEGORY: "Science",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/ae/f9/aef933758e39ba5e4327b2152478bb1a.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/ae/f9/aef933758e39ba5e4327b2152478bb1a.jpg",
 		UPC: "281a244ce1954711",
 		PRICE: "30.6",
 		TAX: "0.0",
@@ -3773,8 +3446,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-selfish-gene_81/index.html",
 		PRODUCT_NAME: "The Selfish Gene",
 		CATEGORY: "Science",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/d7/63/d763b806d6f0fb6580f16d08e00bdba6.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/d7/63/d763b806d6f0fb6580f16d08e00bdba6.jpg",
 		UPC: "6f2c0a9adbb2bca9",
 		PRICE: "29.45",
 		TAX: "0.0",
@@ -3785,11 +3457,9 @@ export const Books = [
 	{
 		ID: 266,
 		URL: "https://books.toscrape.com/catalogue/the-lucifer-effect-understanding-how-good-people-turn-evil_758/index.html",
-		PRODUCT_NAME:
-			"The Lucifer Effect: Understanding How Good People Turn Evil",
+		PRODUCT_NAME: "The Lucifer Effect: Understanding How Good People Turn Evil",
 		CATEGORY: "Psychology",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/4b/2a/4b2a574e8382dcac92d046d30d2c27fc.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/4b/2a/4b2a574e8382dcac92d046d30d2c27fc.jpg",
 		UPC: "4e812d32d64e2431",
 		PRICE: "10.4",
 		TAX: "0.0",
@@ -3800,11 +3470,9 @@ export const Books = [
 	{
 		ID: 267,
 		URL: "https://books.toscrape.com/catalogue/the-golden-condom-and-other-essays-on-love-lost-and-found_637/index.html",
-		PRODUCT_NAME:
-			"The Golden Condom: And Other Essays on Love Lost and Found",
+		PRODUCT_NAME: "The Golden Condom: And Other Essays on Love Lost and Found",
 		CATEGORY: "Psychology",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/e8/b4/e8b404939ad2b1cc9d896ba646919b17.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/e8/b4/e8b404939ad2b1cc9d896ba646919b17.jpg",
 		UPC: "235fa48eeed11d82",
 		PRICE: "39.43",
 		TAX: "0.0",
@@ -3818,8 +3486,7 @@ export const Books = [
 		PRODUCT_NAME:
 			"It Didn't Start with You: How Inherited Family Trauma Shapes Who We Are and How to End the Cycle",
 		CATEGORY: "Psychology",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/d3/26/d326484793116ccc786957d31e4fe912.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/d3/26/d326484793116ccc786957d31e4fe912.jpg",
 		UPC: "ce8666d9b42fc9a0",
 		PRICE: "56.27",
 		TAX: "0.0",
@@ -3832,8 +3499,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/an-unquiet-mind-a-memoir-of-moods-and-madness_422/index.html",
 		PRODUCT_NAME: "An Unquiet Mind: A Memoir of Moods and Madness",
 		CATEGORY: "Psychology",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/e5/65/e56540f5e29286f3d7a1e3eb1912b61f.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/e5/65/e56540f5e29286f3d7a1e3eb1912b61f.jpg",
 		UPC: "46cb43c2ab133ccc",
 		PRICE: "21.3",
 		TAX: "0.0",
@@ -3846,8 +3512,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/thinking-fast-and-slow_289/index.html",
 		PRODUCT_NAME: "Thinking, Fast and Slow",
 		CATEGORY: "Psychology",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/7d/9b/7d9ba3173dcc0194ec63f9c77d0763cb.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/7d/9b/7d9ba3173dcc0194ec63f9c77d0763cb.jpg",
 		UPC: "719d72f3ee512dc6",
 		PRICE: "21.14",
 		TAX: "0.0",
@@ -3860,8 +3525,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/civilization-and-its-discontents_140/index.html",
 		PRODUCT_NAME: "Civilization and Its Discontents",
 		CATEGORY: "Psychology",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/5c/27/5c2728296f41f2f0fb52142e35f49570.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/5c/27/5c2728296f41f2f0fb52142e35f49570.jpg",
 		UPC: "396385e3de5d18c3",
 		PRICE: "59.95",
 		TAX: "0.0",
@@ -3874,8 +3538,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/8-keys-to-mental-health-through-exercise_114/index.html",
 		PRODUCT_NAME: "8 Keys to Mental Health Through Exercise",
 		CATEGORY: "Psychology",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/37/5e/375e0267fe12e7aa1f9f7f2bd2711ecb.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/37/5e/375e0267fe12e7aa1f9f7f2bd2711ecb.jpg",
 		UPC: "f5873c8fc7760000",
 		PRICE: "31.04",
 		TAX: "0.0",
@@ -3888,8 +3551,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-argonauts_837/index.html",
 		PRODUCT_NAME: "The Argonauts",
 		CATEGORY: "Autobiography",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/22/d0/22d01c710471f94dabfa41083fa3cf4e.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/22/d0/22d01c710471f94dabfa41083fa3cf4e.jpg",
 		UPC: "c99761a700ade23f",
 		PRICE: "10.93",
 		TAX: "0.0",
@@ -3902,8 +3564,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/m-train_598/index.html",
 		PRODUCT_NAME: "M Train",
 		CATEGORY: "Autobiography",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/f0/9f/f09fd4a3200b94db86364f308ac02530.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/f0/9f/f09fd4a3200b94db86364f308ac02530.jpg",
 		UPC: "5569c3fea112718e",
 		PRICE: "27.18",
 		TAX: "0.0",
@@ -3916,8 +3577,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/lab-girl_595/index.html",
 		PRODUCT_NAME: "Lab Girl",
 		CATEGORY: "Autobiography",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/26/ff/26ffcda626a5561e483afa19b58db8ac.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/26/ff/26ffcda626a5561e483afa19b58db8ac.jpg",
 		UPC: "825d6c44da3ca5a6",
 		PRICE: "40.85",
 		TAX: "0.0",
@@ -3930,8 +3590,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/approval-junkie-adventures-in-caring-too-much_363/index.html",
 		PRODUCT_NAME: "Approval Junkie: Adventures in Caring Too Much",
 		CATEGORY: "Autobiography",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/96/6d/966d8d2afdead087cba0f29a69f89ba5.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/96/6d/966d8d2afdead087cba0f29a69f89ba5.jpg",
 		UPC: "612369a5947a012e",
 		PRICE: "58.81",
 		TAX: "0.0",
@@ -3944,8 +3603,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/running-with-scissors_215/index.html",
 		PRODUCT_NAME: "Running with Scissors",
 		CATEGORY: "Autobiography",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/4c/e1/4ce1ed40df359e001020e1ea55674381.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/4c/e1/4ce1ed40df359e001020e1ea55674381.jpg",
 		UPC: "28921443f052bea6",
 		PRICE: "12.91",
 		TAX: "0.0",
@@ -3958,8 +3616,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/me-talk-pretty-one-day_193/index.html",
 		PRODUCT_NAME: "Me Talk Pretty One Day",
 		CATEGORY: "Autobiography",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/61/b2/61b220c2079a45a7975a397c8849e00e.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/61/b2/61b220c2079a45a7975a397c8849e00e.jpg",
 		UPC: "abc4a7ee16c21088",
 		PRICE: "57.6",
 		TAX: "0.0",
@@ -3972,8 +3629,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/lust-wonder_191/index.html",
 		PRODUCT_NAME: "Lust & Wonder",
 		CATEGORY: "Autobiography",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/25/1c/251ce4355601534338a646f2b63be93a.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/25/1c/251ce4355601534338a646f2b63be93a.jpg",
 		UPC: "0dcadb06206abd3c",
 		PRICE: "11.87",
 		TAX: "0.0",
@@ -3986,8 +3642,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/life-without-a-recipe_188/index.html",
 		PRODUCT_NAME: "Life Without a Recipe",
 		CATEGORY: "Autobiography",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/9e/4f/9e4fb935df3113056cc9bdee6cd09ea6.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/9e/4f/9e4fb935df3113056cc9bdee6cd09ea6.jpg",
 		UPC: "c53d9fefcda371e9",
 		PRICE: "59.04",
 		TAX: "0.0",
@@ -4000,8 +3655,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/a-heartbreaking-work-of-staggering-genius_115/index.html",
 		PRODUCT_NAME: "A Heartbreaking Work of Staggering Genius",
 		CATEGORY: "Autobiography",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/47/f3/47f3d4f1e85773bf41ba64a036e37994.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/47/f3/47f3d4f1e85773bf41ba64a036e37994.jpg",
 		UPC: "c9770bb1d5a492a0",
 		PRICE: "54.29",
 		TAX: "0.0",
@@ -4014,8 +3668,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-mysterious-affair-at-styles-hercule-poirot-1_452/index.html",
 		PRODUCT_NAME: "The Mysterious Affair at Styles (Hercule Poirot #1)",
 		CATEGORY: "Mystery",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/6b/61/6b61d393f0731f6c52182ba3cf41e245.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/6b/61/6b61d393f0731f6c52182ba3cf41e245.jpg",
 		UPC: "2da5edf8b5776c9a",
 		PRICE: "24.8",
 		TAX: "0.0",
@@ -4028,8 +3681,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/in-the-woods-dublin-murder-squad-1_433/index.html",
 		PRODUCT_NAME: "In the Woods (Dublin Murder Squad #1)",
 		CATEGORY: "Mystery",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/13/47/13470484ded8c835ce03b662fc863a1a.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/13/47/13470484ded8c835ce03b662fc863a1a.jpg",
 		UPC: "6958de044cb28a84",
 		PRICE: "38.38",
 		TAX: "0.0",
@@ -4042,8 +3694,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-silkworm-cormoran-strike-2_280/index.html",
 		PRODUCT_NAME: "The Silkworm (Cormoran Strike #2)",
 		CATEGORY: "Mystery",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/fa/d2/fad227281b25d606782218a33323991b.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/fa/d2/fad227281b25d606782218a33323991b.jpg",
 		UPC: "f06039c29b5891fa",
 		PRICE: "23.05",
 		TAX: "0.0",
@@ -4056,8 +3707,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-exiled_247/index.html",
 		PRODUCT_NAME: "The Exiled",
 		CATEGORY: "Mystery",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/dd/29/dd29147b962e4480491cac5bce41e4e4.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/dd/29/dd29147b962e4480491cac5bce41e4e4.jpg",
 		UPC: "dd003e904727281a",
 		PRICE: "43.45",
 		TAX: "0.0",
@@ -4070,8 +3720,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-cuckoos-calling-cormoran-strike-1_239/index.html",
 		PRODUCT_NAME: "The Cuckoo's Calling (Cormoran Strike #1)",
 		CATEGORY: "Mystery",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/72/ec/72ec24f082aba608ca37bc3aeaf57317.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/72/ec/72ec24f082aba608ca37bc3aeaf57317.jpg",
 		UPC: "1be6d3b121865edb",
 		PRICE: "19.21",
 		TAX: "0.0",
@@ -4084,8 +3733,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/extreme-prey-lucas-davenport-26_154/index.html",
 		PRODUCT_NAME: "Extreme Prey (Lucas Davenport #26)",
 		CATEGORY: "Mystery",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/0a/b2/0ab24d35793497f6a72137191b91659e.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/0a/b2/0ab24d35793497f6a72137191b91659e.jpg",
 		UPC: "588ba85ff11a3263",
 		PRICE: "25.4",
 		TAX: "0.0",
@@ -4098,8 +3746,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/career-of-evil-cormoran-strike-3_137/index.html",
 		PRODUCT_NAME: "Career of Evil (Cormoran Strike #3)",
 		CATEGORY: "Mystery",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/40/f8/40f897ffbfda6e88e5763c157cfd0930.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/40/f8/40f897ffbfda6e88e5763c157cfd0930.jpg",
 		UPC: "b461cf238506c5b8",
 		PRICE: "24.72",
 		TAX: "0.0",
@@ -4110,11 +3757,9 @@ export const Books = [
 	{
 		ID: 289,
 		URL: "https://books.toscrape.com/catalogue/the-no-1-ladies-detective-agency-no-1-ladies-detective-agency-1_76/index.html",
-		PRODUCT_NAME:
-			"The No. 1 Ladies' Detective Agency (No. 1 Ladies' Detective Agency #1)",
+		PRODUCT_NAME: "The No. 1 Ladies' Detective Agency (No. 1 Ladies' Detective Agency #1)",
 		CATEGORY: "Mystery",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/62/8c/628c0151226402726149c98549671250.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/62/8c/628c0151226402726149c98549671250.jpg",
 		UPC: "b0913e67d38d5ed5",
 		PRICE: "57.7",
 		TAX: "0.0",
@@ -4127,8 +3772,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-girl-you-lost_66/index.html",
 		PRODUCT_NAME: "The Girl You Lost",
 		CATEGORY: "Mystery",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/28/15/2815974db428ea019fc84e08af23095b.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/28/15/2815974db428ea019fc84e08af23095b.jpg",
 		UPC: "4280ac3eab57aa5d",
 		PRICE: "12.29",
 		TAX: "0.0",
@@ -4141,8 +3785,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-girl-in-the-ice-dci-erika-foster-1_65/index.html",
 		PRODUCT_NAME: "The Girl In The Ice (DCI Erika Foster #1)",
 		CATEGORY: "Mystery",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/83/54/835421d17d99c89fd99d07e17806357b.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/83/54/835421d17d99c89fd99d07e17806357b.jpg",
 		UPC: "ee61197edb882599",
 		PRICE: "15.85",
 		TAX: "0.0",
@@ -4155,8 +3798,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/blood-defense-samantha-brinkman-1_8/index.html",
 		PRODUCT_NAME: "Blood Defense (Samantha Brinkman #1)",
 		CATEGORY: "Mystery",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/ea/12/ea12c82131832c5d772fdbd3cb56ced7.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/ea/12/ea12c82131832c5d772fdbd3cb56ced7.jpg",
 		UPC: "95cdfd514098c38b",
 		PRICE: "20.3",
 		TAX: "0.0",
@@ -4169,8 +3811,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/1st-to-die-womens-murder-club-1_2/index.html",
 		PRODUCT_NAME: "1st to Die (Women's Murder Club #1)",
 		CATEGORY: "Mystery",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/f6/8e/f68e6ae2f9da04fccbde8442b0a1b52a.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/f6/8e/f68e6ae2f9da04fccbde8442b0a1b52a.jpg",
 		UPC: "f684a82adc49f011",
 		PRICE: "53.98",
 		TAX: "0.0",
@@ -4183,8 +3824,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/scott-pilgrims-precious-little-life-scott-pilgrim-1_987/index.html",
 		PRODUCT_NAME: "Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/97/27/97275841c81e66d53bf9313cba06f23e.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/97/27/97275841c81e66d53bf9313cba06f23e.jpg",
 		UPC: "3b1c02bac2a429e6",
 		PRICE: "52.29",
 		TAX: "0.0",
@@ -4197,8 +3837,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/tsubasa-world-chronicle-2-tsubasa-world-chronicle-2_949/index.html",
 		PRODUCT_NAME: "Tsubasa: WoRLD CHRoNiCLE 2 (Tsubasa WoRLD CHRoNiCLE #2)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/8b/ab/8bab133ec9f8248a8d5f5ea5c09d0f56.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/8b/ab/8bab133ec9f8248a8d5f5ea5c09d0f56.jpg",
 		UPC: "09555be379ad9253",
 		PRICE: "16.28",
 		TAX: "0.0",
@@ -4211,8 +3850,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/this-one-summer_947/index.html",
 		PRODUCT_NAME: "This One Summer",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/ee/43/ee4364a59d66bafb1b3264419ab3ed9e.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/ee/43/ee4364a59d66bafb1b3264419ab3ed9e.jpg",
 		UPC: "51653ef291ab7ddc",
 		PRICE: "19.49",
 		TAX: "0.0",
@@ -4225,8 +3863,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-nameless-city-the-nameless-city-1_940/index.html",
 		PRODUCT_NAME: "The Nameless City (The Nameless City #1)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/19/de/19deee0778c2406da04a4dd0ea09188f.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/19/de/19deee0778c2406da04a4dd0ea09188f.jpg",
 		UPC: "7d385d34d12e60ff",
 		PRICE: "38.16",
 		TAX: "0.0",
@@ -4239,8 +3876,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/saga-volume-5-saga-collected-editions-5_923/index.html",
 		PRODUCT_NAME: "Saga, Volume 5 (Saga (Collected Editions) #5)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/60/3c/603c8f3dd299efe67616a53e5bfb1d03.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/60/3c/603c8f3dd299efe67616a53e5bfb1d03.jpg",
 		UPC: "53a3d11bb568cc8b",
 		PRICE: "51.04",
 		TAX: "0.0",
@@ -4251,11 +3887,9 @@ export const Books = [
 	{
 		ID: 299,
 		URL: "https://books.toscrape.com/catalogue/rat-queens-vol-3-demons-rat-queens-collected-editions-11-15_921/index.html",
-		PRODUCT_NAME:
-			"Rat Queens, Vol. 3: Demons (Rat Queens (Collected Editions) #11-15)",
+		PRODUCT_NAME: "Rat Queens, Vol. 3: Demons (Rat Queens (Collected Editions) #11-15)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/d5/d0/d5d015a9cf899301cce5d1a629bdd974.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/d5/d0/d5d015a9cf899301cce5d1a629bdd974.jpg",
 		UPC: "c82a3e358c773c73",
 		PRICE: "50.4",
 		TAX: "0.0",
@@ -4266,11 +3900,9 @@ export const Books = [
 	{
 		ID: 300,
 		URL: "https://books.toscrape.com/catalogue/princess-jellyfish-2-in-1-omnibus-vol-01-princess-jellyfish-2-in-1-omnibus-1_920/index.html",
-		PRODUCT_NAME:
-			"Princess Jellyfish 2-in-1 Omnibus, Vol. 01 (Princess Jellyfish 2-in-1 Omnibus #1)",
+		PRODUCT_NAME: "Princess Jellyfish 2-in-1 Omnibus, Vol. 01 (Princess Jellyfish 2-in-1 Omnibus #1)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/6c/8f/6c8ffe949fb650ba60eff25be1692881.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/6c/8f/6c8ffe949fb650ba60eff25be1692881.jpg",
 		UPC: "0fa6dceead7ce47a",
 		PRICE: "13.61",
 		TAX: "0.0",
@@ -4283,8 +3915,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/pop-gun-war-volume-1-gift_918/index.html",
 		PRODUCT_NAME: "Pop Gun War, Volume 1: Gift",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/6f/7b/6f7b3b8445b943f4ff7426360daefb88.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/6f/7b/6f7b3b8445b943f4ff7426360daefb88.jpg",
 		UPC: "e80f8e518b300dfe",
 		PRICE: "18.97",
 		TAX: "0.0",
@@ -4297,8 +3928,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/patience_916/index.html",
 		PRODUCT_NAME: "Patience",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/71/0c/710cdaa148f10aac35c27bb93b4f532e.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/71/0c/710cdaa148f10aac35c27bb93b4f532e.jpg",
 		UPC: "9429b4d59c537af5",
 		PRICE: "10.16",
 		TAX: "0.0",
@@ -4311,8 +3941,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/outcast-vol-1-a-darkness-surrounds-him-outcast-1_915/index.html",
 		PRODUCT_NAME: "Outcast, Vol. 1: A Darkness Surrounds Him (Outcast #1)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/0c/8a/0c8ae80b592bc1b4c555d6b29d1cfa28.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/0c/8a/0c8ae80b592bc1b4c555d6b29d1cfa28.jpg",
 		UPC: "889139b8e9c4cb36",
 		PRICE: "15.44",
 		TAX: "0.0",
@@ -4323,11 +3952,9 @@ export const Books = [
 	{
 		ID: 304,
 		URL: "https://books.toscrape.com/catalogue/orange-the-complete-collection-1-orange-the-complete-collection-1_914/index.html",
-		PRODUCT_NAME:
-			"orange: The Complete Collection 1 (orange: The Complete Collection #1)",
+		PRODUCT_NAME: "orange: The Complete Collection 1 (orange: The Complete Collection #1)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/33/0b/330bf57e3f2e70548f87d39cb956f7eb.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/33/0b/330bf57e3f2e70548f87d39cb956f7eb.jpg",
 		UPC: "11809b1d323b3057",
 		PRICE: "48.41",
 		TAX: "0.0",
@@ -4338,11 +3965,9 @@ export const Books = [
 	{
 		ID: 305,
 		URL: "https://books.toscrape.com/catalogue/lumberjanes-vol-2-friendship-to-the-max-lumberjanes-5-8_907/index.html",
-		PRODUCT_NAME:
-			"Lumberjanes, Vol. 2: Friendship to the Max (Lumberjanes #5-8)",
+		PRODUCT_NAME: "Lumberjanes, Vol. 2: Friendship to the Max (Lumberjanes #5-8)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/67/f8/67f83a06f77d0ff3b06cb8ac04839422.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/67/f8/67f83a06f77d0ff3b06cb8ac04839422.jpg",
 		UPC: "460089f796fb3f82",
 		PRICE: "46.91",
 		TAX: "0.0",
@@ -4353,11 +3978,9 @@ export const Books = [
 	{
 		ID: 306,
 		URL: "https://books.toscrape.com/catalogue/lumberjanes-vol-1-beware-the-kitten-holy-lumberjanes-1-4_906/index.html",
-		PRODUCT_NAME:
-			"Lumberjanes, Vol. 1: Beware the Kitten Holy (Lumberjanes #1-4)",
+		PRODUCT_NAME: "Lumberjanes, Vol. 1: Beware the Kitten Holy (Lumberjanes #1-4)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/1c/78/1c78cb31ededc4c662857cf65bd1619d.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/1c/78/1c78cb31ededc4c662857cf65bd1619d.jpg",
 		UPC: "b6ee99bcf06fc91f",
 		PRICE: "45.61",
 		TAX: "0.0",
@@ -4370,8 +3993,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/lumberjanes-vol-3-a-terrible-plan-lumberjanes-9-12_905/index.html",
 		PRODUCT_NAME: "Lumberjanes Vol. 3: A Terrible Plan (Lumberjanes #9-12)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/d6/9b/d69b7020c4210e12882ffca0428919a2.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/d6/9b/d69b7020c4210e12882ffca0428919a2.jpg",
 		UPC: "57e5a4d515c8ce44",
 		PRICE: "19.92",
 		TAX: "0.0",
@@ -4382,11 +4004,9 @@ export const Books = [
 	{
 		ID: 308,
 		URL: "https://books.toscrape.com/catalogue/i-hate-fairyland-vol-1-madly-ever-after-i-hate-fairyland-compilations-1-5_899/index.html",
-		PRODUCT_NAME:
-			"I Hate Fairyland, Vol. 1: Madly Ever After (I Hate Fairyland (Compilations) #1-5)",
+		PRODUCT_NAME: "I Hate Fairyland, Vol. 1: Madly Ever After (I Hate Fairyland (Compilations) #1-5)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/58/e2/58e2097169e92a95d973da420ce7cc98.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/58/e2/58e2097169e92a95d973da420ce7cc98.jpg",
 		UPC: "8d4eefad7a2b3915",
 		PRICE: "29.17",
 		TAX: "0.0",
@@ -4399,8 +4019,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/i-am-a-hero-omnibus-volume-1_898/index.html",
 		PRODUCT_NAME: "I am a Hero Omnibus Volume 1",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/f7/4d/f74db5141becf01083abc03c078f4922.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/f7/4d/f74db5141becf01083abc03c078f4922.jpg",
 		UPC: "1c89ae5bb804e4de",
 		PRICE: "54.63",
 		TAX: "0.0",
@@ -4413,8 +4032,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/giant-days-vol-2-giant-days-5-8_895/index.html",
 		PRODUCT_NAME: "Giant Days, Vol. 2 (Giant Days #5-8)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/d0/6f/d06ff4e3b9daf93b18bb21f1af19b5eb.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/d0/6f/d06ff4e3b9daf93b18bb21f1af19b5eb.jpg",
 		UPC: "f2df3bb043a8abb0",
 		PRICE: "22.11",
 		TAX: "0.0",
@@ -4427,8 +4045,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/danganronpa-volume-1_889/index.html",
 		PRODUCT_NAME: "Danganronpa Volume 1",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/ce/39/ce3942d9a10b6a17805136ace7c140fa.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/ce/39/ce3942d9a10b6a17805136ace7c140fa.jpg",
 		UPC: "09b6cc87e62c2c58",
 		PRICE: "51.99",
 		TAX: "0.0",
@@ -4441,8 +4058,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/codename-baboushka-volume-1-the-conclave-of-death_887/index.html",
 		PRODUCT_NAME: "Codename Baboushka, Volume 1: The Conclave of Death",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/ed/a5/eda54d1bfcdd39488013f7aae1eaf659.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/ed/a5/eda54d1bfcdd39488013f7aae1eaf659.jpg",
 		UPC: "8754c83ab2a7ae71",
 		PRICE: "36.72",
 		TAX: "0.0",
@@ -4455,8 +4071,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/camp-midnight_886/index.html",
 		PRODUCT_NAME: "Camp Midnight",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/7a/67/7a671ecf69cdcd2ea9ebe85da1b5585f.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/7a/67/7a671ecf69cdcd2ea9ebe85da1b5585f.jpg",
 		UPC: "7b599c8bfcdd8d30",
 		PRICE: "17.08",
 		TAX: "0.0",
@@ -4467,11 +4082,9 @@ export const Books = [
 	{
 		ID: 314,
 		URL: "https://books.toscrape.com/catalogue/bitch-planet-vol-1-extraordinary-machine-bitch-planet-collected-editions_882/index.html",
-		PRODUCT_NAME:
-			"Bitch Planet, Vol. 1: Extraordinary Machine (Bitch Planet (Collected Editions))",
+		PRODUCT_NAME: "Bitch Planet, Vol. 1: Extraordinary Machine (Bitch Planet (Collected Editions))",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/9d/1d/9d1d68362670066b155936e37d61bc5b.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/9d/1d/9d1d68362670066b155936e37d61bc5b.jpg",
 		UPC: "bdf415fd484ea8a7",
 		PRICE: "37.92",
 		TAX: "0.0",
@@ -4484,8 +4097,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-shadow-hero-the-shadow-hero_860/index.html",
 		PRODUCT_NAME: "The Shadow Hero (The Shadow Hero)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/c3/d2/c3d2356443efca9bcad78eba8d249fc1.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/c3/d2/c3d2356443efca9bcad78eba8d249fc1.jpg",
 		UPC: "d6361d16212664ed",
 		PRICE: "33.14",
 		TAX: "0.0",
@@ -4498,8 +4110,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/fables-vol-1-legends-in-exile-fables-1_806/index.html",
 		PRODUCT_NAME: "Fables, Vol. 1: Legends in Exile (Fables #1)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/51/e4/51e472da0b7be65921345af6d4ca9e51.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/51/e4/51e472da0b7be65921345af6d4ca9e51.jpg",
 		UPC: "65d034adf80834b7",
 		PRICE: "41.62",
 		TAX: "0.0",
@@ -4512,8 +4123,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/batman-the-long-halloween-batman_793/index.html",
 		PRODUCT_NAME: "Batman: The Long Halloween (Batman)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/26/a6/26a6c3227af69348c542bc4e094279a4.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/26/a6/26a6c3227af69348c542bc4e094279a4.jpg",
 		UPC: "7edc0527cf782e19",
 		PRICE: "36.5",
 		TAX: "0.0",
@@ -4526,8 +4136,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/batman-the-dark-knight-returns-batman_792/index.html",
 		PRODUCT_NAME: "Batman: The Dark Knight Returns (Batman)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/1e/38/1e381319aaf7cf69c27a5171520d53fe.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/1e/38/1e381319aaf7cf69c27a5171520d53fe.jpg",
 		UPC: "47271d8e08b5d31c",
 		PRICE: "15.38",
 		TAX: "0.0",
@@ -4538,11 +4147,9 @@ export const Books = [
 	{
 		ID: 319,
 		URL: "https://books.toscrape.com/catalogue/wonder-woman-earth-one-volume-one-wonder-woman-earth-one-1_783/index.html",
-		PRODUCT_NAME:
-			"Wonder Woman: Earth One, Volume One (Wonder Woman: Earth One #1)",
+		PRODUCT_NAME: "Wonder Woman: Earth One, Volume One (Wonder Woman: Earth One #1)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/b6/6a/b66a733a0fd2c0ed2cffaf5d2d9dd146.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/b6/6a/b66a733a0fd2c0ed2cffaf5d2d9dd146.jpg",
 		UPC: "047097293bb4d1c0",
 		PRICE: "37.34",
 		TAX: "0.0",
@@ -4553,11 +4160,9 @@ export const Books = [
 	{
 		ID: 320,
 		URL: "https://books.toscrape.com/catalogue/we-are-robin-vol-1-the-vigilante-business-we-are-robin-1_778/index.html",
-		PRODUCT_NAME:
-			"We Are Robin, Vol. 1: The Vigilante Business (We Are Robin #1)",
+		PRODUCT_NAME: "We Are Robin, Vol. 1: The Vigilante Business (We Are Robin #1)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/3e/61/3e611e2228ffe66b05f202cd3da0359c.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/3e/61/3e611e2228ffe66b05f202cd3da0359c.jpg",
 		UPC: "92275cedf6d8ee15",
 		PRICE: "53.9",
 		TAX: "0.0",
@@ -4570,8 +4175,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/through-the-woods_772/index.html",
 		PRODUCT_NAME: "Through the Woods",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/ac/07/ac07aa5cfd42e6192bb801a749263bba.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/ac/07/ac07aa5cfd42e6192bb801a749263bba.jpg",
 		UPC: "6e44bcbeac7f4360",
 		PRICE: "25.38",
 		TAX: "0.0",
@@ -4582,11 +4186,9 @@ export const Books = [
 	{
 		ID: 322,
 		URL: "https://books.toscrape.com/catalogue/superman-vol-1-before-truth-superman-by-gene-luen-yang-1_739/index.html",
-		PRODUCT_NAME:
-			"Superman Vol. 1: Before Truth (Superman by Gene Luen Yang #1)",
+		PRODUCT_NAME: "Superman Vol. 1: Before Truth (Superman by Gene Luen Yang #1)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/31/32/3132ce8535ec612bf8588a5bc62998d4.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/31/32/3132ce8535ec612bf8588a5bc62998d4.jpg",
 		UPC: "ac8e3949d284e9a9",
 		PRICE: "11.89",
 		TAX: "0.0",
@@ -4599,8 +4201,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/so-cute-it-hurts-vol-6-so-cute-it-hurts-6_734/index.html",
 		PRODUCT_NAME: "So Cute It Hurts!!, Vol. 6 (So Cute It Hurts!! #6)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/53/ea/53ead08572cc44510da38edf559722d1.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/53/ea/53ead08572cc44510da38edf559722d1.jpg",
 		UPC: "394f6d30cafc3edb",
 		PRICE: "35.43",
 		TAX: "0.0",
@@ -4613,8 +4214,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/robin-war_730/index.html",
 		PRODUCT_NAME: "Robin War",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/08/e3/08e3fff11713d162620c920a2574e149.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/08/e3/08e3fff11713d162620c920a2574e149.jpg",
 		UPC: "85b2176b3b194030",
 		PRICE: "47.82",
 		TAX: "0.0",
@@ -4625,11 +4225,9 @@ export const Books = [
 	{
 		ID: 325,
 		URL: "https://books.toscrape.com/catalogue/red-hoodarsenal-vol-1-open-for-business-red-hoodarsenal-1_729/index.html",
-		PRODUCT_NAME:
-			"Red Hood/Arsenal, Vol. 1: Open for Business (Red Hood/Arsenal #1)",
+		PRODUCT_NAME: "Red Hood/Arsenal, Vol. 1: Open for Business (Red Hood/Arsenal #1)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/7a/23/7a2319e460168eff8d91828ff380849c.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/7a/23/7a2319e460168eff8d91828ff380849c.jpg",
 		UPC: "31e2e2d9cca3778f",
 		PRICE: "25.48",
 		TAX: "0.0",
@@ -4640,11 +4238,9 @@ export const Books = [
 	{
 		ID: 326,
 		URL: "https://books.toscrape.com/catalogue/naruto-3-in-1-edition-vol-14-includes-vols-40-41-42-naruto-omnibus-14_721/index.html",
-		PRODUCT_NAME:
-			"Naruto (3-in-1 Edition), Vol. 14: Includes Vols. 40, 41 & 42 (Naruto: Omnibus #14)",
+		PRODUCT_NAME: "Naruto (3-in-1 Edition), Vol. 14: Includes Vols. 40, 41 & 42 (Naruto: Omnibus #14)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/0b/b8/0bb8bd42d6b58c7966ba67472a55f905.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/0b/b8/0bb8bd42d6b58c7966ba67472a55f905.jpg",
 		UPC: "71e36f33981ddb74",
 		PRICE: "38.39",
 		TAX: "0.0",
@@ -4655,11 +4251,9 @@ export const Books = [
 	{
 		ID: 327,
 		URL: "https://books.toscrape.com/catalogue/lowriders-to-the-center-of-the-earth-lowriders-in-space-2_712/index.html",
-		PRODUCT_NAME:
-			"Lowriders to the Center of the Earth (Lowriders in Space #2)",
+		PRODUCT_NAME: "Lowriders to the Center of the Earth (Lowriders in Space #2)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/30/d0/30d033fe3d7be21522498ce2b30d58d6.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/30/d0/30d033fe3d7be21522498ce2b30d58d6.jpg",
 		UPC: "a10c7515834240f3",
 		PRICE: "51.51",
 		TAX: "0.0",
@@ -4672,8 +4266,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/el-deafo_691/index.html",
 		PRODUCT_NAME: "El Deafo",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/95/4b/954b63f24b0e4c1c5ce494b33f694b73.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/95/4b/954b63f24b0e4c1c5ce494b33f694b73.jpg",
 		UPC: "27c5968fe43cc06e",
 		PRICE: "57.62",
 		TAX: "0.0",
@@ -4686,8 +4279,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/batman-europa_668/index.html",
 		PRODUCT_NAME: "Batman: Europa",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/dc/f7/dcf7314eb8526366ae9179d1f94bc78e.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/dc/f7/dcf7314eb8526366ae9179d1f94bc78e.jpg",
 		UPC: "bf68dcb5fad3cc8c",
 		PRICE: "32.01",
 		TAX: "0.0",
@@ -4700,8 +4292,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/art-ops-vol-1_664/index.html",
 		PRODUCT_NAME: "Art Ops Vol. 1",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/36/36/3636bc73e33a70300d8265667373d622.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/36/36/3636bc73e33a70300d8265667373d622.jpg",
 		UPC: "ffdc825785c0ede8",
 		PRICE: "48.8",
 		TAX: "0.0",
@@ -4714,8 +4305,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/adulthood-is-a-myth-a-sarahs-scribbles-collection_659/index.html",
 		PRODUCT_NAME: 'Adulthood Is a Myth: A "Sarah\'s Scribbles" Collection',
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/bd/b8/bdb8adf93cb0a6778930ccd543dd9b37.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/bd/b8/bdb8adf93cb0a6778930ccd543dd9b37.jpg",
 		UPC: "5319169a72714c62",
 		PRICE: "10.9",
 		TAX: "0.0",
@@ -4728,8 +4318,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/fruits-basket-vol-9-fruits-basket-9_563/index.html",
 		PRODUCT_NAME: "Fruits Basket, Vol. 9 (Fruits Basket #9)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/3f/97/3f97ab9d27352e8dd24671c945b1c5ac.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/3f/97/3f97ab9d27352e8dd24671c945b1c5ac.jpg",
 		UPC: "97187f5cf0385da3",
 		PRICE: "33.95",
 		TAX: "0.0",
@@ -4742,8 +4331,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/roller-girl_540/index.html",
 		PRODUCT_NAME: "Roller Girl",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/cf/cf/cfcfb88039ddab7d4ae399246529e401.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/cf/cf/cfcfb88039ddab7d4ae399246529e401.jpg",
 		UPC: "aeb51dfbe8aeec59",
 		PRICE: "14.1",
 		TAX: "0.0",
@@ -4756,8 +4344,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/fruits-basket-vol-7-fruits-basket-7_468/index.html",
 		PRODUCT_NAME: "Fruits Basket, Vol. 7 (Fruits Basket #7)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/c3/36/c3366ab246bf5e4baec15cdf55915b69.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/c3/36/c3366ab246bf5e4baec15cdf55915b69.jpg",
 		UPC: "de6d7645f192d517",
 		PRICE: "19.57",
 		TAX: "0.0",
@@ -4770,8 +4357,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/fruits-basket-vol-6-fruits-basket-6_427/index.html",
 		PRODUCT_NAME: "Fruits Basket, Vol. 6 (Fruits Basket #6)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/cd/b5/cdb5bd3a70cd857879120b4a90192bda.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/cd/b5/cdb5bd3a70cd857879120b4a90192bda.jpg",
 		UPC: "97258f576d4bb672",
 		PRICE: "20.96",
 		TAX: "0.0",
@@ -4784,8 +4370,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/death-note-vol-6-give-and-take-death-note-6_425/index.html",
 		PRODUCT_NAME: "Death Note, Vol. 6: Give-and-Take (Death Note #6)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/c7/11/c7117547293ca3bb7a6a78e6603f2f8e.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/c7/11/c7117547293ca3bb7a6a78e6603f2f8e.jpg",
 		UPC: "6e06d0f00f6da20f",
 		PRICE: "36.39",
 		TAX: "0.0",
@@ -4798,8 +4383,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/fruits-basket-vol-5-fruits-basket-5_376/index.html",
 		PRODUCT_NAME: "Fruits Basket, Vol. 5 (Fruits Basket #5)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/8e/25/8e259f84683adbaa30452df5aaa142b3.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/8e/25/8e259f84683adbaa30452df5aaa142b3.jpg",
 		UPC: "3fd83dcf37bf1bc0",
 		PRICE: "16.33",
 		TAX: "0.0",
@@ -4812,8 +4396,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/death-note-vol-5-whiteout-death-note-5_368/index.html",
 		PRODUCT_NAME: "Death Note, Vol. 5: Whiteout (Death Note #5)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/93/d9/93d98563d32936ffd8db2c19f7857478.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/93/d9/93d98563d32936ffd8db2c19f7857478.jpg",
 		UPC: "1c0a38899c82b60a",
 		PRICE: "52.41",
 		TAX: "0.0",
@@ -4824,11 +4407,9 @@ export const Books = [
 	{
 		ID: 339,
 		URL: "https://books.toscrape.com/catalogue/the-demon-prince-of-momochi-house-vol-4-the-demon-prince-of-momochi-house-4_344/index.html",
-		PRODUCT_NAME:
-			"The Demon Prince of Momochi House, Vol. 4 (The Demon Prince of Momochi House #4)",
+		PRODUCT_NAME: "The Demon Prince of Momochi House, Vol. 4 (The Demon Prince of Momochi House #4)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/20/99/20995345e7a87cdfb4503283ae991e84.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/20/99/20995345e7a87cdfb4503283ae991e84.jpg",
 		UPC: "df53c2948b32bde3",
 		PRICE: "27.88",
 		TAX: "0.0",
@@ -4841,8 +4422,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/fruits-basket-vol-4-fruits-basket-4_321/index.html",
 		PRODUCT_NAME: "Fruits Basket, Vol. 4 (Fruits Basket #4)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/77/0b/770bf7bcb38eaacc6a9392dd0b7af1e4.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/77/0b/770bf7bcb38eaacc6a9392dd0b7af1e4.jpg",
 		UPC: "8fff1084aa085a13",
 		PRICE: "50.44",
 		TAX: "0.0",
@@ -4853,11 +4433,9 @@ export const Books = [
 	{
 		ID: 341,
 		URL: "https://books.toscrape.com/catalogue/the-wicked-the-divine-vol-3-commercial-suicide-the-wicked-the-divine_287/index.html",
-		PRODUCT_NAME:
-			"The Wicked + The Divine, Vol. 3: Commercial Suicide (The Wicked + The Divine)",
+		PRODUCT_NAME: "The Wicked + The Divine, Vol. 3: Commercial Suicide (The Wicked + The Divine)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/33/cb/33cb44fb2984e4d09dc2263c50b36927.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/33/cb/33cb44fb2984e4d09dc2263c50b36927.jpg",
 		UPC: "a33ed2e6068df53e",
 		PRICE: "14.41",
 		TAX: "0.0",
@@ -4868,11 +4446,9 @@ export const Books = [
 	{
 		ID: 342,
 		URL: "https://books.toscrape.com/catalogue/the-sandman-vol-3-dream-country-the-sandman-volumes-3_279/index.html",
-		PRODUCT_NAME:
-			"The Sandman, Vol. 3: Dream Country (The Sandman (volumes) #3)",
+		PRODUCT_NAME: "The Sandman, Vol. 3: Dream Country (The Sandman (volumes) #3)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/df/96/df96b9a9739d2421620bfb3622f3c2d0.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/df/96/df96b9a9739d2421620bfb3622f3c2d0.jpg",
 		UPC: "91eb9605998a7c03",
 		PRICE: "55.55",
 		TAX: "0.0",
@@ -4885,8 +4461,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/saga-volume-3-saga-collected-editions-3_216/index.html",
 		PRODUCT_NAME: "Saga, Volume 3 (Saga (Collected Editions) #3)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/55/89/5589eb7a8127d04add1c4205186d91d4.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/55/89/5589eb7a8127d04add1c4205186d91d4.jpg",
 		UPC: "7b870bf85d01c2dc",
 		PRICE: "21.57",
 		TAX: "0.0",
@@ -4897,11 +4472,9 @@ export const Books = [
 	{
 		ID: 344,
 		URL: "https://books.toscrape.com/catalogue/prodigy-the-graphic-novel-legend-the-graphic-novel-2_207/index.html",
-		PRODUCT_NAME:
-			"Prodigy: The Graphic Novel (Legend: The Graphic Novel #2)",
+		PRODUCT_NAME: "Prodigy: The Graphic Novel (Legend: The Graphic Novel #2)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/1b/8b/1b8b733db667fc3a7bbca0d65fa078f1.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/1b/8b/1b8b733db667fc3a7bbca0d65fa078f1.jpg",
 		UPC: "9707989a439757b4",
 		PRICE: "43.63",
 		TAX: "0.0",
@@ -4914,8 +4487,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/persepolis-the-story-of-a-childhood-persepolis-1-2_206/index.html",
 		PRODUCT_NAME: "Persepolis: The Story of a Childhood (Persepolis #1-2)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/9d/5f/9d5f4a231a2ee898ed76f603b3e40163.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/9d/5f/9d5f4a231a2ee898ed76f603b3e40163.jpg",
 		UPC: "cb62418129b864a3",
 		PRICE: "39.13",
 		TAX: "0.0",
@@ -4928,8 +4500,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/original-fake_203/index.html",
 		PRODUCT_NAME: "Original Fake",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/39/99/3999845b6800427aad3d45041586a171.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/39/99/3999845b6800427aad3d45041586a171.jpg",
 		UPC: "c59283b05905c853",
 		PRICE: "31.45",
 		TAX: "0.0",
@@ -4942,8 +4513,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/grayson-vol-3-nemesis-grayson-3_164/index.html",
 		PRODUCT_NAME: "Grayson, Vol 3: Nemesis (Grayson #3)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/a9/10/a9105d5dbdc6a339c21d6635b3dc1697.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/a9/10/a9105d5dbdc6a339c21d6635b3dc1697.jpg",
 		UPC: "4f6985aca357ae09",
 		PRICE: "42.72",
 		TAX: "0.0",
@@ -4956,8 +4526,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/fruits-basket-vol-3-fruits-basket-3_159/index.html",
 		PRODUCT_NAME: "Fruits Basket, Vol. 3 (Fruits Basket #3)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/85/d2/85d2821dbc2d274f516582449199015e.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/85/d2/85d2821dbc2d274f516582449199015e.jpg",
 		UPC: "d5f5a122a593b580",
 		PRICE: "45.17",
 		TAX: "0.0",
@@ -4970,8 +4539,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/black-butler-vol-1-black-butler-1_130/index.html",
 		PRODUCT_NAME: "Black Butler, Vol. 1 (Black Butler #1)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/86/bb/86bb13ef73474e6e96acea6e5ff44231.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/86/bb/86bb13ef73474e6e96acea6e5ff44231.jpg",
 		UPC: "15f415d436888b2d",
 		PRICE: "49.31",
 		TAX: "0.0",
@@ -4984,8 +4552,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/awkward_124/index.html",
 		PRODUCT_NAME: "Awkward",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/71/82/718278fb0edaa50e1f1930cdd2048d87.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/71/82/718278fb0edaa50e1f1930cdd2048d87.jpg",
 		UPC: "1d89a2aa9f6ce50f",
 		PRICE: "38.02",
 		TAX: "0.0",
@@ -4996,11 +4563,9 @@ export const Books = [
 	{
 		ID: 351,
 		URL: "https://books.toscrape.com/catalogue/the-sandman-vol-2-the-dolls-house-the-sandman-volumes-2_110/index.html",
-		PRODUCT_NAME:
-			"The Sandman, Vol. 2: The Doll's House (The Sandman (volumes) #2)",
+		PRODUCT_NAME: "The Sandman, Vol. 2: The Doll's House (The Sandman (volumes) #2)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/b3/48/b3481a7849a7d98131ced57476bb2f26.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/b3/48/b3481a7849a7d98131ced57476bb2f26.jpg",
 		UPC: "276dc716b1da8899",
 		PRICE: "54.81",
 		TAX: "0.0",
@@ -5013,8 +4578,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/saga-volume-2-saga-collected-editions-2_107/index.html",
 		PRODUCT_NAME: "Saga, Volume 2 (Saga (Collected Editions) #2)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/bd/1e/bd1e9e86b838676121bc4954ab40712a.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/bd/1e/bd1e9e86b838676121bc4954ab40712a.jpg",
 		UPC: "9189fd009df41d0e",
 		PRICE: "11.75",
 		TAX: "0.0",
@@ -5027,8 +4591,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/fruits-basket-vol-2-fruits-basket-2_100/index.html",
 		PRODUCT_NAME: "Fruits Basket, Vol. 2 (Fruits Basket #2)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/87/36/8736be56d958f5d8d855108afb206c9f.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/87/36/8736be56d958f5d8d855108afb206c9f.jpg",
 		UPC: "c0db71f6bb14db11",
 		PRICE: "11.64",
 		TAX: "0.0",
@@ -5041,8 +4604,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/y-the-last-man-vol-1-unmanned-y-the-last-man-1_98/index.html",
 		PRODUCT_NAME: "Y: The Last Man, Vol. 1: Unmanned (Y: The Last Man #1)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/31/3f/313fb7d006c8c507d63ce7e96b56d925.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/31/3f/313fb7d006c8c507d63ce7e96b56d925.jpg",
 		UPC: "09d26b5f819c6a36",
 		PRICE: "18.51",
 		TAX: "0.0",
@@ -5053,11 +4615,9 @@ export const Books = [
 	{
 		ID: 355,
 		URL: "https://books.toscrape.com/catalogue/the-wicked-the-divine-vol-1-the-faust-act-the-wicked-the-divine_86/index.html",
-		PRODUCT_NAME:
-			"The Wicked + The Divine, Vol. 1: The Faust Act (The Wicked + The Divine)",
+		PRODUCT_NAME: "The Wicked + The Divine, Vol. 1: The Faust Act (The Wicked + The Divine)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/2a/29/2a296946d7a2ed3829e57d6b155be43b.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/2a/29/2a296946d7a2ed3829e57d6b155be43b.jpg",
 		UPC: "dac9d1e654fac737",
 		PRICE: "36.52",
 		TAX: "0.0",
@@ -5068,11 +4628,9 @@ export const Books = [
 	{
 		ID: 356,
 		URL: "https://books.toscrape.com/catalogue/the-sandman-vol-1-preludes-and-nocturnes-the-sandman-volumes-1_79/index.html",
-		PRODUCT_NAME:
-			"The Sandman, Vol. 1: Preludes and Nocturnes (The Sandman (volumes) #1)",
+		PRODUCT_NAME: "The Sandman, Vol. 1: Preludes and Nocturnes (The Sandman (volumes) #1)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/35/18/3518d80c6b73f9c76e9713af42b9c8e1.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/35/18/3518d80c6b73f9c76e9713af42b9c8e1.jpg",
 		UPC: "5faefdc861684eb1",
 		PRICE: "54.12",
 		TAX: "0.0",
@@ -5085,8 +4643,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-complete-maus-maus-1-2_62/index.html",
 		PRODUCT_NAME: "The Complete Maus (Maus #1-2)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/e5/0f/e50f35f47d84efaa739eff59b3dd4f7c.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/e5/0f/e50f35f47d84efaa739eff59b3dd4f7c.jpg",
 		UPC: "3301af038a720587",
 		PRICE: "10.64",
 		TAX: "0.0",
@@ -5099,8 +4656,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/skip-beat-vol-01-skip-beat-1_55/index.html",
 		PRODUCT_NAME: "Skip Beat!, Vol. 01 (Skip Beat! #1)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/03/0a/030af2f71cc40b03f7d79a0929ac9c18.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/03/0a/030af2f71cc40b03f7d79a0929ac9c18.jpg",
 		UPC: "2ac720f76384c57e",
 		PRICE: "42.12",
 		TAX: "0.0",
@@ -5113,8 +4669,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/saga-volume-1-saga-collected-editions-1_48/index.html",
 		PRODUCT_NAME: "Saga, Volume 1 (Saga (Collected Editions) #1)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/86/01/860132d9f65dd9df2143fb9071a40115.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/86/01/860132d9f65dd9df2143fb9071a40115.jpg",
 		UPC: "4f64568dfefa3ce7",
 		PRICE: "28.48",
 		TAX: "0.0",
@@ -5125,11 +4680,9 @@ export const Books = [
 	{
 		ID: 360,
 		URL: "https://books.toscrape.com/catalogue/rat-queens-vol-1-sass-sorcery-rat-queens-collected-editions-1-5_46/index.html",
-		PRODUCT_NAME:
-			"Rat Queens, Vol. 1: Sass & Sorcery (Rat Queens (Collected Editions) #1-5)",
+		PRODUCT_NAME: "Rat Queens, Vol. 1: Sass & Sorcery (Rat Queens (Collected Editions) #1-5)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/70/da/70daa09e4ddebe1d60f50720c0b49976.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/70/da/70daa09e4ddebe1d60f50720c0b49976.jpg",
 		UPC: "3cdca3b4a93980f5",
 		PRICE: "46.96",
 		TAX: "0.0",
@@ -5142,8 +4695,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/paper-girls-vol-1-paper-girls-1-5_44/index.html",
 		PRODUCT_NAME: "Paper Girls, Vol. 1 (Paper Girls #1-5)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/87/b3/87b3b5ff42301d1c7eeb0c81055f1633.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/87/b3/87b3b5ff42301d1c7eeb0c81055f1633.jpg",
 		UPC: "bcbcbcf0f6ed196f",
 		PRICE: "21.71",
 		TAX: "0.0",
@@ -5154,11 +4706,9 @@ export const Books = [
 	{
 		ID: 362,
 		URL: "https://books.toscrape.com/catalogue/ouran-high-school-host-club-vol-1-ouran-high-school-host-club-1_43/index.html",
-		PRODUCT_NAME:
-			"Ouran High School Host Club, Vol. 1 (Ouran High School Host Club #1)",
+		PRODUCT_NAME: "Ouran High School Host Club, Vol. 1 (Ouran High School Host Club #1)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/27/33/27334267037a79caed4d7b0092d59fb5.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/27/33/27334267037a79caed4d7b0092d59fb5.jpg",
 		UPC: "326825e02a198cf6",
 		PRICE: "29.87",
 		TAX: "0.0",
@@ -5169,11 +4719,9 @@ export const Books = [
 	{
 		ID: 363,
 		URL: "https://books.toscrape.com/catalogue/ms-marvel-vol-1-no-normal-ms-marvel-2014-2015-1_34/index.html",
-		PRODUCT_NAME:
-			"Ms. Marvel, Vol. 1: No Normal (Ms. Marvel (2014-2015) #1)",
+		PRODUCT_NAME: "Ms. Marvel, Vol. 1: No Normal (Ms. Marvel (2014-2015) #1)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/99/f5/99f511d2d38ef356701341d405a1cca2.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/99/f5/99f511d2d38ef356701341d405a1cca2.jpg",
 		UPC: "35a60467893aa168",
 		PRICE: "39.39",
 		TAX: "0.0",
@@ -5186,8 +4734,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/hawkeye-vol-1-my-life-as-a-weapon-hawkeye-1_24/index.html",
 		PRODUCT_NAME: "Hawkeye, Vol. 1: My Life as a Weapon (Hawkeye #1)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/66/97/6697a03eedbac77c2e957788e48b70a8.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/66/97/6697a03eedbac77c2e957788e48b70a8.jpg",
 		UPC: "6fe02600f322a0a9",
 		PRICE: "45.24",
 		TAX: "0.0",
@@ -5200,8 +4747,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/giant-days-vol-1-giant-days-1-4_22/index.html",
 		PRODUCT_NAME: "Giant Days, Vol. 1 (Giant Days #1-4)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/eb/20/eb2063bd8d636cb8200c4b2c7cb6c773.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/eb/20/eb2063bd8d636cb8200c4b2c7cb6c773.jpg",
 		UPC: "eb0fe24bbc845ecc",
 		PRICE: "56.76",
 		TAX: "0.0",
@@ -5214,8 +4760,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/fruits-basket-vol-1-fruits-basket-1_21/index.html",
 		PRODUCT_NAME: "Fruits Basket, Vol. 1 (Fruits Basket #1)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/03/c5/03c51e2b5bf51a3f55deecbf8c9e8515.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/03/c5/03c51e2b5bf51a3f55deecbf8c9e8515.jpg",
 		UPC: "72e6fbf4f6382557",
 		PRICE: "40.28",
 		TAX: "0.0",
@@ -5226,11 +4771,9 @@ export const Books = [
 	{
 		ID: 367,
 		URL: "https://books.toscrape.com/catalogue/bleach-vol-1-strawberry-and-the-soul-reapers-bleach-1_7/index.html",
-		PRODUCT_NAME:
-			"Bleach, Vol. 1: Strawberry and the Soul Reapers (Bleach #1)",
+		PRODUCT_NAME: "Bleach, Vol. 1: Strawberry and the Soul Reapers (Bleach #1)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/48/b0/48b07e2daa02d7e5485aa546dec5a25e.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/48/b0/48b07e2daa02d7e5485aa546dec5a25e.jpg",
 		UPC: "099fae4a0705d63b",
 		PRICE: "34.65",
 		TAX: "0.0",
@@ -5243,8 +4786,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/ajin-demi-human-volume-1-ajin-demi-human-1_4/index.html",
 		PRODUCT_NAME: "Ajin: Demi-Human, Volume 1 (Ajin: Demi-Human #1)",
 		CATEGORY: "Sequential Art",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/30/98/309814b6eeba469f4c741147aaaa076a.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/30/98/309814b6eeba469f4c741147aaaa076a.jpg",
 		UPC: "bfd5e1701c862ac3",
 		PRICE: "57.06",
 		TAX: "0.0",
@@ -5257,8 +4799,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-secret-garden_413/index.html",
 		PRODUCT_NAME: "The Secret Garden",
 		CATEGORY: "Classics",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/f1/78/f17805e88aed31aae352ab250b2a379d.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/f1/78/f17805e88aed31aae352ab250b2a379d.jpg",
 		UPC: "abbb492978ff656d",
 		PRICE: "15.08",
 		TAX: "0.0",
@@ -5271,8 +4812,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-metamorphosis_409/index.html",
 		PRODUCT_NAME: "The Metamorphosis",
 		CATEGORY: "Classics",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/9b/33/9b33c3c40c8d27054a3edf96cbf6a2fb.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/9b/33/9b33c3c40c8d27054a3edf96cbf6a2fb.jpg",
 		UPC: "93379e3a2072a01b",
 		PRICE: "28.58",
 		TAX: "0.0",
@@ -5285,8 +4825,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-pilgrims-progress_353/index.html",
 		PRODUCT_NAME: "The Pilgrim's Progress",
 		CATEGORY: "Classics",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/91/2a/912acfe6ee354d9d9bf3c1fa517c4252.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/91/2a/912acfe6ee354d9d9bf3c1fa517c4252.jpg",
 		UPC: "6053ddf69c967d5f",
 		PRICE: "50.26",
 		TAX: "0.0",
@@ -5299,8 +4838,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-hound-of-the-baskervilles-sherlock-holmes-5_348/index.html",
 		PRODUCT_NAME: "The Hound of the Baskervilles (Sherlock Holmes #5)",
 		CATEGORY: "Classics",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/9d/fe/9dfe2a73c6a1a1c09927c904de641ebf.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/9d/fe/9dfe2a73c6a1a1c09927c904de641ebf.jpg",
 		UPC: "6587f46697fc4443",
 		PRICE: "14.82",
 		TAX: "0.0",
@@ -5313,8 +4851,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/little-women-little-women-1_331/index.html",
 		PRODUCT_NAME: "Little Women (Little Women #1)",
 		CATEGORY: "Classics",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/55/a9/55a942b0c092c40bdbb6a1f1be340984.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/55/a9/55a942b0c092c40bdbb6a1f1be340984.jpg",
 		UPC: "deda806b68b0aa11",
 		PRICE: "28.07",
 		TAX: "0.0",
@@ -5327,8 +4864,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/gone-with-the-wind_324/index.html",
 		PRODUCT_NAME: "Gone with the Wind",
 		CATEGORY: "Classics",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/ac/ee/acee20cff19be38cc3efc5e9b50afae4.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/ac/ee/acee20cff19be38cc3efc5e9b50afae4.jpg",
 		UPC: "23310ce84d3c9f85",
 		PRICE: "32.49",
 		TAX: "0.0",
@@ -5341,8 +4877,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/candide_316/index.html",
 		PRODUCT_NAME: "Candide",
 		CATEGORY: "Classics",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/e7/7d/e77d917c495e649216225bd47e006482.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/e7/7d/e77d917c495e649216225bd47e006482.jpg",
 		UPC: "2798974abc8a58a8",
 		PRICE: "58.63",
 		TAX: "0.0",
@@ -5355,8 +4890,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/animal-farm_313/index.html",
 		PRODUCT_NAME: "Animal Farm",
 		CATEGORY: "Classics",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/73/b9/73b9d68a89e6d037f1afdc70f96bad09.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/73/b9/73b9d68a89e6d037f1afdc70f96bad09.jpg",
 		UPC: "1451b55e5e56bb89",
 		PRICE: "57.22",
 		TAX: "0.0",
@@ -5369,8 +4903,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/wuthering-heights_307/index.html",
 		PRODUCT_NAME: "Wuthering Heights",
 		CATEGORY: "Classics",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/d8/64/d8644073d00c000cb60643256080cc4b.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/d8/64/d8644073d00c000cb60643256080cc4b.jpg",
 		UPC: "5a7ff9aaa3168878",
 		PRICE: "17.73",
 		TAX: "0.0",
@@ -5383,8 +4916,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-picture-of-dorian-gray_270/index.html",
 		PRODUCT_NAME: "The Picture of Dorian Gray",
 		CATEGORY: "Classics",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/67/29/67297ff3ae6cb02884c52e5250fe7c1a.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/67/29/67297ff3ae6cb02884c52e5250fe7c1a.jpg",
 		UPC: "b9f6305a3d650e2c",
 		PRICE: "29.7",
 		TAX: "0.0",
@@ -5395,11 +4927,9 @@ export const Books = [
 	{
 		ID: 379,
 		URL: "https://books.toscrape.com/catalogue/the-complete-stories-and-poems-the-works-of-edgar-allan-poe-cameo-edition_238/index.html",
-		PRODUCT_NAME:
-			"The Complete Stories and Poems (The Works of Edgar Allan Poe [Cameo Edition])",
+		PRODUCT_NAME: "The Complete Stories and Poems (The Works of Edgar Allan Poe [Cameo Edition])",
 		CATEGORY: "Classics",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/55/2d/552d55d44dcc0f27e98b3e7dc3959e1a.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/55/2d/552d55d44dcc0f27e98b3e7dc3959e1a.jpg",
 		UPC: "cad70d6ffd53912f",
 		PRICE: "26.78",
 		TAX: "0.0",
@@ -5412,8 +4942,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/beowulf_126/index.html",
 		PRODUCT_NAME: "Beowulf",
 		CATEGORY: "Classics",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/3d/8c/3d8cd7a42d3e57cb10e02f9ab76bd549.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/3d/8c/3d8cd7a42d3e57cb10e02f9ab76bd549.jpg",
 		UPC: "3fb69f34e178d494",
 		PRICE: "38.35",
 		TAX: "0.0",
@@ -5426,8 +4955,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/and-then-there-were-none_119/index.html",
 		PRODUCT_NAME: "And Then There Were None",
 		CATEGORY: "Classics",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/6f/b0/6fb0c3064656f888125ab577b6a01867.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/6f/b0/6fb0c3064656f888125ab577b6a01867.jpg",
 		UPC: "cfe350b20d23b02b",
 		PRICE: "35.01",
 		TAX: "0.0",
@@ -5440,8 +4968,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-story-of-hong-gildong_84/index.html",
 		PRODUCT_NAME: "The Story of Hong Gildong",
 		CATEGORY: "Classics",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/b5/5b/b55be7e5c18b62cef6ebeae404f7f643.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/b5/5b/b55be7e5c18b62cef6ebeae404f7f643.jpg",
 		UPC: "32d035df92ab9080",
 		PRICE: "43.19",
 		TAX: "0.0",
@@ -5454,8 +4981,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-little-prince_72/index.html",
 		PRODUCT_NAME: "The Little Prince",
 		CATEGORY: "Classics",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/c0/d6/c0d67625e62981155f5e1f553bda1a94.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/c0/d6/c0d67625e62981155f5e1f553bda1a94.jpg",
 		UPC: "1aeca7d078d57deb",
 		PRICE: "45.42",
 		TAX: "0.0",
@@ -5468,8 +4994,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/sense-and-sensibility_49/index.html",
 		PRODUCT_NAME: "Sense and Sensibility",
 		CATEGORY: "Classics",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/a8/57/a857deea83c7d4c66e2920e1cf5d8fe0.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/a8/57/a857deea83c7d4c66e2920e1cf5d8fe0.jpg",
 		UPC: "35e44170702139a4",
 		PRICE: "37.46",
 		TAX: "0.0",
@@ -5482,8 +5007,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/of-mice-and-men_37/index.html",
 		PRODUCT_NAME: "Of Mice and Men",
 		CATEGORY: "Classics",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/a0/bb/a0bb0881c8ee6f5866804cf0a437853f.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/a0/bb/a0bb0881c8ee6f5866804cf0a437853f.jpg",
 		UPC: "39592d9d72e717c4",
 		PRICE: "47.11",
 		TAX: "0.0",
@@ -5496,8 +5020,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/emma_17/index.html",
 		PRODUCT_NAME: "Emma",
 		CATEGORY: "Classics",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/ae/98/ae98d08a6f427491dd8eda6b51af41fe.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/ae/98/ae98d08a6f427491dd8eda6b51af41fe.jpg",
 		UPC: "2e69730561ed70ad",
 		PRICE: "32.93",
 		TAX: "0.0",
@@ -5508,11 +5031,9 @@ export const Books = [
 	{
 		ID: 387,
 		URL: "https://books.toscrape.com/catalogue/alice-in-wonderland-alices-adventures-in-wonderland-1_5/index.html",
-		PRODUCT_NAME:
-			"Alice in Wonderland (Alice's Adventures in Wonderland #1)",
+		PRODUCT_NAME: "Alice in Wonderland (Alice's Adventures in Wonderland #1)",
 		CATEGORY: "Classics",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/99/df/99df494c230127c3d5ff53153d1f23a3.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/99/df/99df494c230127c3d5ff53153d1f23a3.jpg",
 		UPC: "cd2a2a70dd5d176d",
 		PRICE: "55.53",
 		TAX: "0.0",
@@ -5524,8 +5045,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/sophies-world_966/index.html",
 		PRODUCT_NAME: "Sophie's World",
 		CATEGORY: "Philosophy",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/d7/39/d73914232130fdf90d66f02fd9798f2b.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/d7/39/d73914232130fdf90d66f02fd9798f2b.jpg",
 		UPC: "6be3beb0793a53e7",
 		PRICE: "15.94",
 		TAX: "0.0",
@@ -5538,8 +5058,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-death-of-humanity-and-the-case-for-life_932/index.html",
 		PRODUCT_NAME: "The Death of Humanity: and the Case for Life",
 		CATEGORY: "Philosophy",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/3f/f6/3ff6fe5d0c5ca7ab2ed8b5971e299caa.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/3f/f6/3ff6fe5d0c5ca7ab2ed8b5971e299caa.jpg",
 		UPC: "bd261725b99f5983",
 		PRICE: "58.11",
 		TAX: "0.0",
@@ -5552,8 +5071,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-stranger_861/index.html",
 		PRODUCT_NAME: "The Stranger",
 		CATEGORY: "Philosophy",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/c8/1a/c81aea97de1daaa0081d96f8564c204c.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/c8/1a/c81aea97de1daaa0081d96f8564c204c.jpg",
 		UPC: "f5a92cff83897d48",
 		PRICE: "17.44",
 		TAX: "0.0",
@@ -5564,11 +5082,9 @@ export const Books = [
 	{
 		ID: 391,
 		URL: "https://books.toscrape.com/catalogue/proofs-of-god-classical-arguments-from-tertullian-to-barth_538/index.html",
-		PRODUCT_NAME:
-			"Proofs of God: Classical Arguments from Tertullian to Barth",
+		PRODUCT_NAME: "Proofs of God: Classical Arguments from Tertullian to Barth",
 		CATEGORY: "Philosophy",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/f6/cb/f6cb2300a1235a344f1c11b2be9a605d.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/f6/cb/f6cb2300a1235a344f1c11b2be9a605d.jpg",
 		UPC: "d56d0710668bb39c",
 		PRICE: "54.21",
 		TAX: "0.0",
@@ -5581,8 +5097,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/kierkegaard-a-christian-missionary-to-christians_527/index.html",
 		PRODUCT_NAME: "Kierkegaard: A Christian Missionary to Christians",
 		CATEGORY: "Philosophy",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/bf/90/bf90ad2c3cab628096db8fca010797b4.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/bf/90/bf90ad2c3cab628096db8fca010797b4.jpg",
 		UPC: "0cf57cb49272fd37",
 		PRICE: "47.13",
 		TAX: "0.0",
@@ -5596,8 +5111,7 @@ export const Books = [
 		PRODUCT_NAME:
 			"At The Existentialist Café: Freedom, Being, and apricot cocktails with: Jean-Paul Sartre, Simone de Beauvoir, Albert Camus, Martin Heidegger, Edmund Husserl, Karl Jaspers, Maurice Merleau-Ponty and others",
 		CATEGORY: "Philosophy",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/ce/da/ceda6d577d0609261f997bd99872013b.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/ce/da/ceda6d577d0609261f997bd99872013b.jpg",
 		UPC: "6b52904b2ab91bf6",
 		PRICE: "29.93",
 		TAX: "0.0",
@@ -5610,8 +5124,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/critique-of-pure-reason_366/index.html",
 		PRODUCT_NAME: "Critique of Pure Reason",
 		CATEGORY: "Philosophy",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/3b/28/3b28ec3663a81d36272a08e5a49644f2.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/3b/28/3b28ec3663a81d36272a08e5a49644f2.jpg",
 		UPC: "429b4a811bef386c",
 		PRICE: "20.75",
 		TAX: "0.0",
@@ -5624,8 +5137,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/run-spot-run-the-ethics-of-keeping-pets_106/index.html",
 		PRODUCT_NAME: "Run, Spot, Run: The Ethics of Keeping Pets",
 		CATEGORY: "Philosophy",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/8c/bf/8cbf4667b5798cb8195f1e126ddd6a5c.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/8c/bf/8cbf4667b5798cb8195f1e126ddd6a5c.jpg",
 		UPC: "b0e479be03911916",
 		PRICE: "20.02",
 		TAX: "0.0",
@@ -5638,8 +5150,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/the-nicomachean-ethics_75/index.html",
 		PRODUCT_NAME: "The Nicomachean Ethics",
 		CATEGORY: "Philosophy",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/16/f4/16f4518319f7dcadc23d020279f78545.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/16/f4/16f4518319f7dcadc23d020279f78545.jpg",
 		UPC: "5c10b64db3e4f228",
 		PRICE: "36.34",
 		TAX: "0.0",
@@ -5652,8 +5163,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/meditations_33/index.html",
 		PRODUCT_NAME: "Meditations",
 		CATEGORY: "Philosophy",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/90/f7/90f79652caecac36bc97bf7b769c8fc4.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/90/f7/90f79652caecac36bc97bf7b769c8fc4.jpg",
 		UPC: "4f19709e47883df5",
 		PRICE: "25.89",
 		TAX: "0.0",
@@ -5666,8 +5176,7 @@ export const Books = [
 		URL: "https://books.toscrape.com/catalogue/beyond-good-and-evil_6/index.html",
 		PRODUCT_NAME: "Beyond Good and Evil",
 		CATEGORY: "Philosophy",
-		IMG_URL:
-			"https://books.toscrape.com/media/cache/d1/7f/d17f326e3fcaf84c37d6d51e3470bcc6.jpg",
+		IMG_URL: "https://books.toscrape.com/media/cache/d1/7f/d17f326e3fcaf84c37d6d51e3470bcc6.jpg",
 		UPC: "08672cd59171d5e4",
 		PRICE: "43.38",
 		TAX: "0.0",

@@ -10,3 +10,17 @@ export interface BookType {
 	STOCK: string;
 	DESCRIPTION: string;
 }
+
+export interface BookServiceType {
+	id: number;
+	name: string;
+	price: number;
+	category: string;
+	img_url: string;
+	description: string;
+}
+
+export interface BooksEnrichedCart extends BookServiceType {
+	quantity: number;
+	item_total: number;
+}

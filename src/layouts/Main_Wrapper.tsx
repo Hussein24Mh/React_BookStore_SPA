@@ -3,14 +3,14 @@ import FooterComp from "./Footer";
 import HeaderComp from "./Header";
 import useGlobalContext from "../providers/GlobalStatusProvider";
 
-function Main_Wrapper() {
+function MainWrapperLayout() {
 	const { theme } = useGlobalContext();
 
 	return (
-		<div className={`${theme} flex flex-col min-h-screen`}>
+		<div className={`${theme} flex flex-col`}>
 			<HeaderComp />
 
-			<main className="flex flex-1 background-divs-theme">
+			<main className="flex min-h-screen background-divs-theme">
 				<Outlet />
 			</main>
 
@@ -19,4 +19,4 @@ function Main_Wrapper() {
 	);
 }
 
-export default Main_Wrapper;
+export default MainWrapperLayout;

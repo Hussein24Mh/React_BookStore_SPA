@@ -1,9 +1,8 @@
-import * as authapis from "../api/authApi";
-import type { RegisterUserType, LoginUserType } from "../types/Auth";
-
+import { registerApi, loginApi, logoutApi } from "../api";
+import type { RegisterUserType, LoginUserType } from "../types";
 
 export async function registerService(credentials: RegisterUserType) {
-	const res = authapis.registerApi(credentials);
+	const res = registerApi(credentials);
 	if (!res.success) {
 		switch (res.reason) {
 			case "email_already_exists":
@@ -16,7 +15,7 @@ export async function registerService(credentials: RegisterUserType) {
 }
 
 export async function loginService(credentials: LoginUserType) {
-	const res = authapis.loginApi(credentials);
+	const res = loginApi(credentials);
 	if (!res.success) {
 		switch (res.reason) {
 			case "invalid_credentials":
@@ -29,6 +28,6 @@ export async function loginService(credentials: LoginUserType) {
 }
 
 export async function logoutService() {
-	const res = authapis.logoutApi();
+	const res = logoutApi();
 	return res;
 }

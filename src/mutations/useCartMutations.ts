@@ -1,15 +1,15 @@
 import { useNavigate } from "react-router-dom";
 import ROUTES from "../utils/routs";
 
-import { useQueryClient, useMutation , type QueryClient} from "@tanstack/react-query";
+import { useQueryClient, useMutation, type QueryClient } from "@tanstack/react-query";
 
-import { addCartItemService, decreaseCartItemService, placeCartOrderService} from "../services/CartService";
+import { addCartItemService, decreaseCartItemService, placeCartOrderService } from "../services";
 
 const invalidateCart = (queryClient: QueryClient) => {
-    queryClient.invalidateQueries({ queryKey: ["currentUserCart"] });
+	queryClient.invalidateQueries({ queryKey: ["currentUserCart"] });
 };
 
-export function useAddToCartMutation(){
+export function useAddToCartMutation() {
 	const queryClient = useQueryClient();
 	return useMutation({
 		mutationFn: addCartItemService,
@@ -17,9 +17,9 @@ export function useAddToCartMutation(){
 			invalidateCart(queryClient);
 		},
 	});
-};
+}
 
-export function useDecreaseQuantityMutation(){
+export function useDecreaseQuantityMutation() {
 	const queryClient = useQueryClient();
 	return useMutation({
 		mutationFn: decreaseCartItemService,
@@ -27,9 +27,9 @@ export function useDecreaseQuantityMutation(){
 			invalidateCart(queryClient);
 		},
 	});
-};
+}
 
-export function usePlaceOrderMutation(){
+export function usePlaceOrderMutation() {
 	const queryClient = useQueryClient();
 	const navigate = useNavigate();
 	return useMutation({
@@ -40,4 +40,4 @@ export function usePlaceOrderMutation(){
 			navigate(ROUTES.home);
 		},
 	});
-};
+}

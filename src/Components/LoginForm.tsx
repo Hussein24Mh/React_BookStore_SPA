@@ -1,8 +1,7 @@
 import { useForm } from "react-hook-form";
 import type { FieldError } from "react-hook-form";
 
-import useLoginMutation from "../mutations/useLoginMutation";
-import type { LoginUserType } from "../types/User";
+import type { LoginUserType } from "../types";
 
 type FieldProps = {
 	placeholder: string;
@@ -11,12 +10,7 @@ type FieldProps = {
 	registration: object;
 };
 
-function LoginFormField({
-	placeholder,
-	type = "text",
-	error,
-	registration,
-}: FieldProps) {
+function LoginFormField({ placeholder, type = "text", error, registration }: FieldProps) {
 	return (
 		<div className="flex flex-col gap-1">
 			<input
@@ -25,31 +19,26 @@ function LoginFormField({
 				placeholder={placeholder}
 				className="w-full px-4 py-2 rounded border-1 border-slate-300 focus:border-yellow-400 outline-none"
 			/>
-			<p className="text-red-500 px-2 py-2 min-h-[25px]">
-				{error?.message}
-			</p>
+			<p className="text-red-500 px-2 py-2 min-h-[25px]">{error?.message}</p>
 		</div>
 	);
 }
 
-function LoginFormComp() {
+interface LoginFormProps {
+	onSubmit: (credentials: LoginUserType) => void;
+	isPending: boolean;
+	error: Error | null;
+}
+
+export function LoginFormComp({ onSubmit, isPending, error }: LoginFormProps) {
 	const {
 		register,
 		handleSubmit,
 		formState: { errors, isValid },
 	} = useForm<LoginUserType>({ mode: "onChange" });
 
-	const { mutate: login, isPending } = useLoginMutation();
-
-	function onSubmit(data: LoginUserType) {
-		login(data);
-	}
-
 	return (
-		<form
-			onSubmit={handleSubmit(onSubmit)}
-			className="flex flex-col gap-1 w-[100%]"
-		>
+		<form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-1 w-[100%]">
 			<h1 className="text-xl font-bold px-2 py-6">Login</h1>
 
 			<LoginFormField
@@ -84,5 +73,3 @@ function LoginFormComp() {
 		</form>
 	);
 }
-
-export default LoginFormComp;
