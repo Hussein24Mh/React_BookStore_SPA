@@ -5,7 +5,7 @@ import { useClearCartMutation } from "../mutations/useCartMutations";
 import {
 	useCurrentUserCart,
 	useCartTotalQuery,
-} from "../queries/useCurrentUserQueries";
+} from "../queries/useUserQueries";
 
 function CartPage() {
 	const { mutate: clearCartMutation } = useClearCartMutation();

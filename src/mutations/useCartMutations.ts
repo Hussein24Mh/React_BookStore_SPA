@@ -1,48 +1,41 @@
 import { useNavigate } from "react-router-dom";
 import ROUTES from "../utils/routs";
 
-import { useQueryClient, useMutation } from "@tanstack/react-query";
+import { useQueryClient, useMutation , type QueryClient} from "@tanstack/react-query";
 
-import {
-	addToCart,
-	decreaseQuantity,
-	clearCart,
-} from "../services/AuthService";
+import { addCartItemService, decreaseCartItemService, placeCartOrderService} from "../services/CartService";
 
-const invalidateCart = (queryClient: ReturnType<typeof useQueryClient>) => {
-	queryClient.invalidateQueries({ queryKey: ["currentUser"] });
-	queryClient.invalidateQueries({ queryKey: ["currentUserCart"] });
-	queryClient.invalidateQueries({ queryKey: ["cartTotal"] });
+const invalidateCart = (queryClient: QueryClient) => {
+    queryClient.invalidateQueries({ queryKey: ["currentUserCart"] });
 };
 
-export const useAddToCartMutation = () => {
+export function useAddToCartMutation(){
 	const queryClient = useQueryClient();
 	return useMutation({
-		mutationFn: (bookId: number) => Promise.resolve(addToCart(bookId)),
+		mutationFn: addCartItemService,
 		onSuccess: () => {
-			invalidateCart(queryClient)
+			invalidateCart(queryClient);
 		},
 	});
 };
 
-export const useDecreaseQuantityMutation = () => {
+export function useDecreaseQuantityMutation(){
 	const queryClient = useQueryClient();
 	return useMutation({
-		mutationFn: (bookId: number) =>
-			Promise.resolve(decreaseQuantity(bookId)),
+		mutationFn: decreaseCartItemService,
 		onSuccess: () => {
-			invalidateCart(queryClient)
+			invalidateCart(queryClient);
 		},
 	});
 };
 
-export const useClearCartMutation = () => {
+export function usePlaceOrderMutation(){
 	const queryClient = useQueryClient();
 	const navigate = useNavigate();
 	return useMutation({
-		mutationFn: () => Promise.resolve(clearCart()),
+		mutationFn: placeCartOrderService,
 		onSuccess: () => {
-			invalidateCart(queryClient)
+			invalidateCart(queryClient);
 			alert("Order Placed successfully!");
 			navigate(ROUTES.home);
 		},

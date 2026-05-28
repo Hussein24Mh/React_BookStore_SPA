@@ -13,11 +13,8 @@ function BookCardComp({ id }: { id: number }) {
 	const book_price = bookData?.PRICE || "blank price";
 	const book_availability = bookData?.AVAILABILITY || "blank availability";
 
-
 	return (
-		<div
-			className="group relative flex flex-col h-[350px] rounded-xl overflow-hidden hover:scale-105 transition-transform cursor-pointer main-divs-theme"
-		>
+		<div className="group relative flex flex-col h-[350px] rounded-xl overflow-hidden hover:scale-105 transition-transform cursor-pointer main-divs-theme">
 			<img
 				src={book_img_url}
 				alt={book_name}

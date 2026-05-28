@@ -17,7 +17,7 @@ function BookListComp() {
 	return (
 		<div className="grid grid-cols-[repeat(auto-fill,minmax(230px,230px))] gap-10 justify-center">
 			{books.map((book) => (
-				<BookCardComp key={book.ID} id={book.ID}/>
+				<BookCardComp key={book.ID} id={book.ID} />
 			))}
 		</div>
 	);

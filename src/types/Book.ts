@@ -1,11 +1,12 @@
-export interface Book {
+export interface BookType {
 	ID: number;
 	URL: string;
-	"PRODUCT NAME": string;
-	"IMG URL": string;
-	"UPC": string;
-	"PRODUCT TYPE": string
+	PRODUCT_NAME: string;
+	CATEGORY: string;
+	IMG_URL: string;
+	UPC: string;
 	PRICE: string;
 	TAX: string;
-	AVAILABILITY: string;
+	STOCK: string;
+	DESCRIPTION: string;
 }

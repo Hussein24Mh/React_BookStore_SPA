@@ -5,7 +5,7 @@ import useGlobalContext from "../providers/GlobalStatusProvider";
 import { ShoppingCart } from "lucide-react";
 
 import useLogoutMutation from "../mutations/useLogoutMutation";
-import { useCurrentUserData } from "../queries/useCurrentUserQueries";
+import { useCurrentUserData } from "../queries/useUserQueries";
 
 function NavLinks() {
 	const { theme, toggleTheme } = useGlobalContext();
