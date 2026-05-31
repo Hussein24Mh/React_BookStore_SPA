@@ -1,12 +1,15 @@
-import { useParams } from "react-router-dom";
-
 import { useBooksListQuery } from "../queries";
+import { useAddToCartMutation } from "../mutations";
 
 import { ProductDetailsComp } from "../Components";
 
-export function ProductDetailsPage() {
-	const { id } = useParams();
-	const { data: books, isLoading, error } = useBooksListQuery([Number(id)]);
+interface ProductDetailsPageProps {
+	id: number | null;
+}
+
+export function ProductDetailsPage({ id }: ProductDetailsPageProps) {
+	const { data: books, isLoading, error } = useBooksListQuery(id ? [id] : []);
+	const { mutate: addToCart } = useAddToCartMutation();
 
 	const book = books?.[0];
 
@@ -20,5 +23,5 @@ export function ProductDetailsPage() {
 
 	if (!book) return <p>No product found</p>;
 
-	return <ProductDetailsComp {...book} />;
+	return <ProductDetailsComp {...book} add_to_cart={() => addToCart(book.id)} />;
 }

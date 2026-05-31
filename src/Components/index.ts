@@ -1,7 +1,12 @@
-export { NavComp } from "./NavComp";
-export { NavLinksComps } from "./NavLinksComp";
-export { LoginFormComp } from "./LoginForm";
-export { RegisterFormComp } from "./RegisterForm";
-export { ProductDetailsComp } from "./ProductDetails";
+export { NavComp } from "./LayoutsComps/NavComp";
+export { NavLinksComps } from "./LayoutsComps/NavLinksComp";
+export { LoginFormComp } from "./RegisterationComps/LoginForm";
+export { RegisterFormComp } from "./RegisterationComps/RegisterForm";
+export { BookDetailsComp as ProductDetailsComp } from "./ProductsComps/BookDetails";
 export { CartitemComp } from "./Cartitem";
-export { BookCardComp } from "./BookCard";
+export { BookCardComp } from "./ProductsComps/BookCard";
+export { ModalComp } from "./ModalComp";
+export { ProductDetailsCompDeep } from "./ProductsComps/ProductDetailsDeep";
+export { BooksFiltersPriceRangeComp } from "./BooksFilters/BooksFiltersPriceRangeComp";
+export { BooksFiltersSidebarComp } from "./BooksFilters/BooksFiltersSidebarComp";
+export { BooksFiltersCategoryComp } from "./BooksFilters/BooksFiltersCategoryComp";

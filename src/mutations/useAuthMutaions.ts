@@ -2,25 +2,27 @@ import { useNavigate } from "react-router-dom";
 import ROUTES from "../utils/routs";
 
 import { useQueryClient, useMutation } from "@tanstack/react-query";
+import toast from "react-hot-toast";
 
 import { loginService, registerService, logoutService } from "../services";
 
 export function useRegisterMutation(onRegistered?: () => void) {
 	const navigate = useNavigate();
 
+	const notify_success = () => toast.success("Account created successfully! Please log in.");
+	const notify_error = (message: string) => toast.error(message);
+
 	return useMutation({
 		mutationFn: registerService,
 
 		onSuccess: () => {
-			console.log("Account created successfully! Please log in.");
-			alert("Account created successfully! Please log in.");
+			notify_success();
 			onRegistered?.();
 			navigate(ROUTES.login);
 		},
 
 		onError: (error: Error) => {
-			console.log(error.message);
-			alert(error.message);
+			notify_error(error.message);
 		},
 	});
 }
@@ -29,37 +31,42 @@ export function useLoginMutation() {
 	const queryClient = useQueryClient();
 	const navigate = useNavigate();
 
+	const notify_success = (email: string) => toast.success(`Welcome ${email}`);
+	const notify_error = (message: string) => toast.error(message);
+
 	return useMutation({
 		mutationFn: loginService,
 
 		onSuccess: (_, credentials) => {
-			console.log("Login successful");
-			alert(`Welcome ${credentials.email}`);
+			notify_success(credentials.email);
 			queryClient.invalidateQueries({ queryKey: ["currentUser"] });
 			navigate(ROUTES.home);
 		},
 
 		onError: (error: Error) => {
-			console.log(error.message);
-			alert(error.message);
+			notify_error(error.message);
 		},
 	});
 }
 
 export function useLogoutMutation() {
 	const queryClient = useQueryClient();
+	const navigate = useNavigate();
+
+	const notify_success = () => toast.success("LogOut succeccful");
+	const notify_error = (message: string) => toast.error(message);
 
 	return useMutation({
 		mutationFn: logoutService,
 
 		onSuccess: () => {
-			console.log("Login successful");
+			notify_success();
+			navigate(ROUTES.home);
 			queryClient.invalidateQueries({ queryKey: ["currentUser"] });
 		},
 
 		onError: (error: Error) => {
-			console.log(error.message);
-			alert(error.message);
+			notify_error(error.message);
 		},
 	});
 }

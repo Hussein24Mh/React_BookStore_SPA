@@ -1,7 +1,7 @@
 import { useForm } from "react-hook-form";
 import type { FieldError } from "react-hook-form";
 
-import type { LoginUserType } from "../types";
+import type { LoginUserType } from "../../types";
 
 type FieldProps = {
 	placeholder: string;

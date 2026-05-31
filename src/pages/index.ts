@@ -5,3 +5,4 @@ export { UserProfilePage } from "./UserProfilePage";
 export { ProductDetailsPage } from "./ProductDetailsPage";
 export { ErrorPage } from "./ErrorPage";
 export { NotFoundPage } from "./NotFoundPage";
+export { TestingPage } from "./TestingPage";

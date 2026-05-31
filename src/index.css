@@ -9,7 +9,7 @@
 @utility main-divs-theme{
     background-color: #303943;
     color: white;
-    font-family: ABeeZee;
+    font-family: "Open Sans", sans-serif;
     .dark & {
         background-color: #242B32;
         color: white;
@@ -19,7 +19,7 @@
 @utility secondery-divs-theme{
     background-color: #485664;
     color: white;
-    font-family: ABeeZee;
+    font-family: "Open Sans", sans-serif;
     .dark & {
         background-color: #485664;
         color: white;
@@ -29,7 +29,7 @@
 @utility background-divs-theme{
     background-color: #D3D9DF;
     color: black;
-    font-family: ABeeZee;
+    font-family: "Open Sans", sans-serif;
     .dark & {
         background-color: #303943;
         color: white;

@@ -1,7 +1,7 @@
 import { useForm } from "react-hook-form";
 import type { FieldError } from "react-hook-form";
 
-import type { RegisterUserType } from "../types";
+import type { RegisterUserType } from "../../types";
 
 type FieldProps = {
 	placeholder: string;
@@ -30,7 +30,7 @@ interface RegisterFormCompProps {
 	error: Error | null;
 }
 
-export function RegisterFormComp({ onSubmit, isPending}: RegisterFormCompProps) {
+export function RegisterFormComp({ onSubmit, isPending }: RegisterFormCompProps) {
 	const {
 		register,
 		handleSubmit,

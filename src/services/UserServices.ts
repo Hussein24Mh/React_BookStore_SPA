@@ -33,3 +33,8 @@ export async function getUserCartDataService(): Promise<{
 
 	return { enrichedCart, cartTotal };
 }
+
+export async function getCartCount() {
+	const cartItems = getCartItemsApi();
+	return cartItems?.length ?? 0;
+}

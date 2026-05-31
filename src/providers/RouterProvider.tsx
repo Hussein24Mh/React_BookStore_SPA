@@ -4,7 +4,7 @@ import ROUTES from "../utils/routs";
 
 import MainWrapperLayout from "../layouts/Main_Wrapper";
 
-import { HomePage, CartPage, ErrorPage, LoginPage, NotFoundPage, ProductDetailsPage, UserProfilePage } from "../pages";
+import { HomePage, CartPage, ErrorPage, LoginPage, NotFoundPage, UserProfilePage, TestingPage } from "../pages";
 
 // --- ROUTER ---
 const router = createBrowserRouter([
@@ -16,7 +16,7 @@ const router = createBrowserRouter([
 			{ path: ROUTES.login, element: <LoginPage /> },
 			{ path: ROUTES.cart, element: <CartPage /> },
 			{ path: ROUTES.profile, element: <UserProfilePage /> },
-			{ path: ROUTES.productdetails, element: <ProductDetailsPage /> },
+			{ path: ROUTES.test, element: <TestingPage /> },
 			{ path: "*", element: <NotFoundPage /> },
 		],
 	},

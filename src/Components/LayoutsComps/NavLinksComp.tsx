@@ -1,18 +1,19 @@
 import { Link } from "react-router-dom";
-import ROUTES from "../utils/routs";
+import ROUTES from "../../utils/routs";
 
 import { ShoppingCart } from "lucide-react";
 
-import type { UserDataType, Theme } from "../types";
+import type { UserDataType, Theme } from "../../types";
 
 interface NavLinksProps {
 	user: UserDataType | null | undefined;
 	theme: Theme;
 	toggleTheme: () => void;
 	logout: () => void;
+	cartCount?: number;
 }
 
-export function NavLinksComps({ user, theme, toggleTheme, logout }: NavLinksProps) {
+export function NavLinksComps({ user, theme, toggleTheme, logout, cartCount = 0 }: NavLinksProps) {
 	return (
 		<>
 			{user ? (
@@ -23,8 +24,13 @@ export function NavLinksComps({ user, theme, toggleTheme, logout }: NavLinksProp
 					<button type="button" onClick={logout} className="cursor-pointer hover:text-indigo-600">
 						Logout
 					</button>
-					<Link to={ROUTES.cart} className="cursor-pointer">
+					<Link to={ROUTES.cart} className="cursor-pointer relative">
 						<ShoppingCart />
+						{cartCount > 0 && (
+							<span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center">
+								{cartCount}
+							</span>
+						)}
 					</Link>
 				</>
 			) : (

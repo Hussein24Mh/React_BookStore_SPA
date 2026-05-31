@@ -1,3 +1,8 @@
-export { useCurrentUserDataQuery, useCurrentUserCartDataQuery } from "./useUserQueries";
+export { useCurrentUserDataQuery, useCurrentUserCartDataQuery, useCurrentUserCartCountQuery } from "./useUserQueries";
 export { useCurrentThemeQuery } from "./useThemeQueries";
-export { useBooksListQuery } from "./useBookQueries";
+export {
+	useBooksListQuery,
+	useBooksCategoriesQuery,
+	useBooksUniquePricesQuery,
+	useBooksFiltersListQuery,
+} from "./useBookQueries";
