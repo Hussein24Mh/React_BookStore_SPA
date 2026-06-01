@@ -7,6 +7,5 @@ export { CartitemComp } from "./Cartitem";
 export { BookCardComp } from "./ProductsComps/BookCard";
 export { ModalComp } from "./ModalComp";
 export { ProductDetailsCompDeep } from "./ProductsComps/ProductDetailsDeep";
-export { BooksFiltersPriceRangeComp } from "./BooksFilters/BooksFiltersPriceRangeComp";
-export { BooksFiltersSidebarComp } from "./BooksFilters/BooksFiltersSidebarComp";
-export { BooksFiltersCategoryComp } from "./BooksFilters/BooksFiltersCategoryComp";
+export { FiltersPriceRangeComp } from "./Filters_Menu/FiltersPriceRangeComp";
+export { FiltersCategoryComp } from "./Filters_Menu/FiltersCategoryComp";

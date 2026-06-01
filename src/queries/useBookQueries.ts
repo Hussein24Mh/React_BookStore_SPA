@@ -1,11 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
 
-import {
-	loadBooksCardsDataService,
-	loadBooksFilterService,
-	loadCategoriesService,
-	loadUniquePricesService,
-} from "../services";
+import { loadBooksCardsDataService, loadBooksFilterService, loadCategoriesFiltersDataService } from "../services";
 
 export function useBooksListQuery(ids: number[] = []) {
 	return useQuery({
@@ -15,18 +10,10 @@ export function useBooksListQuery(ids: number[] = []) {
 	});
 }
 
-export function useBooksCategoriesQuery() {
+export function useCategoriesFiltersDataQuery() {
 	return useQuery({
-		queryKey: ["categories"],
-		queryFn: loadCategoriesService,
-		staleTime: 1000 * 60 * 10,
-	});
-}
-
-export function useBooksUniquePricesQuery(category?: string) {
-	return useQuery({
-		queryKey: ["uniquePrices", category],
-		queryFn: () => loadUniquePricesService(category),
+		queryKey: ["categoriesFiltersData"],
+		queryFn: loadCategoriesFiltersDataService,
 		staleTime: 1000 * 60 * 10,
 	});
 }

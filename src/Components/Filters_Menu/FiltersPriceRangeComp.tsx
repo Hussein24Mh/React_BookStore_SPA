@@ -9,7 +9,7 @@ interface PriceRangeFilterProps {
 
 const HISTOGRAM_BARS = 16;
 
-export function BooksFiltersPriceRangeComp({
+export function FiltersPriceRangeComp({
 	prices = [],
 	min = 0,
 	max = 9999,

@@ -4,7 +4,7 @@ interface CategoryFilterProps {
 	onChange: (category: string) => void;
 }
 
-export function BooksFiltersCategoryComp({ categories, selected, onChange }: CategoryFilterProps) {
+export function FiltersCategoryComp({ categories, selected, onChange }: CategoryFilterProps) {
 	return (
 		<div className="flex flex-col gap-1">
 			<p className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-2">Category</p>

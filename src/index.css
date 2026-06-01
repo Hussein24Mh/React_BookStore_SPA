@@ -16,12 +16,13 @@
     }
 }
 
-@utility secondery-divs-theme{
-    background-color: #485664;
-    color: white;
+@utility secondery-divs-theme {
+    background-color: white;
+    color: #1e293b;
     font-family: "Open Sans", sans-serif;
+
     .dark & {
-        background-color: #485664;
+        background-color: #1e293b;
         color: white;
     }
 }
@@ -34,4 +35,28 @@
         background-color: #303943;
         color: white;
     }
+}
+
+
+.sidebar-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: #10b981 transparent;
+    direction: rtl;
+}
+
+.sidebar-scroll > * {
+    direction: ltr;
+}
+
+.sidebar-scroll::-webkit-scrollbar {
+    width: 2px;
+}
+
+.sidebar-scroll::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.sidebar-scroll::-webkit-scrollbar-thumb {
+    background-color: #10b981;
+    border-radius: 999px;
 }

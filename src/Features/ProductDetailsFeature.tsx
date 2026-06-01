@@ -7,7 +7,7 @@ interface ProductDetailsPageProps {
 	id: number | null;
 }
 
-export function ProductDetailsPage({ id }: ProductDetailsPageProps) {
+export function ProductDetailsFeature({ id }: ProductDetailsPageProps) {
 	const { data: books, isLoading, error } = useBooksListQuery(id ? [id] : []);
 	const { mutate: addToCart } = useAddToCartMutation();
 

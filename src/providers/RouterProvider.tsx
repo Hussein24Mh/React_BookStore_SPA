@@ -4,20 +4,28 @@ import ROUTES from "../utils/routs";
 
 import MainWrapperLayout from "../layouts/Main_Wrapper";
 
-import { HomePage, CartPage, ErrorPage, LoginPage, NotFoundPage, UserProfilePage, TestingPage } from "../pages";
+import {
+	HomePage,
+	CartPage,
+	SystemErrorPage,
+	LoginPage,
+	SystemNotFoundPage,
+	UserProfilePage,
+	TestingPage,
+} from "../pages";
 
 // --- ROUTER ---
 const router = createBrowserRouter([
 	{
 		element: <MainWrapperLayout />,
-		errorElement: <ErrorPage />, // ← catches runtime errors in any child
+		errorElement: <SystemErrorPage />, // ← catches runtime errors in any child
 		children: [
 			{ path: ROUTES.home, element: <HomePage /> },
 			{ path: ROUTES.login, element: <LoginPage /> },
 			{ path: ROUTES.cart, element: <CartPage /> },
 			{ path: ROUTES.profile, element: <UserProfilePage /> },
 			{ path: ROUTES.test, element: <TestingPage /> },
-			{ path: "*", element: <NotFoundPage /> },
+			{ path: "*", element: <SystemNotFoundPage /> },
 		],
 	},
 ]);
