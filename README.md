@@ -27,7 +27,6 @@
 
 ## 🛠️ Tech Stack
 
-<div align="center">
 
 | Layer | Technology | Version |
 |---|---|---|
@@ -42,7 +41,6 @@
 | HTTP Client | 📡 Axios | v1 |
 | Linting | 🧹 ESLint + Biome | latest |
 
-</div>
 
 ---
 
