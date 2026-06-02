@@ -48,6 +48,7 @@
 
 The project follows a clean layered architecture:
 
+```text
 src/
 ├── 📡 api/ # Raw data access (localStorage simulation)
 ├── ⚙️ services/ # Business logic on top of API layer
@@ -60,7 +61,7 @@ src/
 ├── 🗂️ layouts/ # Header, Footer, wrapper layout
 ├── 🔷 types/ # Shared TypeScript types
 └── 🛠️ utils/ # Route constants and helpers
-
+```
 
 ### Key Design Decisions
 
