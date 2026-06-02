@@ -469,19 +469,6 @@ export const Books = [
 			"A grumpy yet loveable man finds his solitary world turned on its head when a boisterous young family moves in next door.Meet Ove. He's a curmudgeon, the kind of man who points at people he dislikes as if they were burglars caught outside his bedroom window. He has staunch principles, strict routines, and a short fuse. People call him the bitter neighbor from hell, but must A grumpy yet loveable man finds his solitary world turned on its head when a boisterous young family moves in next door.Meet Ove. He's a curmudgeon, the kind of man who points at people he dislikes as if they were burglars caught outside his bedroom window. He has staunch principles, strict routines, and a short fuse. People call him the bitter neighbor from hell, but must Ove be bitter just because he doesn't walk around with a smile plastered to his face all the time?Behind the cranky exterior there is a story and a sadness. So when one November morning a chatty young couple with two chatty young daughters move in next door and accidentally flatten Ove's mailbox, it is the lead-in to a comical and heartwarming tale of unkempt cats, unexpected friendship, and the ancient art of backing up a U-Haul. All of which will change one cranky old man and a local residents' association to their very foundations. ...more",
 	},
 	{
-		ID: 37,
-		URL: "https://books.toscrape.com/catalogue/the-silent-sister-riley-macpherson-1_641/index.html",
-		PRODUCT_NAME: "The Silent Sister (Riley MacPherson #1)",
-		CATEGORY: "Fiction",
-		IMG_URL: "https://books.toscrape.com/media/cache/98/df/98df70802a22c17dac6026645da4ab87.jpg",
-		UPC: "ce1ae197ada2aec4",
-		PRICE: "46.29",
-		TAX: "0.0",
-		STOCK: "12",
-		DESCRIPTION:
-			"In The Silent Sister, Riley MacPherson has spent her entire life believing that her older sister Lisa committed suicide as a teenager. Now, over twenty years later, her father has passed away and she's in New Bern, North Carolina cleaning out his house when she finds evidence to the contrary. Lisa is alive. Alive and living under a new identity. But why exactly was she on In The Silent Sister, Riley MacPherson has spent her entire life believing that her older sister Lisa committed suicide as a teenager. Now, over twenty years later, her father has passed away and she's in New Bern, North Carolina cleaning out his house when she finds evidence to the contrary. Lisa is alive. Alive and living under a new identity. But why exactly was she on the run all those years ago, and what secrets are being kept now? As Riley works to uncover the truth, her discoveries will put into question everything she thought she knew about her family. Riley must decide what the past means for her present, and what she will do with her newfound reality, in this engrossing mystery from international bestselling author Diane Chamberlain. ...more",
-	},
-	{
 		ID: 38,
 		URL: "https://books.toscrape.com/catalogue/the-dinner-party_635/index.html",
 		PRODUCT_NAME: "The Dinner Party",
@@ -636,19 +623,6 @@ export const Books = [
 		STOCK: "7",
 		DESCRIPTION:
 			"All Allie Marshall wants is a fresh start. But when dark secrets refuse to stay buried, will her chance at a new life be shattered forever?Convicted of a crime she didn’t commit, Allie watched a decade of her life vanish – time that can never be recovered. Now, out on parole, Allie is determined to clear her name, rebuild her life, and reconnect with the daughter she barel All Allie Marshall wants is a fresh start. But when dark secrets refuse to stay buried, will her chance at a new life be shattered forever?Convicted of a crime she didn’t commit, Allie watched a decade of her life vanish – time that can never be recovered. Now, out on parole, Allie is determined to clear her name, rebuild her life, and reconnect with the daughter she barely knows.But Allie’s return home shatters the quaint, coastal community of Brunswick, Georgia. Even her own daughter Caroline, now a teenager, bristles at Allie’s claims of innocence. Refusing defeat, a stronger, smarter Allie launches a battle for the truth, digging deeply into the past even if it threatens her parole status, personal safety, and the already-fragile bond with family.As her commitment to finding the truth intensifies, what Allie ultimately uncovers is far worse than she imagined. Her own sister has been hiding a dark secret—one that holds the key to Allie’s freedom. ...more",
-	},
-	{
-		ID: 50,
-		URL: "https://books.toscrape.com/catalogue/memoirs-of-a-geisha_477/index.html",
-		PRODUCT_NAME: "Memoirs of a Geisha",
-		CATEGORY: "Fiction",
-		IMG_URL: "https://books.toscrape.com/media/cache/5e/4b/5e4b5ef50c54f173456606e70719cc84.jpg",
-		UPC: "dac4b5847454fd9b",
-		PRICE: "49.67",
-		TAX: "0.0",
-		STOCK: "7",
-		DESCRIPTION:
-			"A literary sensation and runaway bestseller, this brilliant debut novel presents with seamless authenticity and exquisite lyricism the true confessions of one of Japan's most celebrated geisha.In Memoirs of a Geisha, we enter a world where appearances are paramount; where a girl's virginity is auctioned to the highest bidder; where women are trained to beguile the most pow A literary sensation and runaway bestseller, this brilliant debut novel presents with seamless authenticity and exquisite lyricism the true confessions of one of Japan's most celebrated geisha.In Memoirs of a Geisha, we enter a world where appearances are paramount; where a girl's virginity is auctioned to the highest bidder; where women are trained to beguile the most powerful men; and where love is scorned as illusion. It is a unique and triumphant work of fiction - at once romantic, erotic, suspenseful - and completely unforgettable. ...more",
 	},
 	{
 		ID: 51,
@@ -4990,19 +4964,6 @@ export const Books = [
 			"Moral allegory and spiritual autobiography, The Little Prince is the most translated book in the French language. With a timeless charm it tells the story of a little boy who leaves the safety of his own tiny planet to travel the universe, learning the vagaries of adult behaviour through a series of extraordinary encounters. His personal odyssey culminates in a voyage to E Moral allegory and spiritual autobiography, The Little Prince is the most translated book in the French language. With a timeless charm it tells the story of a little boy who leaves the safety of his own tiny planet to travel the universe, learning the vagaries of adult behaviour through a series of extraordinary encounters. His personal odyssey culminates in a voyage to Earth and further adventures. ...more",
 	},
 	{
-		ID: 384,
-		URL: "https://books.toscrape.com/catalogue/sense-and-sensibility_49/index.html",
-		PRODUCT_NAME: "Sense and Sensibility",
-		CATEGORY: "Classics",
-		IMG_URL: "https://books.toscrape.com/media/cache/a8/57/a857deea83c7d4c66e2920e1cf5d8fe0.jpg",
-		UPC: "35e44170702139a4",
-		PRICE: "37.46",
-		TAX: "0.0",
-		STOCK: "1",
-		DESCRIPTION:
-			"'The more I know of the world, the more am I convinced that I shall never see a man whom I can really love. I require so much!'Marianne Dashwood wears her heart on her sleeve, and when she falls in love with the dashing but unsuitable John Willoughby she ignores her sister Elinor's warning that her impulsive behaviour leaves her open to gossip and innuendo. Meanwhile Elino 'The more I know of the world, the more am I convinced that I shall never see a man whom I can really love. I require so much!'Marianne Dashwood wears her heart on her sleeve, and when she falls in love with the dashing but unsuitable John Willoughby she ignores her sister Elinor's warning that her impulsive behaviour leaves her open to gossip and innuendo. Meanwhile Elinor, always sensitive to social convention, is struggling to conceal her own romantic disappointment, even from those closest to her. Through their parallel experience of love—and its threatened loss—the sisters learn that sense must mix with sensibility if they are to find personal happiness in a society where status and money govern the rules of love.This edition includes explanatory notes, textual variants between the first and second editions, and Tony Tanner's introduction to the original Penguin Classic edition. ...more",
-	},
-	{
 		ID: 385,
 		URL: "https://books.toscrape.com/catalogue/of-mice-and-men_37/index.html",
 		PRODUCT_NAME: "Of Mice and Men",
@@ -5014,19 +4975,6 @@ export const Books = [
 		STOCK: "1",
 		DESCRIPTION:
 			"The compelling story of two outsiders striving to find their place in an unforgiving world. Drifters in search of work, George and his simple-minded friend Lennie have nothing in the world except each other and a dream--a dream that one day they will have some land of their own. Eventually they find work on a ranch in California’s Salinas Valley, but their hopes are doomed The compelling story of two outsiders striving to find their place in an unforgiving world. Drifters in search of work, George and his simple-minded friend Lennie have nothing in the world except each other and a dream--a dream that one day they will have some land of their own. Eventually they find work on a ranch in California’s Salinas Valley, but their hopes are doomed as Lennie, struggling against extreme cruelty, misunderstanding and feelings of jealousy, becomes a victim of his own strength. Tackling universal themes such as the friendship of a shared vision, and giving voice to America’s lonely and dispossessed, Of Mice and Men has proved one of Steinbeck’s most popular works, achieving success as a novel, a Broadway play and three acclaimed films. ...more",
-	},
-	{
-		ID: 386,
-		URL: "https://books.toscrape.com/catalogue/emma_17/index.html",
-		PRODUCT_NAME: "Emma",
-		CATEGORY: "Classics",
-		IMG_URL: "https://books.toscrape.com/media/cache/ae/98/ae98d08a6f427491dd8eda6b51af41fe.jpg",
-		UPC: "2e69730561ed70ad",
-		PRICE: "32.93",
-		TAX: "0.0",
-		STOCK: "1",
-		DESCRIPTION:
-			"'I never have been in love; it is not my way, or my nature; and I do not think I ever shall.'Beautiful, clever, rich - and single - Emma Woodhouse is perfectly content with her life and sees no need for either love or marriage. Nothing, however, delights her more than interfering in the romantic lives of others. But when she ignores the warnings of her good friend Mr. Knig 'I never have been in love; it is not my way, or my nature; and I do not think I ever shall.'Beautiful, clever, rich - and single - Emma Woodhouse is perfectly content with her life and sees no need for either love or marriage. Nothing, however, delights her more than interfering in the romantic lives of others. But when she ignores the warnings of her good friend Mr. Knightley and attempts to arrange a suitable match for her protegee Harriet Smith, her carefully laid plans soon unravel and have consequences that she never expected. With its imperfect but charming heroine and its witty and subtle exploration of relationships, Emma is often seen as Jane Austen's most flawless work.This edition includes a new chronology and additional suggestions for further reading. ...more",
 	},
 	{
 		ID: 387,

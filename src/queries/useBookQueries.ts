@@ -1,27 +1,28 @@
 import { useQuery } from "@tanstack/react-query";
+import type { BooksListFiltersType } from "../types";
 
-import { loadBooksCardsDataService, loadBooksFilterService, loadCategoriesFiltersDataService } from "../services";
+import { loadBooksByIDService, loadBooksCategoriesService, loadBooksFilteredService } from "../services";
 
 export function useBooksListQuery(ids: number[] = []) {
 	return useQuery({
 		queryKey: ["Productslist", ids],
-		queryFn: () => loadBooksCardsDataService(ids),
+		queryFn: () => loadBooksByIDService(ids),
 		staleTime: 1000 * 60 * 5,
 	});
 }
 
-export function useCategoriesFiltersDataQuery() {
+export function useBooksCategoriesQuery() {
 	return useQuery({
 		queryKey: ["categoriesFiltersData"],
-		queryFn: loadCategoriesFiltersDataService,
+		queryFn: loadBooksCategoriesService,
 		staleTime: 1000 * 60 * 10,
 	});
 }
 
-export function useBooksFiltersListQuery(category?: string, priceRange?: { min?: number; max?: number }) {
+export function useBooksFiltersListQuery(filters: BooksListFiltersType) {
 	return useQuery({
-		queryKey: ["booksByCategory", category, priceRange?.min, priceRange?.max],
-		queryFn: () => loadBooksFilterService(category, priceRange),
+		queryKey: ["booksByCategory", filters],
+		queryFn: () => loadBooksFilteredService(filters),
 		staleTime: 1000 * 60 * 5,
 	});
 }

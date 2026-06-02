@@ -6,6 +6,6 @@ export { BookDetailsComp as ProductDetailsComp } from "./ProductsComps/BookDetai
 export { CartitemComp } from "./Cartitem";
 export { BookCardComp } from "./ProductsComps/BookCard";
 export { ModalComp } from "./ModalComp";
-export { ProductDetailsCompDeep } from "./ProductsComps/ProductDetailsDeep";
 export { FiltersPriceRangeComp } from "./Filters_Menu/FiltersPriceRangeComp";
-export { FiltersCategoryComp } from "./Filters_Menu/FiltersCategoryComp";
+export { FiltersCategoryDropdown } from "./Filters_Menu/FiltersCategoryComp";
+export { FiltersSortByComp } from "./Filters_Menu/FiltersSortBy";

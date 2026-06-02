@@ -13,7 +13,7 @@ export function BookDetailsComp({
 	add_to_cart = () => {},
 }: Partial<ProductDetailsCompProps>) {
 	return (
-		<div className="relative flex flex-col md:flex-row gap-0 w-[90vw] max-w-3xl max-h-[90vh] overflow-y-auto rounded-2xl overflow-hidden bg-white dark:bg-slate-900 shadow-2xl">
+		<div className="relative flex flex-col md:flex-row gap-0 w-[80vw] max-w-3xl max-h-[90vh] overflow-y-auto rounded-2xl overflow-hidden secondery-divs-theme sidebar-scroll shadow-2xl">
 			{/* Image Panel */}
 			<div className="relative md:w-[42%] min-h-[260px] md:min-h-full flex-shrink-0 bg-slate-100 dark:bg-slate-800">
 				<img src={img_url} alt={name} className="w-full h-full object-cover" />

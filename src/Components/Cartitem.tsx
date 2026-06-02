@@ -1,6 +1,6 @@
-import type { BooksEnrichedCart } from "../types";
+import type { BooksEnrichedCartType } from "../types";
 
-interface cartitemcompProps extends Partial<BooksEnrichedCart> {
+interface cartitemcompProps extends Partial<BooksEnrichedCartType> {
 	add_to_cart?: () => void;
 	decrease_quantity?: () => void;
 }

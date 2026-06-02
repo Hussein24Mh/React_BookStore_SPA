@@ -20,7 +20,14 @@ export interface BookServiceType {
 	description: string;
 }
 
-export interface BooksEnrichedCart extends BookServiceType {
+export interface BooksEnrichedCartType extends BookServiceType {
 	quantity: number;
 	item_total: number;
+}
+
+export interface BooksListFiltersType {
+	category: string | undefined;
+	minvalue: number | undefined;
+	maxvalue: number | undefined;
+	sortBy?: "price_asc" | "price_desc" | undefined;
 }

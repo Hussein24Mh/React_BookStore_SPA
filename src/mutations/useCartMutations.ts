@@ -22,6 +22,7 @@ export function useAddToCartMutation() {
 			notify_success();
 			invalidateCart(queryClient);
 		},
+		onError: () => toast.error("Failed adding item, Please Login"),
 	});
 }
 

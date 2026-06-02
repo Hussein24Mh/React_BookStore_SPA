@@ -1,14 +1,19 @@
 import { getCurrentUser, getCartItemsApi } from "../api";
-import { loadBooksCardsDataService } from "./BooksServices";
-import type { BooksEnrichedCart } from "../types";
+import { loadBooksByIDService } from "./BooksServices";
+import type { BooksEnrichedCartType, UserDataType } from "../types";
 
-export function getUserDataService() {
+export function getUserDataService(): UserDataType{
 	const userData = getCurrentUser();
+	
+	if (!userData) {
+		throw new Error("No user is currently logged in");
+	}
+
 	return userData;
 }
 
 export async function getUserCartDataService(): Promise<{
-	enrichedCart: BooksEnrichedCart[];
+	enrichedCart: BooksEnrichedCartType[];
 	cartTotal: number;
 }> {
 	const cartItems = getCartItemsApi();
@@ -17,9 +22,9 @@ export async function getUserCartDataService(): Promise<{
 		return { enrichedCart: [], cartTotal: 0 };
 	}
 
-	const cartData = await loadBooksCardsDataService(cartItems.map((item) => item.bookId));
+	const cartData = await loadBooksByIDService(cartItems.map((item) => item.bookId));
 
-	const enrichedCart: BooksEnrichedCart[] = cartData.map((book) => {
+	const enrichedCart: BooksEnrichedCartType[] = cartData.map((book) => {
 		const cartItem = cartItems.find((item) => item.bookId === book.id);
 		const quantity = cartItem?.quantity ?? 0;
 		return {

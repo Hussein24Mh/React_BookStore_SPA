@@ -7,7 +7,7 @@ import { ModalComp } from "../Components";
 
 import FooterComp from "./Footer";
 import HeaderComp from "./Header";
-import { useGlobalContext } from "../providers/GlobalStatusProvider";
+import { useGlobalContext, useModalContext } from "../providers";
 
 function ScrollToTop() {
 	const { pathname } = useLocation();
@@ -19,7 +19,8 @@ function ScrollToTop() {
 }
 
 function MainWrapperLayout() {
-	const { theme, modalContent, closeModal } = useGlobalContext();
+	const { theme } = useGlobalContext();
+	const { modalContent, closeModal } = useModalContext();
 
 	return (
 		<div className={`${theme} flex flex-col min-h-screen`}>

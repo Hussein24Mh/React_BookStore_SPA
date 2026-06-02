@@ -12,8 +12,9 @@ export function BookCardComp({
 	name = "Untitled Masterpiece",
 	price = 4.99,
 	add_to_cart = () => {},
-	on_view_details = () => {},
+	on_view_details = () => {}
 }: BookCardProp) {
+
 	const formattedPrice = new Intl.NumberFormat("en-US", {
 		style: "currency",
 		currency: "USD",
