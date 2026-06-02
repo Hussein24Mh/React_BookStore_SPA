@@ -1,12 +1,25 @@
 <div align="center">
 
-# ⚛️ React Marketplace
+# ⚛️ React BookStore SPA
 
 ### A fully client-side e-commerce bookstore.
 
 [![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_Site-emerald?style=for-the-badge)](https://react-marketplace-kappa.vercel.app/)
 
 </div>
+
+---
+
+## 📁 Pages
+
+| Route | Page | Description |
+|---|---|---|
+| `/` | 🏠 Home | Browse and filter books |
+| `/login` | 🔐 Login | Login & Register forms |
+| `/cart` | 🛒 Cart | Cart items with order summary |
+| `/profile` | 👤 Profile | User profile page |
+| `*` | 🚫 404 | Not Found page |
+
 
 ---
 
@@ -63,6 +76,8 @@ src/
 └── 🛠️ utils/ # Route constants and helpers
 ```
 
+---
+
 ### Key Design Decisions
 
 - **No backend** — auth, cart, and theme state are persisted via `localStorage`
@@ -72,18 +87,6 @@ src/
 
 ---
 
-## 📁 Pages
-
-| Route | Page | Description |
-|---|---|---|
-| `/` | 🏠 Home | Browse and filter books |
-| `/login` | 🔐 Login | Login & Register forms |
-| `/cart` | 🛒 Cart | Cart items with order summary |
-| `/profile` | 👤 Profile | User profile page |
-| `*` | 🚫 404 | Not Found page |
-
-
----
 
 ## 📦 Getting Started
 
@@ -97,3 +100,5 @@ npm run dev
 # Build for production
 npm run build
 ```
+
+---
