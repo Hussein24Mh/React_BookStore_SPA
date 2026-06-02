@@ -4,7 +4,7 @@
 
 ### A fully client-side e-commerce bookstore.
 
-![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_Site-emerald?style=for-the-badge)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_Site-emerald?style=for-the-badge)](https://react-marketplace-kappa.vercel.app/)
 
 </div>
 
