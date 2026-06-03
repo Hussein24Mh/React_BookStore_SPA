@@ -1,4 +1,4 @@
-export function CartEmptyFeature() {
+export function CartEmptyComp() {
 	return (
 		<div className="flex flex-col items-center justify-center py-16 text-center m-auto">
 			<img src="/empty-cart.png" alt="Empty cart" className="w-40 h-40 object-contain" />

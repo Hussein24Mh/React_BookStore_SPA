@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { BooksList, FilterMenuFeature } from "../Features";
+import { BooksListFeature, FilterMenuFeature } from "../Features";
 
 export function HomePage() {
 	const [isFilterMenuOpen, setIsFilterMenuOpen] = useState(false);
@@ -14,7 +14,7 @@ export function HomePage() {
 			/>
 			<div className="flex flex-1 flex-col">
 				<div className="grid grid-cols-[repeat(auto-fill,minmax(260px,260px))] gap-7 justify-center">
-					<BooksList />
+					<BooksListFeature />
 				</div>
 			</div>
 		</div>

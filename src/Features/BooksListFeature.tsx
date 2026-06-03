@@ -1,13 +1,13 @@
 import { useModalContext } from "../providers";
-import { useFilters } from "../hooks/";
+import { useFilters } from "../hooks";
 
 import { useBooksFiltersListQuery } from "../queries";
 import { useAddToCartMutation } from "../mutations";
 
-import { ProductDetailsFeature } from "../Features";
+import { ProductDetailsFeature } from ".";
 import { BookCardComp } from "../Components";
 
-export function BooksList() {
+export function BooksListFeature() {
 	const { openModal } = useModalContext();
 	const { mutate: addToCart } = useAddToCartMutation();
 
