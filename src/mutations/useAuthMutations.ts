@@ -53,7 +53,7 @@ export function useLogoutMutation() {
 	const queryClient = useQueryClient();
 	const navigate = useNavigate();
 
-	const notify_success = () => toast.success("LogOut succeccful");
+	const notify_success = () => toast.success("LogOut Successfully");
 	const notify_error = (message: string) => toast.error(message);
 
 	return useMutation({

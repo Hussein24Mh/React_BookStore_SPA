@@ -2,7 +2,6 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import AppRouter from "./RouterProvider";
 import { GlobalStatusProvider } from "./GlobalStatusProvider";
 import { ModalProvider } from "./ModalProvider";
-import { FiltersProvider } from "./FiltersProvider";
 
 const queryClient = new QueryClient();
 
@@ -11,9 +10,7 @@ function AppProviders() {
 		<QueryClientProvider client={queryClient}>
 			<GlobalStatusProvider>
 				<ModalProvider>
-					<FiltersProvider>
-						<AppRouter />
-					</FiltersProvider>
+					<AppRouter />
 				</ModalProvider>
 			</GlobalStatusProvider>
 		</QueryClientProvider>

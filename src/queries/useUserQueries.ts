@@ -2,7 +2,7 @@ import { useQuery } from "@tanstack/react-query";
 
 import { getUserDataService, getUserCartDataService, getCartCount } from "../services";
 
-export function useCurrentUserDataQuery(){
+export function useCurrentUserDataQuery() {
 	return useQuery({
 		queryKey: ["currentUser"],
 		queryFn: getUserDataService,

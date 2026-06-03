@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { SlidersHorizontal } from "lucide-react";
 
-import { useFiltersContext } from "../providers";
+import { useFilters } from "../hooks";
 
 import { useBooksCategoriesQuery } from "../queries";
 
@@ -16,7 +16,7 @@ interface FilterMenuFeatureProp {
 export function FilterMenuFeature({ isOpen, setFilterMenuOn, setFilterMenuOff }: FilterMenuFeatureProp) {
 	const { data: categories } = useBooksCategoriesQuery();
 
-	const { filters, setFilters, resetFilters, updateFilter } = useFiltersContext();
+	const { filters, setFilters, resetFilters, updateFilter } = useFilters();
 
 	// pending state — local to the menu until user clicks Search
 	const [pendingCategory, setPendingCategory] = useState<string | undefined>(filters.category);

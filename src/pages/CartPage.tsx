@@ -1,7 +1,7 @@
 import { usePlaceOrderMutation, useAddToCartMutation, useDecreaseQuantityMutation } from "../mutations";
 import { useCurrentUserCartDataQuery } from "../queries";
 
-import {  CartEmptyFeature } from "../Features";
+import { CartEmptyFeature } from "../Features";
 import { CartitemComp } from "../Components";
 
 export function CartPage() {
@@ -12,7 +12,7 @@ export function CartPage() {
 
 	if (isLoading) return <p>Loading...</p>;
 	if (error) return <p>Error loading cart</p>;
-	if (!cartData?.enrichedCart.length) return <CartEmptyFeature/>;
+	if (!cartData?.enrichedCart.length) return <CartEmptyFeature />;
 
 	return (
 		<div className="flex gap-10 mx-auto my-10 items-top">

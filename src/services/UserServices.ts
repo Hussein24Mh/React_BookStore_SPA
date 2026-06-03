@@ -2,14 +2,8 @@ import { getCurrentUser, getCartItemsApi } from "../api";
 import { loadBooksByIDService } from "./BooksServices";
 import type { BooksEnrichedCartType, UserDataType } from "../types";
 
-export function getUserDataService(): UserDataType{
-	const userData = getCurrentUser();
-	
-	if (!userData) {
-		throw new Error("No user is currently logged in");
-	}
-
-	return userData;
+export function getUserDataService(): UserDataType | null {
+	return getCurrentUser();
 }
 
 export async function getUserCartDataService(): Promise<{
